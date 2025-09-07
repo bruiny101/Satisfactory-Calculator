@@ -1,0 +1,5667 @@
+[
+  {
+    "Recipe":"AI Expansion Server",
+    "Ingredients":[
+      {
+        "Material":"Magnetic Field Generator",
+        "Quantity":"4"
+      },
+      {
+        "Material":"Neural-Quantum Processor",
+        "Quantity":"4"
+      },
+      {
+        "Material":"Superposition Oscillator",
+        "Quantity":"4"
+      },
+      {
+        "Material":"Excited Photonic Matter",
+        "Quantity":"100"
+      }
+    ],
+    "Produced in":"Quantum Encoder 15 sec 0 - 2,000 MW",
+    "Products":[
+      {
+        "Material":"AI Expansion Server",
+        "Quantity":"4"
+      },
+      {
+        "Material":"Dark Matter Residue",
+        "Quantity":"100"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Quantum Encoding"
+  },
+  {
+    "Recipe":"AI Limiter",
+    "Ingredients":[
+      {
+        "Material":"Copper Sheet",
+        "Quantity":"25"
+      },
+      {
+        "Material":"Quickwire",
+        "Quantity":"100"
+      }
+    ],
+    "Produced in":"Assembler 12 sec",
+    "Products":[
+      {
+        "Material":"AI Limiter",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"MAM Caterium Research - AI Limiter OR Tier 7 - Control System Development"
+  },
+  {
+    "Recipe":"Adaptive Control Unit",
+    "Ingredients":[
+      {
+        "Material":"Automated Wiring",
+        "Quantity":"5"
+      },
+      {
+        "Material":"Circuit Board",
+        "Quantity":"5"
+      },
+      {
+        "Material":"Heavy Modular Frame",
+        "Quantity":"1"
+      },
+      {
+        "Material":"Computer",
+        "Quantity":"2"
+      }
+    ],
+    "Produced in":"Manufacturer 60 sec",
+    "Products":[
+      {
+        "Material":"Adaptive Control Unit",
+        "Quantity":"1"
+      }
+    ],
+    "Unlocked by":"Tier 6 - Industrial Manufacturing"
+  },
+  {
+    "Recipe":"Alclad Aluminum Sheet",
+    "Ingredients":[
+      {
+        "Material":"Aluminum Ingot",
+        "Quantity":"30"
+      },
+      {
+        "Material":"Copper Ingot",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Assembler 6 sec",
+    "Products":[
+      {
+        "Material":"Alclad Aluminum Sheet",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Bauxite Refinement"
+  },
+  {
+    "Recipe":"Alien DNA Capsule",
+    "Ingredients":[
+      {
+        "Material":"Alien Protein",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Constructor 6 sec",
+    "Products":[
+      {
+        "Material":"Alien DNA Capsule",
+        "Quantity":"10"
+      }
+    ],
+    "Unlocked by":"MAM Alien Megafauna Research - Bio-Organic Properties"
+  },
+  {
+    "Recipe":"Alien Power Matrix",
+    "Ingredients":[
+      {
+        "Material":"Excited Photonic Matter",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Quantum Encoder 24 sec 0 - 2,000 MW",
+    "Products":[
+      {
+        "Material":"Dark Matter Residue",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"MAM Alien Technology Research - Alien Power Matrix"
+  },
+  {
+    "Recipe":"Alumina Solution",
+    "Ingredients":[
+      {
+        "Material":"Bauxite",
+        "Quantity":"120"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"180"
+      }
+    ],
+    "Produced in":"Refinery 6 sec",
+    "Products":[
+      {
+        "Material":"Alumina Solution",
+        "Quantity":"120"
+      },
+      {
+        "Material":"Silica",
+        "Quantity":"50"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Bauxite Refinement"
+  },
+  {
+    "Recipe":"Aluminum Casing",
+    "Ingredients":[
+      {
+        "Material":"Aluminum Ingot",
+        "Quantity":"90"
+      }
+    ],
+    "Produced in":"Constructor 2 sec",
+    "Products":[
+      {
+        "Material":"Aluminum Casing",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Bauxite Refinement"
+  },
+  {
+    "Recipe":"Aluminum Ingot",
+    "Ingredients":[
+      {
+        "Material":"Aluminum Scrap",
+        "Quantity":"90"
+      },
+      {
+        "Material":"Silica",
+        "Quantity":"75"
+      }
+    ],
+    "Produced in":"Foundry 4 sec",
+    "Products":[
+      {
+        "Material":"Aluminum Ingot",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Bauxite Refinement"
+  },
+  {
+    "Recipe":"Aluminum Scrap",
+    "Ingredients":[
+      {
+        "Material":"Alumina Solution",
+        "Quantity":"240"
+      },
+      {
+        "Material":"Coal",
+        "Quantity":"120"
+      }
+    ],
+    "Produced in":"Refinery 1 sec",
+    "Products":[
+      {
+        "Material":"Aluminum Scrap",
+        "Quantity":"360"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Bauxite Refinement"
+  },
+  {
+    "Recipe":"Assembly Director System",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Assembler 80 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 7 - Control System Development"
+  },
+  {
+    "Recipe":"Automated Wiring",
+    "Ingredients":[
+      {
+        "Material":"Cable",
+        "Quantity":"50"
+      }
+    ],
+    "Produced in":"Assembler 24 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 4 - Advanced Steel Production"
+  },
+  {
+    "Recipe":"Ballistic Warp Drive",
+    "Ingredients":[
+      {
+        "Material":"Thermal Propulsion Rocket",
+        "Quantity":"1"
+      },
+      {
+        "Material":"Singularity Cell",
+        "Quantity":"5"
+      },
+      {
+        "Material":"Superposition Oscillator",
+        "Quantity":"2"
+      },
+      {
+        "Material":"Dark Matter Crystal",
+        "Quantity":"40"
+      }
+    ],
+    "Produced in":"Manufacturer 60 sec",
+    "Products":[
+      {
+        "Material":"Ballistic Warp Drive",
+        "Quantity":"1"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Spatial Energy Regulation"
+  },
+  {
+    "Recipe":"Battery",
+    "Ingredients":[
+      {
+        "Material":"Sulfuric Acid",
+        "Quantity":"50"
+      },
+      {
+        "Material":"Alumina Solution",
+        "Quantity":"40"
+      },
+      {
+        "Material":"Aluminum Casing",
+        "Quantity":"20"
+      }
+    ],
+    "Produced in":"Blender 3 sec",
+    "Products":[
+      {
+        "Material":"Battery",
+        "Quantity":"20"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Control System Development"
+  },
+  {
+    "Recipe":"Bauxite (Caterium)",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Caterium Ore",
+        "Quantity":"150"
+      }
+    ],
+    "Produced in":"Converter 6 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Bauxite",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Bauxite (Copper)",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Copper Ore",
+        "Quantity":"180"
+      }
+    ],
+    "Produced in":"Converter 6 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Bauxite",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Biochemical Sculptor",
+    "Ingredients":[
+      {
+        "Material":"Ficsite Trigon",
+        "Quantity":"40"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Blender 120 sec",
+    "Products":[
+      {
+        "Material":"Biochemical Sculptor",
+        "Quantity":"2"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Biomass (Alien Protein)",
+    "Ingredients":[
+      {
+        "Material":"Alien Protein",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Constructor 4 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"MAM Alien Megafauna Research - Bio-Organic Properties"
+  },
+  {
+    "Recipe":"Biomass (Leaves)",
+    "Ingredients":[
+      {
+        "Material":"Leaves",
+        "Quantity":"120"
+      }
+    ],
+    "Produced in":"Constructor 5 sec",
+    "Products":[
+      {
+        "Material":"Biomass",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 0 - HUB Upgrade 6"
+  },
+  {
+    "Recipe":"Biomass (Mycelia)",
+    "Ingredients":[
+      {
+        "Material":"Mycelia",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Constructor 4 sec",
+    "Products":[
+      {
+        "Material":"Biomass",
+        "Quantity":"150"
+      }
+    ],
+    "Unlocked by":"MAM Mycelia Research - Mycelia"
+  },
+  {
+    "Recipe":"Biomass (Wood)",
+    "Ingredients":[
+      {
+        "Material":"Wood",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Constructor 4 sec",
+    "Products":[
+      {
+        "Material":"Biomass",
+        "Quantity":"300"
+      }
+    ],
+    "Unlocked by":"Tier 0 - HUB Upgrade 6"
+  },
+  {
+    "Recipe":"Black Powder",
+    "Ingredients":[
+      {
+        "Material":"Coal",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Sulfur",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Assembler 4 sec",
+    "Products":[
+      {
+        "Material":"Black Powder",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"MAM Sulfur Research - Black Powder"
+  },
+  {
+    "Recipe":"Blue FICSMAS Ornament FICSMAS",
+    "Ingredients":[
+      {
+        "Material":"FICSMAS Gift",
+        "Quantity":"5"
+      }
+    ],
+    "Produced in":"Smelter 12 sec",
+    "Products":[
+      {
+        "Material":"Blue FICSMAS Ornament",
+        "Quantity":"10"
+      }
+    ],
+    "Unlocked by":"MAM FICSMAS Holiday Event Research - Giant FICSMAS Tree: Upgrade 1"
+  },
+  {
+    "Recipe":"Cable",
+    "Ingredients":[
+      {
+        "Material":"Wire",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Constructor 2 sec",
+    "Products":[
+      {
+        "Material":"Cable",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"Tier 0 - HUB Upgrade 2"
+  },
+  {
+    "Recipe":"Candy Cane FICSMAS",
+    "Ingredients":[
+      {
+        "Material":"FICSMAS Gift",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Constructor 12 sec",
+    "Products":[
+      {
+        "Material":"Candy Cane",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"MAM FICSMAS Holiday Event Research - Candy Cane Basher"
+  },
+  {
+    "Recipe":"Caterium Ingot",
+    "Ingredients":[
+      {
+        "Material":"Caterium Ore",
+        "Quantity":"45"
+      }
+    ],
+    "Produced in":"Smelter 4 sec",
+    "Products":[
+      {
+        "Material":"Caterium Ingot",
+        "Quantity":"15"
+      }
+    ],
+    "Unlocked by":"MAM Caterium Research - Caterium Ingots OR Tier 5 - Petroleum Power"
+  },
+  {
+    "Recipe":"Caterium Ore (Copper)",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Copper Ore",
+        "Quantity":"150"
+      }
+    ],
+    "Produced in":"Converter 6 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Caterium Ore",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Caterium Ore (Quartz)",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Raw Quartz",
+        "Quantity":"120"
+      }
+    ],
+    "Produced in":"Converter 6 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Caterium Ore",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Circuit Board",
+    "Ingredients":[
+      {
+        "Material":"Copper Sheet",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Plastic",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Assembler 8 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Cluster Nobelisk",
+    "Ingredients":[
+      {
+        "Material":"Smokeless Powder",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Assembler 24 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"MAM Sulfur Research - Cluster Nobelisk"
+  },
+  {
+    "Recipe":"Coal (Iron)",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Iron Ore",
+        "Quantity":"180"
+      }
+    ],
+    "Produced in":"Converter 6 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Coal",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Coal (Limestone)",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Limestone",
+        "Quantity":"360"
+      }
+    ],
+    "Produced in":"Converter 6 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Coal",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Computer",
+    "Ingredients":[
+      {
+        "Material":"Circuit Board",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Cable",
+        "Quantity":"20"
+      },
+      {
+        "Material":"Plastic",
+        "Quantity":"40"
+      }
+    ],
+    "Produced in":"Manufacturer 24 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 6 - Industrial Manufacturing"
+  },
+  {
+    "Recipe":"Concrete",
+    "Ingredients":[
+      {
+        "Material":"Limestone",
+        "Quantity":"45"
+      }
+    ],
+    "Produced in":"Constructor 4 sec",
+    "Products":[
+      {
+        "Material":"Concrete",
+        "Quantity":"15"
+      }
+    ],
+    "Unlocked by":"Tier 0 - HUB Upgrade 3"
+  },
+  {
+    "Recipe":"Cooling System",
+    "Ingredients":[
+      {
+        "Material":"Heat Sink",
+        "Quantity":"12"
+      },
+      {
+        "Material":"Rubber",
+        "Quantity":"12"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"30"
+      },
+      {
+        "Material":"Nitrogen Gas",
+        "Quantity":"150"
+      }
+    ],
+    "Produced in":"Blender 10 sec",
+    "Products":[
+      {
+        "Material":"Cooling System",
+        "Quantity":"6"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Advanced Aluminum Production"
+  },
+  {
+    "Recipe":"Copper FICSMAS Ornament FICSMAS",
+    "Ingredients":[
+      {
+        "Material":"Red FICSMAS Ornament",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Copper Ingot",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Foundry 12 sec",
+    "Products":[
+      {
+        "Material":"Copper FICSMAS Ornament",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"MAM FICSMAS Holiday Event Research - Giant FICSMAS Tree: Upgrade 2"
+  },
+  {
+    "Recipe":"Copper Ingot",
+    "Ingredients":[
+      {
+        "Material":"Copper Ore",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Smelter 2 sec",
+    "Products":[
+      {
+        "Material":"Copper Ingot",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"Tier 0 - HUB Upgrade 2"
+  },
+  {
+    "Recipe":"Copper Ore (Quartz)",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Raw Quartz",
+        "Quantity":"100"
+      }
+    ],
+    "Produced in":"Converter 6 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Copper Ore",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Copper Ore (Sulfur)",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Sulfur",
+        "Quantity":"120"
+      }
+    ],
+    "Produced in":"Converter 6 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Copper Ore",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Copper Powder",
+    "Ingredients":[
+      {
+        "Material":"Copper Ingot",
+        "Quantity":"300"
+      }
+    ],
+    "Produced in":"Constructor 6 sec",
+    "Products":[
+      {
+        "Material":"Copper Powder",
+        "Quantity":"50"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Particle Enrichment"
+  },
+  {
+    "Recipe":"Copper Sheet",
+    "Ingredients":[
+      {
+        "Material":"Copper Ingot",
+        "Quantity":"20"
+      }
+    ],
+    "Produced in":"Constructor 6 sec",
+    "Products":[
+      {
+        "Material":"Copper Sheet",
+        "Quantity":"10"
+      }
+    ],
+    "Unlocked by":"Tier 2 - Part Assembly"
+  },
+  {
+    "Recipe":"Crystal Oscillator",
+    "Ingredients":[
+      {
+        "Material":"Quartz Crystal",
+        "Quantity":"18"
+      },
+      {
+        "Material":"Cable",
+        "Quantity":"14"
+      }
+    ],
+    "Produced in":"Manufacturer 120 sec",
+    "Products":[
+      {
+        "Material":"Crystal Oscillator",
+        "Quantity":"1"
+      }
+    ],
+    "Unlocked by":"MAM Quartz Research - Crystal Oscillator OR Tier 7 - Bauxite Refinement"
+  },
+  {
+    "Recipe":"Dark Matter Crystal",
+    "Ingredients":[
+      {
+        "Material":"Diamonds",
+        "Quantity":"30"
+      },
+      {
+        "Material":"Dark Matter Residue",
+        "Quantity":"150"
+      }
+    ],
+    "Produced in":"Particle Accelerator 2 sec 500 - 1,500 MW",
+    "Products":[
+      {
+        "Material":"Dark Matter Crystal",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Quantum Encoding"
+  },
+  {
+    "Recipe":"Dark Matter Residue",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"50"
+      }
+    ],
+    "Produced in":"Converter 6 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Dark Matter Residue",
+        "Quantity":"100"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Quantum Encoding"
+  },
+  {
+    "Recipe":"Diamonds",
+    "Ingredients":[
+      {
+        "Material":"Coal",
+        "Quantity":"600"
+      }
+    ],
+    "Produced in":"Particle Accelerator 2 sec 250 - 750 MW",
+    "Products":[
+      {
+        "Material":"Diamonds",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Electromagnetic Control Rod",
+    "Ingredients":[
+      {
+        "Material":"Stator",
+        "Quantity":"6"
+      },
+      {
+        "Material":"AI Limiter",
+        "Quantity":"4"
+      }
+    ],
+    "Produced in":"Assembler 30 sec",
+    "Products":[
+      {
+        "Material":"Electromagnetic Control Rod",
+        "Quantity":"4"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Nuclear Power"
+  },
+  {
+    "Recipe":"Empty Canister",
+    "Ingredients":[
+      {
+        "Material":"Plastic",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Constructor 4 sec",
+    "Products":[
+      {
+        "Material":"Empty Canister",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Fluid Packaging"
+  },
+  {
+    "Recipe":"Empty Fluid Tank",
+    "Ingredients":[
+      {
+        "Material":"Aluminum Ingot",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Constructor 1 sec",
+    "Products":[
+      {
+        "Material":"Empty Fluid Tank",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Advanced Aluminum Production"
+  },
+  {
+    "Recipe":"Encased Industrial Beam",
+    "Ingredients":[
+      {
+        "Material":"Steel Beam",
+        "Quantity":"18"
+      },
+      {
+        "Material":"Concrete",
+        "Quantity":"36"
+      }
+    ],
+    "Produced in":"Assembler 10 sec",
+    "Products":[
+      {
+        "Material":"Encased Industrial Beam",
+        "Quantity":"6"
+      }
+    ],
+    "Unlocked by":"Tier 4 - Advanced Steel Production"
+  },
+  {
+    "Recipe":"Encased Plutonium Cell",
+    "Ingredients":[
+      {
+        "Material":"Plutonium Pellet",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Concrete",
+        "Quantity":"20"
+      }
+    ],
+    "Produced in":"Assembler 12 sec",
+    "Products":[
+      {
+        "Material":"Encased Plutonium Cell",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Particle Enrichment"
+  },
+  {
+    "Recipe":"Encased Uranium Cell",
+    "Ingredients":[
+      {
+        "Material":"Uranium",
+        "Quantity":"50"
+      },
+      {
+        "Material":"Concrete",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Sulfuric Acid",
+        "Quantity":"40"
+      }
+    ],
+    "Produced in":"Blender 12 sec",
+    "Products":[
+      {
+        "Material":"Encased Uranium Cell",
+        "Quantity":"25"
+      },
+      {
+        "Material":"Sulfuric Acid",
+        "Quantity":"10"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Nuclear Power"
+  },
+  {
+    "Recipe":"Explosive Rebar",
+    "Ingredients":[
+      {
+        "Material":"Iron Rebar",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Smokeless Powder",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Steel Pipe",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Manufacturer 12 sec",
+    "Products":[
+      {
+        "Material":"Explosive Rebar",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"MAM Sulfur Research - Explosive Rebar"
+  },
+  {
+    "Recipe":"FICSMAS Actual Snow FICSMAS",
+    "Ingredients":[
+      {
+        "Material":"FICSMAS Gift",
+        "Quantity":"25"
+      }
+    ],
+    "Produced in":"Constructor 12 sec",
+    "Products":[
+      {
+        "Material":"FICSMAS Actual Snow",
+        "Quantity":"10"
+      }
+    ],
+    "Unlocked by":"MAM FICSMAS Holiday Event Research - A Friend"
+  },
+  {
+    "Recipe":"FICSMAS Bow FICSMAS",
+    "Ingredients":[
+      {
+        "Material":"FICSMAS Gift",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Constructor 12 sec",
+    "Products":[
+      {
+        "Material":"FICSMAS Bow",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"MAM FICSMAS Holiday Event Research - Candy Cane Decor"
+  },
+  {
+    "Recipe":"FICSMAS Ornament Bundle FICSMAS",
+    "Ingredients":[
+      {
+        "Material":"Copper FICSMAS Ornament",
+        "Quantity":"5"
+      },
+      {
+        "Material":"Iron FICSMAS Ornament",
+        "Quantity":"5"
+      }
+    ],
+    "Produced in":"Assembler 12 sec",
+    "Products":[
+      {
+        "Material":"FICSMAS Ornament Bundle",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"MAM FICSMAS Holiday Event Research - FICSMAS Lights"
+  },
+  {
+    "Recipe":"FICSMAS Tree Branch FICSMAS",
+    "Ingredients":[
+      {
+        "Material":"FICSMAS Gift",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Constructor 6 sec",
+    "Products":[
+      {
+        "Material":"FICSMAS Tree Branch",
+        "Quantity":"10"
+      }
+    ],
+    "Unlocked by":"MAM FICSMAS Holiday Event Research - FICSMAS Tree Base"
+  },
+  {
+    "Recipe":"FICSMAS Wonder Star FICSMAS",
+    "Ingredients":[
+      {
+        "Material":"FICSMAS Wreath",
+        "Quantity":"5"
+      },
+      {
+        "Material":"Candy Cane",
+        "Quantity":"20"
+      }
+    ],
+    "Produced in":"Assembler 60 sec",
+    "Products":[
+      {
+        "Material":"FICSMAS Wonder Star",
+        "Quantity":"1"
+      }
+    ],
+    "Unlocked by":"MAM FICSMAS Holiday Event Research - FICSMAS Decoration"
+  },
+  {
+    "Recipe":"FICSMAS Wreath FICSMAS",
+    "Ingredients":[
+      {
+        "Material":"FICSMAS Tree Branch",
+        "Quantity":"15"
+      },
+      {
+        "Material":"FICSMAS Ornament Bundle",
+        "Quantity":"6"
+      }
+    ],
+    "Produced in":"Assembler 60 sec",
+    "Products":[
+      {
+        "Material":"FICSMAS Wreath",
+        "Quantity":"2"
+      }
+    ],
+    "Unlocked by":"MAM FICSMAS Holiday Event Research - Giant FICSMAS Tree: Upgrade 3"
+  },
+  {
+    "Recipe":"Fabric",
+    "Ingredients":[
+      {
+        "Material":"Mycelia",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Biomass",
+        "Quantity":"75"
+      }
+    ],
+    "Produced in":"Assembler 4 sec",
+    "Products":[
+      {
+        "Material":"Fabric",
+        "Quantity":"15"
+      }
+    ],
+    "Unlocked by":"MAM Mycelia Research - Fabric"
+  },
+  {
+    "Recipe":"Fancy Fireworks",
+    "Ingredients":[
+      {
+        "Material":"FICSMAS Tree Branch",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Assembler 24 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Equipment: Fireworks"
+  },
+  {
+    "Recipe":"Ficsite Ingot (Aluminum)",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"60"
+      },
+      {
+        "Material":"Aluminum Ingot",
+        "Quantity":"120"
+      }
+    ],
+    "Produced in":"Converter 2 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Ficsite Ingot",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Ficsite Ingot (Caterium)",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"45"
+      },
+      {
+        "Material":"Caterium Ingot",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Converter 4 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Ficsite Ingot",
+        "Quantity":"15"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Ficsite Ingot (Iron)",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"40"
+      },
+      {
+        "Material":"Iron Ingot",
+        "Quantity":"240"
+      }
+    ],
+    "Produced in":"Converter 6 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Ficsite Ingot",
+        "Quantity":"10"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Ficsite Trigon",
+    "Ingredients":[
+      {
+        "Material":"Ficsite Ingot",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Constructor 6 sec",
+    "Products":[
+      {
+        "Material":"Ficsite Trigon",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Ficsonium",
+    "Ingredients":[
+      {
+        "Material":"Plutonium Waste",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Singularity Cell",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Dark Matter Residue",
+        "Quantity":"200"
+      }
+    ],
+    "Produced in":"Particle Accelerator 6 sec 500 - 1,500 MW",
+    "Products":[
+      {
+        "Material":"Ficsonium",
+        "Quantity":"10"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Peak Efficiency"
+  },
+  {
+    "Recipe":"Ficsonium Fuel Rod",
+    "Ingredients":[
+      {
+        "Material":"Ficsonium",
+        "Quantity":"5"
+      },
+      {
+        "Material":"Electromagnetic Control Rod",
+        "Quantity":"5"
+      },
+      {
+        "Material":"Ficsite Trigon",
+        "Quantity":"100"
+      },
+      {
+        "Material":"Excited Photonic Matter",
+        "Quantity":"50"
+      }
+    ],
+    "Produced in":"Quantum Encoder 24 sec 0 - 2,000 MW",
+    "Products":[
+      {
+        "Material":"Dark Matter Residue",
+        "Quantity":"50"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Peak Efficiency"
+  },
+  {
+    "Recipe":"Fuel",
+    "Ingredients":[
+      {
+        "Material":"Crude Oil",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Refinery 6 sec",
+    "Products":[
+      {
+        "Material":"Fuel",
+        "Quantity":"40"
+      },
+      {
+        "Material":"Polymer Resin",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Fused Modular Frame",
+    "Ingredients":[
+      {
+        "Material":"Aluminum Casing",
+        "Quantity":"75"
+      }
+    ],
+    "Produced in":"Blender 40 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 8 - Advanced Aluminum Production"
+  },
+  {
+    "Recipe":"Gas Filter",
+    "Ingredients":[
+      {
+        "Material":"Fabric",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Coal",
+        "Quantity":"30"
+      },
+      {
+        "Material":"Iron Plate",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Manufacturer 8 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"MAM Mycelia Research - Gas Mask"
+  },
+  {
+    "Recipe":"Gas Nobelisk",
+    "Ingredients":[
+      {
+        "Material":"Nobelisk",
+        "Quantity":"5"
+      },
+      {
+        "Material":"Biomass",
+        "Quantity":"50"
+      }
+    ],
+    "Produced in":"Assembler 12 sec",
+    "Products":[
+      {
+        "Material":"Gas Nobelisk",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"MAM Mycelia Research - Toxic Cellular Modification"
+  },
+  {
+    "Recipe":"Hatcher Protein",
+    "Ingredients":[
+      {
+        "Material":"Hatcher Remains",
+        "Quantity":"20"
+      }
+    ],
+    "Produced in":"Constructor 3 sec",
+    "Products":[
+      {
+        "Material":"Alien Protein",
+        "Quantity":"20"
+      }
+    ],
+    "Unlocked by":"MAM Alien Megafauna Research - Hatcher Research"
+  },
+  {
+    "Recipe":"Heat Sink",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Assembler 8 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 8 - Advanced Aluminum Production"
+  },
+  {
+    "Recipe":"Heavy Modular Frame",
+    "Ingredients":[
+      {
+        "Material":"Modular Frame",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Steel Pipe",
+        "Quantity":"40"
+      },
+      {
+        "Material":"Encased Industrial Beam",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Screws",
+        "Quantity":"240"
+      }
+    ],
+    "Produced in":"Manufacturer 30 sec",
+    "Products":[
+      {
+        "Material":"Heavy Modular Frame",
+        "Quantity":"2"
+      }
+    ],
+    "Unlocked by":"Tier 6 - Industrial Manufacturing"
+  },
+  {
+    "Recipe":"High-Speed Connector",
+    "Ingredients":[
+      {
+        "Material":"Quickwire",
+        "Quantity":"210"
+      }
+    ],
+    "Produced in":"Manufacturer 16 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"MAM Caterium Research - High-Speed Connector OR Tier 7 - Control System Development"
+  },
+  {
+    "Recipe":"Hog Protein",
+    "Ingredients":[
+      {
+        "Material":"Hog Remains",
+        "Quantity":"20"
+      }
+    ],
+    "Produced in":"Constructor 3 sec",
+    "Products":[
+      {
+        "Material":"Alien Protein",
+        "Quantity":"20"
+      }
+    ],
+    "Unlocked by":"MAM Alien Megafauna Research - Hog Research"
+  },
+  {
+    "Recipe":"Homing Rifle Ammo",
+    "Ingredients":[
+      {
+        "Material":"Rifle Ammo",
+        "Quantity":"50"
+      }
+    ],
+    "Produced in":"Assembler 24 sec",
+    "Products":[
+      {
+        "Material":"Homing Rifle Ammo",
+        "Quantity":"25"
+      }
+    ],
+    "Unlocked by":"MAM Caterium Research - Bullet Guidance System"
+  },
+  {
+    "Recipe":"Iodine-Infused Filter",
+    "Ingredients":[
+      {
+        "Material":"Quickwire",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Manufacturer 16 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 7 - Hazmat Suit"
+  },
+  {
+    "Recipe":"Ionized Fuel",
+    "Ingredients":[
+      {
+        "Material":"Rocket Fuel",
+        "Quantity":"40"
+      }
+    ],
+    "Produced in":"Refinery 24 sec",
+    "Products":[
+      {
+        "Material":"Ionized Fuel",
+        "Quantity":"40"
+      },
+      {
+        "Material":"Compacted Coal",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"MAM Sulfur Research - Ionized Fuel"
+  },
+  {
+    "Recipe":"Iron FICSMAS Ornament FICSMAS",
+    "Ingredients":[
+      {
+        "Material":"Blue FICSMAS Ornament",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Iron Ingot",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Foundry 12 sec",
+    "Products":[
+      {
+        "Material":"Iron FICSMAS Ornament",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"MAM FICSMAS Holiday Event Research - Giant FICSMAS Tree: Upgrade 2"
+  },
+  {
+    "Recipe":"Iron Ingot",
+    "Ingredients":[
+      {
+        "Material":"Iron Ore",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Smelter 2 sec",
+    "Products":[
+      {
+        "Material":"Iron Ingot",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"Onboarding"
+  },
+  {
+    "Recipe":"Iron Ore (Limestone)",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Limestone",
+        "Quantity":"240"
+      }
+    ],
+    "Produced in":"Converter 6 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Iron Ore",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Iron Plate",
+    "Ingredients":[
+      {
+        "Material":"Iron Ingot",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Constructor 6 sec",
+    "Products":[
+      {
+        "Material":"Iron Plate",
+        "Quantity":"20"
+      }
+    ],
+    "Unlocked by":"Onboarding"
+  },
+  {
+    "Recipe":"Iron Rebar",
+    "Ingredients":[
+      {
+        "Material":"Iron Rod",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Constructor 4 sec",
+    "Products":[
+      {
+        "Material":"Iron Rebar",
+        "Quantity":"15"
+      }
+    ],
+    "Unlocked by":"MAM Alien Megafauna Research - The Rebar Gun"
+  },
+  {
+    "Recipe":"Iron Rod",
+    "Ingredients":[
+      {
+        "Material":"Iron Ingot",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Constructor 4 sec",
+    "Products":[
+      {
+        "Material":"Iron Rod",
+        "Quantity":"15"
+      }
+    ],
+    "Unlocked by":"Onboarding"
+  },
+  {
+    "Recipe":"Limestone (Sulfur)",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Sulfur",
+        "Quantity":"20"
+      }
+    ],
+    "Produced in":"Converter 6 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Limestone",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Liquid Biofuel",
+    "Ingredients":[
+      {
+        "Material":"Solid Biofuel",
+        "Quantity":"90"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"45"
+      }
+    ],
+    "Produced in":"Refinery 4 sec",
+    "Products":[
+      {
+        "Material":"Liquid Biofuel",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Fluid Packaging"
+  },
+  {
+    "Recipe":"Magnetic Field Generator",
+    "Ingredients":[
+      {
+        "Material":"Electromagnetic Control Rod",
+        "Quantity":"1"
+      }
+    ],
+    "Produced in":"Assembler 120 sec",
+    "Products":[
+      {
+        "Material":"Magnetic Field Generator",
+        "Quantity":"1"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Nuclear Power"
+  },
+  {
+    "Recipe":"Modular Engine",
+    "Ingredients":[
+      {
+        "Material":"Motor",
+        "Quantity":"2"
+      },
+      {
+        "Material":"Rubber",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Smart Plating",
+        "Quantity":"2"
+      }
+    ],
+    "Produced in":"Manufacturer 60 sec",
+    "Products":[
+      {
+        "Material":"Modular Engine",
+        "Quantity":"1"
+      }
+    ],
+    "Unlocked by":"Tier 6 - Industrial Manufacturing"
+  },
+  {
+    "Recipe":"Modular Frame",
+    "Ingredients":[
+      {
+        "Material":"Reinforced Iron Plate",
+        "Quantity":"3"
+      },
+      {
+        "Material":"Iron Rod",
+        "Quantity":"12"
+      }
+    ],
+    "Produced in":"Assembler 60 sec",
+    "Products":[
+      {
+        "Material":"Modular Frame",
+        "Quantity":"2"
+      }
+    ],
+    "Unlocked by":"Tier 2 - Part Assembly"
+  },
+  {
+    "Recipe":"Motor",
+    "Ingredients":[
+      {
+        "Material":"Rotor",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Stator",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Assembler 12 sec",
+    "Products":[
+      {
+        "Material":"Motor",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"Tier 4 - Advanced Steel Production"
+  },
+  {
+    "Recipe":"Neural-Quantum Processor",
+    "Ingredients":[
+      {
+        "Material":"Time Crystal",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Supercomputer",
+        "Quantity":"3"
+      },
+      {
+        "Material":"Ficsite Trigon",
+        "Quantity":"45"
+      },
+      {
+        "Material":"Excited Photonic Matter",
+        "Quantity":"75"
+      }
+    ],
+    "Produced in":"Quantum Encoder 20 sec 0 - 2,000 MW",
+    "Products":[
+      {
+        "Material":"Neural-Quantum Processor",
+        "Quantity":"3"
+      },
+      {
+        "Material":"Dark Matter Residue",
+        "Quantity":"75"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Quantum Encoding"
+  },
+  {
+    "Recipe":"Nitric Acid",
+    "Ingredients":[
+      {
+        "Material":"Nitrogen Gas",
+        "Quantity":"120"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"30"
+      },
+      {
+        "Material":"Iron Plate",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Blender 6 sec",
+    "Products":[
+      {
+        "Material":"Nitric Acid",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Particle Enrichment"
+  },
+  {
+    "Recipe":"Nitrogen Gas (Bauxite)",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Bauxite",
+        "Quantity":"100"
+      }
+    ],
+    "Produced in":"Converter 6 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Nitrogen Gas",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Nitrogen Gas (Caterium)",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Caterium Ore",
+        "Quantity":"120"
+      }
+    ],
+    "Produced in":"Converter 6 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Nitrogen Gas",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Nobelisk",
+    "Ingredients":[
+      {
+        "Material":"Black Powder",
+        "Quantity":"20"
+      },
+      {
+        "Material":"Steel Pipe",
+        "Quantity":"20"
+      }
+    ],
+    "Produced in":"Assembler 6 sec",
+    "Products":[
+      {
+        "Material":"Nobelisk",
+        "Quantity":"10"
+      }
+    ],
+    "Unlocked by":"MAM Sulfur Research - The Nobelisk Detonator"
+  },
+  {
+    "Recipe":"Non-Fissile Uranium",
+    "Ingredients":[
+      {
+        "Material":"Silica",
+        "Quantity":"25"
+      },
+      {
+        "Material":"Nitric Acid",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Sulfuric Acid",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Blender 24 sec",
+    "Products":[
+      {
+        "Material":"Non-Fissile Uranium",
+        "Quantity":"50"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"15"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Particle Enrichment"
+  },
+  {
+    "Recipe":"Nuclear Pasta",
+    "Ingredients":[
+      {
+        "Material":"Copper Powder",
+        "Quantity":"100"
+      }
+    ],
+    "Produced in":"Particle Accelerator 120 sec 500 - 1,500 MW",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 8 - Particle Enrichment"
+  },
+  {
+    "Recipe":"Nuke Nobelisk",
+    "Ingredients":[
+      {
+        "Material":"Encased Uranium Cell",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Smokeless Powder",
+        "Quantity":"5"
+      },
+      {
+        "Material":"AI Limiter",
+        "Quantity":"3"
+      }
+    ],
+    "Produced in":"Manufacturer 120 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"MAM Sulfur Research - Nuclear Deterrent Development"
+  },
+  {
+    "Recipe":"Packaged Alumina Solution",
+    "Ingredients":[
+      {
+        "Material":"Alumina Solution",
+        "Quantity":"120"
+      },
+      {
+        "Material":"Empty Canister",
+        "Quantity":"120"
+      }
+    ],
+    "Produced in":"Packager 1 sec",
+    "Products":[
+      {
+        "Material":"Packaged Alumina Solution",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Bauxite Refinement"
+  },
+  {
+    "Recipe":"Packaged Fuel",
+    "Ingredients":[
+      {
+        "Material":"Fuel",
+        "Quantity":"40"
+      },
+      {
+        "Material":"Empty Canister",
+        "Quantity":"40"
+      }
+    ],
+    "Produced in":"Packager 3 sec",
+    "Products":[
+      {
+        "Material":"Packaged Fuel",
+        "Quantity":"40"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Fluid Packaging"
+  },
+  {
+    "Recipe":"Packaged Heavy Oil Residue",
+    "Ingredients":[
+      {
+        "Material":"Heavy Oil Residue",
+        "Quantity":"30"
+      },
+      {
+        "Material":"Empty Canister",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Packager 4 sec",
+    "Products":[
+      {
+        "Material":"Packaged Heavy Oil Residue",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Fluid Packaging"
+  },
+  {
+    "Recipe":"Packaged Ionized Fuel",
+    "Ingredients":[
+      {
+        "Material":"Ionized Fuel",
+        "Quantity":"80"
+      },
+      {
+        "Material":"Empty Fluid Tank",
+        "Quantity":"40"
+      }
+    ],
+    "Produced in":"Packager 3 sec",
+    "Products":[
+      {
+        "Material":"Packaged Ionized Fuel",
+        "Quantity":"40"
+      }
+    ],
+    "Unlocked by":"MAM Sulfur Research - Ionized Fuel"
+  },
+  {
+    "Recipe":"Packaged Liquid Biofuel",
+    "Ingredients":[
+      {
+        "Material":"Liquid Biofuel",
+        "Quantity":"40"
+      },
+      {
+        "Material":"Empty Canister",
+        "Quantity":"40"
+      }
+    ],
+    "Produced in":"Packager 3 sec",
+    "Products":[
+      {
+        "Material":"Packaged Liquid Biofuel",
+        "Quantity":"40"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Fluid Packaging"
+  },
+  {
+    "Recipe":"Packaged Nitric Acid",
+    "Ingredients":[
+      {
+        "Material":"Nitric Acid",
+        "Quantity":"30"
+      },
+      {
+        "Material":"Empty Fluid Tank",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Packager 2 sec",
+    "Products":[
+      {
+        "Material":"Packaged Nitric Acid",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Particle Enrichment"
+  },
+  {
+    "Recipe":"Packaged Nitrogen Gas",
+    "Ingredients":[
+      {
+        "Material":"Nitrogen Gas",
+        "Quantity":"240"
+      },
+      {
+        "Material":"Empty Fluid Tank",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Packager 1 sec",
+    "Products":[
+      {
+        "Material":"Packaged Nitrogen Gas",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Advanced Aluminum Production"
+  },
+  {
+    "Recipe":"Packaged Oil",
+    "Ingredients":[
+      {
+        "Material":"Crude Oil",
+        "Quantity":"30"
+      },
+      {
+        "Material":"Empty Canister",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Packager 4 sec",
+    "Products":[
+      {
+        "Material":"Packaged Oil",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Fluid Packaging"
+  },
+  {
+    "Recipe":"Packaged Rocket Fuel",
+    "Ingredients":[
+      {
+        "Material":"Rocket Fuel",
+        "Quantity":"120"
+      },
+      {
+        "Material":"Empty Fluid Tank",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Packager 1 sec",
+    "Products":[
+      {
+        "Material":"Packaged Rocket Fuel",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"MAM Sulfur Research - Rocket Fuel"
+  },
+  {
+    "Recipe":"Packaged Sulfuric Acid",
+    "Ingredients":[
+      {
+        "Material":"Sulfuric Acid",
+        "Quantity":"40"
+      },
+      {
+        "Material":"Empty Canister",
+        "Quantity":"40"
+      }
+    ],
+    "Produced in":"Packager 3 sec",
+    "Products":[
+      {
+        "Material":"Packaged Sulfuric Acid",
+        "Quantity":"40"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Control System Development"
+  },
+  {
+    "Recipe":"Packaged Turbofuel",
+    "Ingredients":[
+      {
+        "Material":"Turbofuel",
+        "Quantity":"20"
+      },
+      {
+        "Material":"Empty Canister",
+        "Quantity":"20"
+      }
+    ],
+    "Produced in":"Packager 6 sec",
+    "Products":[
+      {
+        "Material":"Packaged Turbofuel",
+        "Quantity":"20"
+      }
+    ],
+    "Unlocked by":"MAM Sulfur Research - Turbofuel OR Tier 7 - Control System Development OR Tier 5 - Oil Processing AND MAM Sulfur Research - Compacted Coal"
+  },
+  {
+    "Recipe":"Packaged Water",
+    "Ingredients":[
+      {
+        "Material":"Water",
+        "Quantity":"60"
+      },
+      {
+        "Material":"Empty Canister",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Packager 2 sec",
+    "Products":[
+      {
+        "Material":"Packaged Water",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Fluid Packaging"
+  },
+  {
+    "Recipe":"Petroleum Coke",
+    "Ingredients":[
+      {
+        "Material":"Heavy Oil Residue",
+        "Quantity":"40"
+      }
+    ],
+    "Produced in":"Refinery 6 sec",
+    "Products":[
+      {
+        "Material":"Petroleum Coke",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Plastic",
+    "Ingredients":[
+      {
+        "Material":"Crude Oil",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Refinery 6 sec",
+    "Products":[
+      {
+        "Material":"Plastic",
+        "Quantity":"20"
+      },
+      {
+        "Material":"Heavy Oil Residue",
+        "Quantity":"10"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Plutonium Fuel Rod",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Manufacturer 240 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 8 - Particle Enrichment"
+  },
+  {
+    "Recipe":"Plutonium Fuel Rod (burning)",
+    "Ingredients":[
+      {
+        "Material":"Water",
+        "Quantity":"240"
+      }
+    ],
+    "Produced in":"Nuclear Power Plant 600 sec",
+    "Products":[
+      {
+        "Material":"Plutonium Waste",
+        "Quantity":"1"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Particle Enrichment"
+  },
+  {
+    "Recipe":"Plutonium Pellet",
+    "Ingredients":[
+      {
+        "Material":"Non-Fissile Uranium",
+        "Quantity":"100"
+      },
+      {
+        "Material":"Uranium Waste",
+        "Quantity":"25"
+      }
+    ],
+    "Produced in":"Particle Accelerator 60 sec 250 - 750 MW",
+    "Products":[
+      {
+        "Material":"Plutonium Pellet",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Particle Enrichment"
+  },
+  {
+    "Recipe":"Power Shard (1)",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Constructor 8 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"MAM Power Slugs Research - Blue Power Slugs"
+  },
+  {
+    "Recipe":"Power Shard (2)",
+    "Ingredients":[
+      {
+        "Material":"Yellow Power Slug",
+        "Quantity":"5"
+      }
+    ],
+    "Produced in":"Constructor 12 sec",
+    "Products":[
+      {
+        "Material":"Power Shard",
+        "Quantity":"10"
+      }
+    ],
+    "Unlocked by":"MAM Power Slugs Research - Yellow Power Slugs"
+  },
+  {
+    "Recipe":"Power Shard (5)",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Constructor 24 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"MAM Power Slugs Research - Purple Power Slugs"
+  },
+  {
+    "Recipe":"Pressure Conversion Cube",
+    "Ingredients":[
+      {
+        "Material":"Fused Modular Frame",
+        "Quantity":"1"
+      },
+      {
+        "Material":"Radio Control Unit",
+        "Quantity":"2"
+      }
+    ],
+    "Produced in":"Assembler 60 sec",
+    "Products":[
+      {
+        "Material":"Pressure Conversion Cube",
+        "Quantity":"1"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Particle Enrichment"
+  },
+  {
+    "Recipe":"Pulse Nobelisk",
+    "Ingredients":[
+      {
+        "Material":"Nobelisk",
+        "Quantity":"5"
+      },
+      {
+        "Material":"Crystal Oscillator",
+        "Quantity":"1"
+      }
+    ],
+    "Produced in":"Assembler 60 sec",
+    "Products":[
+      {
+        "Material":"Pulse Nobelisk",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"MAM Quartz Research - Explosive Resonance Application"
+  },
+  {
+    "Recipe":"Quartz Crystal",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Constructor 8 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"MAM Quartz Research - Quartz Crystals OR Tier 7 - Bauxite Refinement"
+  },
+  {
+    "Recipe":"Quickwire",
+    "Ingredients":[
+      {
+        "Material":"Caterium Ingot",
+        "Quantity":"12"
+      }
+    ],
+    "Produced in":"Constructor 5 sec",
+    "Products":[
+      {
+        "Material":"Quickwire",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"MAM Caterium Research - Quickwire OR Tier 5 - Petroleum Power"
+  },
+  {
+    "Recipe":"Radio Control Unit",
+    "Ingredients":[
+      {
+        "Material":"Aluminum Casing",
+        "Quantity":"40"
+      }
+    ],
+    "Produced in":"Manufacturer 48 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 7 - Control System Development"
+  },
+  {
+    "Recipe":"Raw Quartz (Bauxite)",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Bauxite",
+        "Quantity":"100"
+      }
+    ],
+    "Produced in":"Converter 6 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Raw Quartz",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Raw Quartz (Coal)",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Coal",
+        "Quantity":"240"
+      }
+    ],
+    "Produced in":"Converter 6 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Raw Quartz",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Reanimated SAM",
+    "Ingredients":[
+      {
+        "Material":"SAM",
+        "Quantity":"120"
+      }
+    ],
+    "Produced in":"Constructor 2 sec",
+    "Products":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"MAM Alien Technology Research - SAM Reanimation OR Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Red FICSMAS Ornament FICSMAS",
+    "Ingredients":[
+      {
+        "Material":"FICSMAS Gift",
+        "Quantity":"5"
+      }
+    ],
+    "Produced in":"Smelter 12 sec",
+    "Products":[
+      {
+        "Material":"Red FICSMAS Ornament",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"MAM FICSMAS Holiday Event Research - Giant FICSMAS Tree: Upgrade 1"
+  },
+  {
+    "Recipe":"Reinforced Iron Plate",
+    "Ingredients":[
+      {
+        "Material":"Iron Plate",
+        "Quantity":"30"
+      },
+      {
+        "Material":"Screws",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Assembler 12 sec",
+    "Products":[
+      {
+        "Material":"Reinforced Iron Plate",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"Tier 0 - HUB Upgrade 3"
+  },
+  {
+    "Recipe":"Residual Fuel",
+    "Ingredients":[
+      {
+        "Material":"Heavy Oil Residue",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Refinery 6 sec",
+    "Products":[
+      {
+        "Material":"Fuel",
+        "Quantity":"40"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Residual Plastic",
+    "Ingredients":[
+      {
+        "Material":"Polymer Resin",
+        "Quantity":"60"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"20"
+      }
+    ],
+    "Produced in":"Refinery 6 sec",
+    "Products":[
+      {
+        "Material":"Plastic",
+        "Quantity":"20"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Residual Rubber",
+    "Ingredients":[
+      {
+        "Material":"Polymer Resin",
+        "Quantity":"40"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"40"
+      }
+    ],
+    "Produced in":"Refinery 6 sec",
+    "Products":[
+      {
+        "Material":"Rubber",
+        "Quantity":"20"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Rifle Ammo",
+    "Ingredients":[
+      {
+        "Material":"Copper Sheet",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Smokeless Powder",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Assembler 12 sec",
+    "Products":[
+      {
+        "Material":"Rifle Ammo",
+        "Quantity":"75"
+      }
+    ],
+    "Unlocked by":"MAM Sulfur Research - The Rifle"
+  },
+  {
+    "Recipe":"Rocket Fuel",
+    "Ingredients":[
+      {
+        "Material":"Turbofuel",
+        "Quantity":"60"
+      },
+      {
+        "Material":"Nitric Acid",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Blender 6 sec",
+    "Products":[
+      {
+        "Material":"Rocket Fuel",
+        "Quantity":"100"
+      },
+      {
+        "Material":"Compacted Coal",
+        "Quantity":"10"
+      }
+    ],
+    "Unlocked by":"MAM Sulfur Research - Rocket Fuel"
+  },
+  {
+    "Recipe":"Rotor",
+    "Ingredients":[
+      {
+        "Material":"Iron Rod",
+        "Quantity":"20"
+      },
+      {
+        "Material":"Screws",
+        "Quantity":"100"
+      }
+    ],
+    "Produced in":"Assembler 15 sec",
+    "Products":[
+      {
+        "Material":"Rotor",
+        "Quantity":"4"
+      }
+    ],
+    "Unlocked by":"Tier 2 - Part Assembly"
+  },
+  {
+    "Recipe":"Rubber",
+    "Ingredients":[
+      {
+        "Material":"Crude Oil",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Refinery 6 sec",
+    "Products":[
+      {
+        "Material":"Rubber",
+        "Quantity":"20"
+      },
+      {
+        "Material":"Heavy Oil Residue",
+        "Quantity":"20"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"SAM Fluctuator",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"60"
+      },
+      {
+        "Material":"Wire",
+        "Quantity":"50"
+      },
+      {
+        "Material":"Steel Pipe",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Manufacturer 6 sec",
+    "Products":[
+      {
+        "Material":"SAM Fluctuator",
+        "Quantity":"10"
+      }
+    ],
+    "Unlocked by":"MAM Alien Technology Research - SAM Fluctuator OR Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Screws",
+    "Ingredients":[
+      {
+        "Material":"Iron Rod",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Constructor 6 sec",
+    "Products":[
+      {
+        "Material":"Screws",
+        "Quantity":"40"
+      }
+    ],
+    "Unlocked by":"Tier 0 - HUB Upgrade 3"
+  },
+  {
+    "Recipe":"Shatter Rebar",
+    "Ingredients":[
+      {
+        "Material":"Iron Rebar",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Quartz Crystal",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Assembler 12 sec",
+    "Products":[
+      {
+        "Material":"Shatter Rebar",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"MAM Quartz Research - Shatter Rebar"
+  },
+  {
+    "Recipe":"Silica",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Constructor 8 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"MAM Quartz Research - Silica OR Tier 7 - Bauxite Refinement"
+  },
+  {
+    "Recipe":"Singularity Cell",
+    "Ingredients":[
+      {
+        "Material":"Nuclear Pasta",
+        "Quantity":"1"
+      },
+      {
+        "Material":"Dark Matter Crystal",
+        "Quantity":"20"
+      },
+      {
+        "Material":"Iron Plate",
+        "Quantity":"100"
+      },
+      {
+        "Material":"Concrete",
+        "Quantity":"200"
+      }
+    ],
+    "Produced in":"Manufacturer 60 sec",
+    "Products":[
+      {
+        "Material":"Singularity Cell",
+        "Quantity":"10"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Spatial Energy Regulation"
+  },
+  {
+    "Recipe":"Smart Plating",
+    "Ingredients":[
+      {
+        "Material":"Reinforced Iron Plate",
+        "Quantity":"2"
+      },
+      {
+        "Material":"Rotor",
+        "Quantity":"2"
+      }
+    ],
+    "Produced in":"Assembler 30 sec",
+    "Products":[
+      {
+        "Material":"Smart Plating",
+        "Quantity":"2"
+      }
+    ],
+    "Unlocked by":"Tier 2 - Part Assembly"
+  },
+  {
+    "Recipe":"Smokeless Powder",
+    "Ingredients":[
+      {
+        "Material":"Black Powder",
+        "Quantity":"20"
+      },
+      {
+        "Material":"Heavy Oil Residue",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Refinery 6 sec",
+    "Products":[
+      {
+        "Material":"Smokeless Powder",
+        "Quantity":"20"
+      }
+    ],
+    "Unlocked by":"MAM Sulfur Research - Smokeless Powder"
+  },
+  {
+    "Recipe":"Snowball FICSMAS",
+    "Ingredients":[
+      {
+        "Material":"FICSMAS Actual Snow",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Constructor 12 sec",
+    "Products":[
+      {
+        "Material":"Snowball",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"MAM FICSMAS Holiday Event Research - Snowfight!"
+  },
+  {
+    "Recipe":"Solid Biofuel",
+    "Ingredients":[
+      {
+        "Material":"Biomass",
+        "Quantity":"120"
+      }
+    ],
+    "Produced in":"Constructor 4 sec",
+    "Products":[
+      {
+        "Material":"Solid Biofuel",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 2 - Obstacle Clearing"
+  },
+  {
+    "Recipe":"Sparkly Fireworks",
+    "Ingredients":[
+      {
+        "Material":"FICSMAS Actual Snow",
+        "Quantity":"5"
+      }
+    ],
+    "Produced in":"Assembler 24 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Equipment: Fireworks"
+  },
+  {
+    "Recipe":"Spitter Protein",
+    "Ingredients":[
+      {
+        "Material":"Spitter Remains",
+        "Quantity":"20"
+      }
+    ],
+    "Produced in":"Constructor 3 sec",
+    "Products":[
+      {
+        "Material":"Alien Protein",
+        "Quantity":"20"
+      }
+    ],
+    "Unlocked by":"MAM Alien Megafauna Research - Spitter Research"
+  },
+  {
+    "Recipe":"Stator",
+    "Ingredients":[
+      {
+        "Material":"Steel Pipe",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Wire",
+        "Quantity":"40"
+      }
+    ],
+    "Produced in":"Assembler 12 sec",
+    "Products":[
+      {
+        "Material":"Stator",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"Tier 4 - Advanced Steel Production"
+  },
+  {
+    "Recipe":"Steel Beam",
+    "Ingredients":[
+      {
+        "Material":"Steel Ingot",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Constructor 4 sec",
+    "Products":[
+      {
+        "Material":"Steel Beam",
+        "Quantity":"15"
+      }
+    ],
+    "Unlocked by":"Tier 3 - Basic Steel Production"
+  },
+  {
+    "Recipe":"Steel Ingot",
+    "Ingredients":[
+      {
+        "Material":"Iron Ore",
+        "Quantity":"45"
+      },
+      {
+        "Material":"Coal",
+        "Quantity":"45"
+      }
+    ],
+    "Produced in":"Foundry 4 sec",
+    "Products":[
+      {
+        "Material":"Steel Ingot",
+        "Quantity":"45"
+      }
+    ],
+    "Unlocked by":"Tier 3 - Basic Steel Production"
+  },
+  {
+    "Recipe":"Steel Pipe",
+    "Ingredients":[
+      {
+        "Material":"Steel Ingot",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Constructor 6 sec",
+    "Products":[
+      {
+        "Material":"Steel Pipe",
+        "Quantity":"20"
+      }
+    ],
+    "Unlocked by":"Tier 3 - Basic Steel Production"
+  },
+  {
+    "Recipe":"Stinger Protein",
+    "Ingredients":[
+      {
+        "Material":"Stinger Remains",
+        "Quantity":"20"
+      }
+    ],
+    "Produced in":"Constructor 3 sec",
+    "Products":[
+      {
+        "Material":"Alien Protein",
+        "Quantity":"20"
+      }
+    ],
+    "Unlocked by":"MAM Alien Megafauna Research - Stinger Research"
+  },
+  {
+    "Recipe":"Stun Rebar",
+    "Ingredients":[
+      {
+        "Material":"Iron Rebar",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Quickwire",
+        "Quantity":"50"
+      }
+    ],
+    "Produced in":"Assembler 6 sec",
+    "Products":[
+      {
+        "Material":"Stun Rebar",
+        "Quantity":"10"
+      }
+    ],
+    "Unlocked by":"MAM Caterium Research - Stun Rebar"
+  },
+  {
+    "Recipe":"Sulfur (Coal)",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Coal",
+        "Quantity":"200"
+      }
+    ],
+    "Produced in":"Converter 6 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Sulfur",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Sulfur (Iron)",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Iron Ore",
+        "Quantity":"300"
+      }
+    ],
+    "Produced in":"Converter 6 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Sulfur",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Sulfuric Acid",
+    "Ingredients":[
+      {
+        "Material":"Sulfur",
+        "Quantity":"50"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"50"
+      }
+    ],
+    "Produced in":"Refinery 6 sec",
+    "Products":[
+      {
+        "Material":"Sulfuric Acid",
+        "Quantity":"50"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Control System Development"
+  },
+  {
+    "Recipe":"Supercomputer",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Manufacturer 32 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 7 - Control System Development"
+  },
+  {
+    "Recipe":"Superposition Oscillator",
+    "Ingredients":[
+      {
+        "Material":"Dark Matter Crystal",
+        "Quantity":"30"
+      },
+      {
+        "Material":"Crystal Oscillator",
+        "Quantity":"5"
+      },
+      {
+        "Material":"Alclad Aluminum Sheet",
+        "Quantity":"45"
+      },
+      {
+        "Material":"Excited Photonic Matter",
+        "Quantity":"125"
+      }
+    ],
+    "Produced in":"Quantum Encoder 12 sec 0 - 2,000 MW",
+    "Products":[
+      {
+        "Material":"Superposition Oscillator",
+        "Quantity":"5"
+      },
+      {
+        "Material":"Dark Matter Residue",
+        "Quantity":"125"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Quantum Encoding"
+  },
+  {
+    "Recipe":"Sweet Fireworks",
+    "Ingredients":[
+      {
+        "Material":"FICSMAS Tree Branch",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Assembler 24 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Equipment: Fireworks"
+  },
+  {
+    "Recipe":"Synthetic Power Shard",
+    "Ingredients":[
+      {
+        "Material":"Time Crystal",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Dark Matter Crystal",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Quartz Crystal",
+        "Quantity":"60"
+      },
+      {
+        "Material":"Excited Photonic Matter",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Quantum Encoder 12 sec 0 - 2,000 MW",
+    "Products":[
+      {
+        "Material":"Power Shard",
+        "Quantity":"5"
+      },
+      {
+        "Material":"Dark Matter Residue",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"MAM Power Slugs Research - Synthetic Power Shards"
+  },
+  {
+    "Recipe":"Thermal Propulsion Rocket",
+    "Ingredients":[
+      {
+        "Material":"Turbo Motor",
+        "Quantity":"1"
+      },
+      {
+        "Material":"Cooling System",
+        "Quantity":"3"
+      },
+      {
+        "Material":"Fused Modular Frame",
+        "Quantity":"1"
+      }
+    ],
+    "Produced in":"Manufacturer 120 sec",
+    "Products":[
+      {
+        "Material":"Thermal Propulsion Rocket",
+        "Quantity":"1"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Leading-Edge Production"
+  },
+  {
+    "Recipe":"Time Crystal",
+    "Ingredients":[
+      {
+        "Material":"Diamonds",
+        "Quantity":"12"
+      }
+    ],
+    "Produced in":"Converter 10 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Time Crystal",
+        "Quantity":"6"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Turbo Motor",
+    "Ingredients":[
+      {
+        "Material":"Rubber",
+        "Quantity":"45"
+      }
+    ],
+    "Produced in":"Manufacturer 32 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 8 - Leading-Edge Production"
+  },
+  {
+    "Recipe":"Turbo Rifle Ammo",
+    "Ingredients":[
+      {
+        "Material":"Rifle Ammo",
+        "Quantity":"125"
+      },
+      {
+        "Material":"Aluminum Casing",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Packaged Turbofuel",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Manufacturer 12 sec",
+    "Products":[
+      {
+        "Material":"Turbo Rifle Ammo",
+        "Quantity":"250"
+      }
+    ],
+    "Unlocked by":"MAM Sulfur Research - Turbo Rifle Ammo"
+  },
+  {
+    "Recipe":"Turbo Rifle Ammo",
+    "Ingredients":[
+      {
+        "Material":"Rifle Ammo",
+        "Quantity":"125"
+      },
+      {
+        "Material":"Aluminum Casing",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Turbofuel",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Blender 12 sec",
+    "Products":[
+      {
+        "Material":"Turbo Rifle Ammo",
+        "Quantity":"250"
+      }
+    ],
+    "Unlocked by":"MAM Sulfur Research - Turbo Rifle Ammo"
+  },
+  {
+    "Recipe":"Unpackage Alumina Solution",
+    "Ingredients":[
+      {
+        "Material":"Packaged Alumina Solution",
+        "Quantity":"120"
+      }
+    ],
+    "Produced in":"Packager 1 sec",
+    "Products":[
+      {
+        "Material":"Alumina Solution",
+        "Quantity":"120"
+      },
+      {
+        "Material":"Empty Canister",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Bauxite Refinement"
+  },
+  {
+    "Recipe":"Unpackage Fuel",
+    "Ingredients":[
+      {
+        "Material":"Packaged Fuel",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Packager 2 sec",
+    "Products":[
+      {
+        "Material":"Fuel",
+        "Quantity":"60"
+      },
+      {
+        "Material":"Empty Canister",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Fluid Packaging"
+  },
+  {
+    "Recipe":"Unpackage Heavy Oil Residue",
+    "Ingredients":[
+      {
+        "Material":"Packaged Heavy Oil Residue",
+        "Quantity":"20"
+      }
+    ],
+    "Produced in":"Packager 6 sec",
+    "Products":[
+      {
+        "Material":"Heavy Oil Residue",
+        "Quantity":"20"
+      },
+      {
+        "Material":"Empty Canister",
+        "Quantity":"20"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Fluid Packaging"
+  },
+  {
+    "Recipe":"Unpackage Ionized Fuel",
+    "Ingredients":[
+      {
+        "Material":"Packaged Ionized Fuel",
+        "Quantity":"40"
+      }
+    ],
+    "Produced in":"Packager 3 sec",
+    "Products":[
+      {
+        "Material":"Ionized Fuel",
+        "Quantity":"80"
+      },
+      {
+        "Material":"Empty Fluid Tank",
+        "Quantity":"40"
+      }
+    ],
+    "Unlocked by":"MAM Sulfur Research - Ionized Fuel"
+  },
+  {
+    "Recipe":"Unpackage Liquid Biofuel",
+    "Ingredients":[
+      {
+        "Material":"Packaged Liquid Biofuel",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Packager 2 sec",
+    "Products":[
+      {
+        "Material":"Liquid Biofuel",
+        "Quantity":"60"
+      },
+      {
+        "Material":"Empty Canister",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Fluid Packaging"
+  },
+  {
+    "Recipe":"Unpackage Nitric Acid",
+    "Ingredients":[
+      {
+        "Material":"Packaged Nitric Acid",
+        "Quantity":"20"
+      }
+    ],
+    "Produced in":"Packager 3 sec",
+    "Products":[
+      {
+        "Material":"Nitric Acid",
+        "Quantity":"20"
+      },
+      {
+        "Material":"Empty Fluid Tank",
+        "Quantity":"20"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Particle Enrichment"
+  },
+  {
+    "Recipe":"Unpackage Nitrogen Gas",
+    "Ingredients":[
+      {
+        "Material":"Packaged Nitrogen Gas",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Packager 1 sec",
+    "Products":[
+      {
+        "Material":"Nitrogen Gas",
+        "Quantity":"240"
+      },
+      {
+        "Material":"Empty Fluid Tank",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Advanced Aluminum Production"
+  },
+  {
+    "Recipe":"Unpackage Oil",
+    "Ingredients":[
+      {
+        "Material":"Packaged Oil",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Packager 2 sec",
+    "Products":[
+      {
+        "Material":"Crude Oil",
+        "Quantity":"60"
+      },
+      {
+        "Material":"Empty Canister",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Fluid Packaging"
+  },
+  {
+    "Recipe":"Unpackage Rocket Fuel",
+    "Ingredients":[
+      {
+        "Material":"Packaged Rocket Fuel",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Packager 1 sec",
+    "Products":[
+      {
+        "Material":"Rocket Fuel",
+        "Quantity":"120"
+      },
+      {
+        "Material":"Empty Fluid Tank",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"MAM Sulfur Research - Rocket Fuel"
+  },
+  {
+    "Recipe":"Unpackage Sulfuric Acid",
+    "Ingredients":[
+      {
+        "Material":"Packaged Sulfuric Acid",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Packager 1 sec",
+    "Products":[
+      {
+        "Material":"Sulfuric Acid",
+        "Quantity":"60"
+      },
+      {
+        "Material":"Empty Canister",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Control System Development"
+  },
+  {
+    "Recipe":"Unpackage Turbofuel",
+    "Ingredients":[
+      {
+        "Material":"Packaged Turbofuel",
+        "Quantity":"20"
+      }
+    ],
+    "Produced in":"Packager 6 sec",
+    "Products":[
+      {
+        "Material":"Turbofuel",
+        "Quantity":"20"
+      },
+      {
+        "Material":"Empty Canister",
+        "Quantity":"20"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Control System Development OR MAM Sulfur Research - Turbofuel OR Tier 5 - Oil Processing AND MAM Sulfur Research - Compacted Coal"
+  },
+  {
+    "Recipe":"Unpackage Water",
+    "Ingredients":[
+      {
+        "Material":"Packaged Water",
+        "Quantity":"120"
+      }
+    ],
+    "Produced in":"Packager 1 sec",
+    "Products":[
+      {
+        "Material":"Water",
+        "Quantity":"120"
+      },
+      {
+        "Material":"Empty Canister",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Fluid Packaging"
+  },
+  {
+    "Recipe":"Uranium Fuel Rod",
+    "Ingredients":[
+      {
+        "Material":"Encased Uranium Cell",
+        "Quantity":"20"
+      },
+      {
+        "Material":"Electromagnetic Control Rod",
+        "Quantity":"2"
+      }
+    ],
+    "Produced in":"Manufacturer 150 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 8 - Nuclear Power"
+  },
+  {
+    "Recipe":"Uranium Fuel Rod (burning)",
+    "Ingredients":[
+      {
+        "Material":"Water",
+        "Quantity":"240"
+      }
+    ],
+    "Produced in":"Nuclear Power Plant 300 sec",
+    "Products":[
+      {
+        "Material":"Uranium Waste",
+        "Quantity":"10"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Nuclear Power"
+  },
+  {
+    "Recipe":"Uranium Ore (Bauxite)",
+    "Ingredients":[
+      {
+        "Material":"Reanimated SAM",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Bauxite",
+        "Quantity":"480"
+      }
+    ],
+    "Produced in":"Converter 6 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Uranium",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Versatile Framework",
+    "Ingredients":[
+      {
+        "Material":"Steel Beam",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Assembler 24 sec",
+    "Products":[
+      {
+        "Material":"Versatile Framework",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"Tier 3 - Basic Steel Production"
+  },
+  {
+    "Recipe":"Wire",
+    "Ingredients":[
+      {
+        "Material":"Copper Ingot",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Constructor 4 sec",
+    "Products":[
+      {
+        "Material":"Wire",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"Tier 0 - HUB Upgrade 2"
+  },
+  {
+    "Recipe":"Adhered Iron Plate Alternate",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Assembler 16 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Alclad Casing Alternate",
+    "Ingredients":[
+      {
+        "Material":"Aluminum Ingot",
+        "Quantity":"150"
+      },
+      {
+        "Material":"Copper Ingot",
+        "Quantity":"75"
+      }
+    ],
+    "Produced in":"Assembler 8 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 7 - Bauxite Refinement"
+  },
+  {
+    "Recipe":"Aluminum Beam Alternate",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Constructor 8 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 7 - Bauxite Refinement"
+  },
+  {
+    "Recipe":"Aluminum Rod Alternate",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Constructor 8 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 7 - Bauxite Refinement"
+  },
+  {
+    "Recipe":"Automated Miner Alternate",
+    "Ingredients":[
+      {
+        "Material":"Steel Pipe",
+        "Quantity":"4"
+      },
+      {
+        "Material":"Iron Plate",
+        "Quantity":"4"
+      }
+    ],
+    "Produced in":"Assembler 60 sec",
+    "Products":[
+      {
+        "Material":"Portable Miner",
+        "Quantity":"1"
+      }
+    ],
+    "Unlocked by":"Tier 3 - Basic Steel Production"
+  },
+  {
+    "Recipe":"Automated Speed Wiring Alternate",
+    "Ingredients":[
+      {
+        "Material":"Wire",
+        "Quantity":"75"
+      }
+    ],
+    "Produced in":"Manufacturer 32 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 4 - Advanced Steel Production OR MAM Caterium Research - AI Limiter"
+  },
+  {
+    "Recipe":"Basic Iron Ingot Alternate",
+    "Ingredients":[
+      {
+        "Material":"Iron Ore",
+        "Quantity":"25"
+      },
+      {
+        "Material":"Limestone",
+        "Quantity":"40"
+      }
+    ],
+    "Produced in":"Foundry 12 sec",
+    "Products":[
+      {
+        "Material":"Iron Ingot",
+        "Quantity":"50"
+      }
+    ],
+    "Unlocked by":"Tier 3 - Basic Steel Production"
+  },
+  {
+    "Recipe":"Biocoal Alternate",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Constructor 8 sec",
+    "Products":[
+      {
+        "Material":"Coal",
+        "Quantity":"45"
+      }
+    ],
+    "Unlocked by":"Tier 3 - Coal Power OR MAM Sulfur Research - Compacted Coal"
+  },
+  {
+    "Recipe":"Bolted Frame Alternate",
+    "Ingredients":[
+      {
+        "Material":"Screws",
+        "Quantity":"140"
+      }
+    ],
+    "Produced in":"Assembler 24 sec",
+    "Products":[
+      {
+        "Material":"Modular Frame",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"Tier 2 - Part Assembly"
+  },
+  {
+    "Recipe":"Bolted Iron Plate Alternate",
+    "Ingredients":[
+      {
+        "Material":"Iron Plate",
+        "Quantity":"90"
+      },
+      {
+        "Material":"Screws",
+        "Quantity":"250"
+      }
+    ],
+    "Produced in":"Assembler 12 sec",
+    "Products":[
+      {
+        "Material":"Reinforced Iron Plate",
+        "Quantity":"15"
+      }
+    ],
+    "Unlocked by":"Tier 2 - Part Assembly"
+  },
+  {
+    "Recipe":"Caterium Circuit Board Alternate",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Assembler 48 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing OR MAM Caterium Research - Caterium Ingots"
+  },
+  {
+    "Recipe":"Caterium Computer Alternate",
+    "Ingredients":[
+      {
+        "Material":"Circuit Board",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Manufacturer 16 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 6 - Industrial Manufacturing OR MAM Caterium Research - Caterium Ingots"
+  },
+  {
+    "Recipe":"Caterium Wire Alternate",
+    "Ingredients":[
+      {
+        "Material":"Caterium Ingot",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Constructor 4 sec",
+    "Products":[
+      {
+        "Material":"Wire",
+        "Quantity":"120"
+      }
+    ],
+    "Unlocked by":"MAM Caterium Research - Caterium"
+  },
+  {
+    "Recipe":"Charcoal Alternate",
+    "Ingredients":[
+      {
+        "Material":"Wood",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Constructor 4 sec",
+    "Products":[
+      {
+        "Material":"Coal",
+        "Quantity":"150"
+      }
+    ],
+    "Unlocked by":"Tier 3 - Coal Power OR MAM Sulfur Research - Compacted Coal"
+  },
+  {
+    "Recipe":"Cheap Silica Alternate",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Assembler 8 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"MAM Quartz Research - Silica"
+  },
+  {
+    "Recipe":"Classic Battery Alternate",
+    "Ingredients":[
+      {
+        "Material":"Sulfur",
+        "Quantity":"45"
+      },
+      {
+        "Material":"Plastic",
+        "Quantity":"60"
+      },
+      {
+        "Material":"Wire",
+        "Quantity":"90"
+      }
+    ],
+    "Produced in":"Manufacturer 8 sec",
+    "Products":[
+      {
+        "Material":"Battery",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Control System Development"
+  },
+  {
+    "Recipe":"Cloudy Diamonds Alternate",
+    "Ingredients":[
+      {
+        "Material":"Coal",
+        "Quantity":"240"
+      },
+      {
+        "Material":"Limestone",
+        "Quantity":"480"
+      }
+    ],
+    "Produced in":"Particle Accelerator 3 sec 250 - 750 MW",
+    "Products":[
+      {
+        "Material":"Diamonds",
+        "Quantity":"20"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Coated Cable Alternate",
+    "Ingredients":[
+      {
+        "Material":"Heavy Oil Residue",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Refinery 8 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Coated Iron Canister Alternate",
+    "Ingredients":[
+      {
+        "Material":"Iron Plate",
+        "Quantity":"30"
+      },
+      {
+        "Material":"Copper Sheet",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Assembler 4 sec",
+    "Products":[
+      {
+        "Material":"Empty Canister",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Fluid Packaging"
+  },
+  {
+    "Recipe":"Coated Iron Plate Alternate",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Assembler 8 sec",
+    "Products":[
+      {
+        "Material":"Iron Plate",
+        "Quantity":"75"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Coke Steel Ingot Alternate",
+    "Ingredients":[
+      {
+        "Material":"Iron Ore",
+        "Quantity":"75"
+      },
+      {
+        "Material":"Petroleum Coke",
+        "Quantity":"75"
+      }
+    ],
+    "Produced in":"Foundry 12 sec",
+    "Products":[
+      {
+        "Material":"Steel Ingot",
+        "Quantity":"100"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Compacted Coal Alternate",
+    "Ingredients":[
+      {
+        "Material":"Coal",
+        "Quantity":"25"
+      },
+      {
+        "Material":"Sulfur",
+        "Quantity":"25"
+      }
+    ],
+    "Produced in":"Assembler 12 sec",
+    "Products":[
+      {
+        "Material":"Compacted Coal",
+        "Quantity":"25"
+      }
+    ],
+    "Unlocked by":"MAM Sulfur Research - Compacted Coal"
+  },
+  {
+    "Recipe":"Compacted Steel Ingot Alternate",
+    "Ingredients":[
+      {
+        "Material":"Iron Ore",
+        "Quantity":"5"
+      }
+    ],
+    "Produced in":"Foundry 24 sec",
+    "Products":[
+      {
+        "Material":"Steel Ingot",
+        "Quantity":"10"
+      }
+    ],
+    "Unlocked by":"MAM Sulfur Research - Compacted Coal OR Tier 3 - Basic Steel Production"
+  },
+  {
+    "Recipe":"Cooling Device Alternate",
+    "Ingredients":[
+      {
+        "Material":"Heat Sink",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Nitrogen Gas",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Blender 24 sec",
+    "Products":[
+      {
+        "Material":"Cooling System",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Advanced Aluminum Production"
+  },
+  {
+    "Recipe":"Copper Alloy Ingot Alternate",
+    "Ingredients":[
+      {
+        "Material":"Copper Ore",
+        "Quantity":"50"
+      },
+      {
+        "Material":"Iron Ore",
+        "Quantity":"50"
+      }
+    ],
+    "Produced in":"Foundry 6 sec",
+    "Products":[
+      {
+        "Material":"Copper Ingot",
+        "Quantity":"100"
+      }
+    ],
+    "Unlocked by":"Tier 3 - Basic Steel Production"
+  },
+  {
+    "Recipe":"Copper Rotor Alternate",
+    "Ingredients":[
+      {
+        "Material":"Screws",
+        "Quantity":"195"
+      }
+    ],
+    "Produced in":"Assembler 16 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 2 - Part Assembly"
+  },
+  {
+    "Recipe":"Crystal Computer Alternate",
+    "Ingredients":[
+      {
+        "Material":"Circuit Board",
+        "Quantity":"5"
+      }
+    ],
+    "Produced in":"Assembler 36 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 6 - Industrial Manufacturing OR MAM Quartz Research - Quartz Crystals"
+  },
+  {
+    "Recipe":"Dark Matter Crystallization Alternate",
+    "Ingredients":[
+      {
+        "Material":"Dark Matter Residue",
+        "Quantity":"200"
+      }
+    ],
+    "Produced in":"Particle Accelerator 3 sec 500 - 1,500 MW",
+    "Products":[
+      {
+        "Material":"Dark Matter Crystal",
+        "Quantity":"20"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Quantum Encoding"
+  },
+  {
+    "Recipe":"Dark Matter Trap Alternate",
+    "Ingredients":[
+      {
+        "Material":"Time Crystal",
+        "Quantity":"30"
+      },
+      {
+        "Material":"Dark Matter Residue",
+        "Quantity":"150"
+      }
+    ],
+    "Produced in":"Particle Accelerator 2 sec 500 - 1,500 MW",
+    "Products":[
+      {
+        "Material":"Dark Matter Crystal",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Quantum Encoding"
+  },
+  {
+    "Recipe":"Dark-Ion Fuel Alternate",
+    "Ingredients":[
+      {
+        "Material":"Packaged Rocket Fuel",
+        "Quantity":"240"
+      },
+      {
+        "Material":"Dark Matter Crystal",
+        "Quantity":"80"
+      }
+    ],
+    "Produced in":"Converter 3 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Ionized Fuel",
+        "Quantity":"200"
+      },
+      {
+        "Material":"Compacted Coal",
+        "Quantity":"40"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Quantum Encoding OR MAM Sulfur Research - Ionized Fuel"
+  },
+  {
+    "Recipe":"Diluted Fuel Alternate",
+    "Ingredients":[
+      {
+        "Material":"Heavy Oil Residue",
+        "Quantity":"50"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"100"
+      }
+    ],
+    "Produced in":"Blender 6 sec",
+    "Products":[
+      {
+        "Material":"Fuel",
+        "Quantity":"100"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Control System Development"
+  },
+  {
+    "Recipe":"Diluted Packaged Fuel Alternate",
+    "Ingredients":[
+      {
+        "Material":"Heavy Oil Residue",
+        "Quantity":"30"
+      },
+      {
+        "Material":"Packaged Water",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Refinery 2 sec",
+    "Products":[
+      {
+        "Material":"Packaged Fuel",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Distilled Silica Alternate",
+    "Ingredients":[
+      {
+        "Material":"Dissolved Silica",
+        "Quantity":"120"
+      },
+      {
+        "Material":"Limestone",
+        "Quantity":"50"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"100"
+      }
+    ],
+    "Produced in":"Blender 6 sec",
+    "Products":[
+      {
+        "Material":"Silica",
+        "Quantity":"270"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"80"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Control System Development"
+  },
+  {
+    "Recipe":"Electric Motor Alternate",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Assembler 16 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 8 - Nuclear Power"
+  },
+  {
+    "Recipe":"Electrode Aluminum Scrap Alternate",
+    "Ingredients":[
+      {
+        "Material":"Alumina Solution",
+        "Quantity":"180"
+      },
+      {
+        "Material":"Petroleum Coke",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Refinery 4 sec",
+    "Products":[
+      {
+        "Material":"Aluminum Scrap",
+        "Quantity":"300"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"105"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Bauxite Refinement"
+  },
+  {
+    "Recipe":"Electrode Circuit Board Alternate",
+    "Ingredients":[
+      {
+        "Material":"Rubber",
+        "Quantity":"20"
+      },
+      {
+        "Material":"Petroleum Coke",
+        "Quantity":"40"
+      }
+    ],
+    "Produced in":"Assembler 12 sec",
+    "Products":[
+      {
+        "Material":"Circuit Board",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Electromagnetic Connection Rod Alternate",
+    "Ingredients":[
+      {
+        "Material":"Stator",
+        "Quantity":"8"
+      },
+      {
+        "Material":"High-Speed Connector",
+        "Quantity":"4"
+      }
+    ],
+    "Produced in":"Assembler 15 sec",
+    "Products":[
+      {
+        "Material":"Electromagnetic Control Rod",
+        "Quantity":"8"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Nuclear Power OR MAM Caterium Research - AI Limiter"
+  },
+  {
+    "Recipe":"Encased Industrial Pipe Alternate",
+    "Ingredients":[
+      {
+        "Material":"Steel Pipe",
+        "Quantity":"24"
+      },
+      {
+        "Material":"Concrete",
+        "Quantity":"20"
+      }
+    ],
+    "Produced in":"Assembler 15 sec",
+    "Products":[
+      {
+        "Material":"Encased Industrial Beam",
+        "Quantity":"4"
+      }
+    ],
+    "Unlocked by":"Tier 4 - Advanced Steel Production"
+  },
+  {
+    "Recipe":"Fertile Uranium Alternate",
+    "Ingredients":[
+      {
+        "Material":"Uranium",
+        "Quantity":"25"
+      },
+      {
+        "Material":"Uranium Waste",
+        "Quantity":"25"
+      },
+      {
+        "Material":"Nitric Acid",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Sulfuric Acid",
+        "Quantity":"25"
+      }
+    ],
+    "Produced in":"Blender 12 sec",
+    "Products":[
+      {
+        "Material":"Non-Fissile Uranium",
+        "Quantity":"100"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"40"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Particle Enrichment"
+  },
+  {
+    "Recipe":"Fine Black Powder Alternate",
+    "Ingredients":[
+      {
+        "Material":"Compacted Coal",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Assembler 8 sec",
+    "Products":[
+      {
+        "Material":"Black Powder",
+        "Quantity":"45"
+      }
+    ],
+    "Unlocked by":"MAM Sulfur Research - Compacted Coal"
+  },
+  {
+    "Recipe":"Fine Concrete Alternate",
+    "Ingredients":[
+      {
+        "Material":"Silica",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Limestone",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Assembler 12 sec",
+    "Products":[
+      {
+        "Material":"Concrete",
+        "Quantity":"50"
+      }
+    ],
+    "Unlocked by":"MAM Quartz Research - Quartz"
+  },
+  {
+    "Recipe":"Flexible Framework Alternate",
+    "Ingredients":[
+      {
+        "Material":"Rubber",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Manufacturer 16 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Fused Quartz Crystal Alternate",
+    "Ingredients":[
+      {
+        "Material":"Raw Quartz",
+        "Quantity":"75"
+      },
+      {
+        "Material":"Coal",
+        "Quantity":"36"
+      }
+    ],
+    "Produced in":"Foundry 20 sec",
+    "Products":[
+      {
+        "Material":"Quartz Crystal",
+        "Quantity":"54"
+      }
+    ],
+    "Unlocked by":"MAM Quartz Research - Quartz Crystals OR Tier 3 - Basic Steel Production"
+  },
+  {
+    "Recipe":"Fused Quickwire Alternate",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Assembler 8 sec",
+    "Products":[
+      {
+        "Material":"Quickwire",
+        "Quantity":"90"
+      }
+    ],
+    "Unlocked by":"MAM Caterium Research - Caterium Ingots"
+  },
+  {
+    "Recipe":"Fused Wire Alternate",
+    "Ingredients":[
+      {
+        "Material":"Copper Ingot",
+        "Quantity":"12"
+      },
+      {
+        "Material":"Caterium Ingot",
+        "Quantity":"3"
+      }
+    ],
+    "Produced in":"Assembler 20 sec",
+    "Products":[
+      {
+        "Material":"Wire",
+        "Quantity":"90"
+      }
+    ],
+    "Unlocked by":"MAM Caterium Research - Caterium"
+  },
+  {
+    "Recipe":"Heat Exchanger Alternate",
+    "Ingredients":[
+      {
+        "Material":"Aluminum Casing",
+        "Quantity":"30"
+      },
+      {
+        "Material":"Rubber",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Assembler 6 sec",
+    "Products":[
+      {
+        "Material":"Heat Sink",
+        "Quantity":"10"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Advanced Aluminum Production"
+  },
+  {
+    "Recipe":"Heat-Fused Frame Alternate",
+    "Ingredients":[
+      {
+        "Material":"Heavy Modular Frame",
+        "Quantity":"3"
+      },
+      {
+        "Material":"Aluminum Ingot",
+        "Quantity":"150"
+      },
+      {
+        "Material":"Nitric Acid",
+        "Quantity":"24"
+      },
+      {
+        "Material":"Fuel",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Blender 20 sec",
+    "Products":[
+      {
+        "Material":"Fused Modular Frame",
+        "Quantity":"3"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Particle Enrichment"
+  },
+  {
+    "Recipe":"Heavy Encased Frame Alternate",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Manufacturer 64 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 6 - Industrial Manufacturing"
+  },
+  {
+    "Recipe":"Heavy Flexible Frame Alternate",
+    "Ingredients":[
+      {
+        "Material":"Rubber",
+        "Quantity":"75"
+      },
+      {
+        "Material":"Screws",
+        "Quantity":"390"
+      }
+    ],
+    "Produced in":"Manufacturer 16 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 6 - Industrial Manufacturing"
+  },
+  {
+    "Recipe":"Heavy Oil Residue Alternate",
+    "Ingredients":[
+      {
+        "Material":"Crude Oil",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Refinery 6 sec",
+    "Products":[
+      {
+        "Material":"Heavy Oil Residue",
+        "Quantity":"40"
+      },
+      {
+        "Material":"Polymer Resin",
+        "Quantity":"20"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Infused Uranium Cell Alternate",
+    "Ingredients":[
+      {
+        "Material":"Uranium",
+        "Quantity":"25"
+      },
+      {
+        "Material":"Silica",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Sulfur",
+        "Quantity":"25"
+      },
+      {
+        "Material":"Quickwire",
+        "Quantity":"75"
+      }
+    ],
+    "Produced in":"Manufacturer 12 sec",
+    "Products":[
+      {
+        "Material":"Encased Uranium Cell",
+        "Quantity":"20"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Nuclear Power OR MAM Caterium Research - Caterium Ingots OR MAM Quartz Research - Quartz OR MAM Sulfur Research - Sulfur"
+  },
+  {
+    "Recipe":"Instant Plutonium Cell Alternate",
+    "Ingredients":[
+      {
+        "Material":"Non-Fissile Uranium",
+        "Quantity":"75"
+      },
+      {
+        "Material":"Aluminum Casing",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Particle Accelerator 120 sec 250 - 750 MW",
+    "Products":[
+      {
+        "Material":"Encased Plutonium Cell",
+        "Quantity":"10"
+      }
+    ],
+    "Unlocked by":"Tier 8 - Particle Enrichment"
+  },
+  {
+    "Recipe":"Instant Scrap Alternate",
+    "Ingredients":[
+      {
+        "Material":"Bauxite",
+        "Quantity":"150"
+      },
+      {
+        "Material":"Coal",
+        "Quantity":"100"
+      },
+      {
+        "Material":"Sulfuric Acid",
+        "Quantity":"50"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Blender 6 sec",
+    "Products":[
+      {
+        "Material":"Aluminum Scrap",
+        "Quantity":"300"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"50"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Bauxite Refinement OR Tier 7 - Control System Development"
+  },
+  {
+    "Recipe":"Insulated Cable Alternate",
+    "Ingredients":[
+      {
+        "Material":"Wire",
+        "Quantity":"45"
+      },
+      {
+        "Material":"Rubber",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Assembler 12 sec",
+    "Products":[
+      {
+        "Material":"Cable",
+        "Quantity":"100"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Insulated Crystal Oscillator Alternate",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Manufacturer 32 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"MAM Quartz Research - Crystal Oscillator OR MAM Caterium Research - Caterium Electronics OR Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Iron Alloy Ingot Alternate",
+    "Ingredients":[
+      {
+        "Material":"Iron Ore",
+        "Quantity":"40"
+      },
+      {
+        "Material":"Copper Ore",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Foundry 12 sec",
+    "Products":[
+      {
+        "Material":"Iron Ingot",
+        "Quantity":"75"
+      }
+    ],
+    "Unlocked by":"Tier 3 - Basic Steel Production"
+  },
+  {
+    "Recipe":"Iron Pipe Alternate",
+    "Ingredients":[
+      {
+        "Material":"Iron Ingot",
+        "Quantity":"100"
+      }
+    ],
+    "Produced in":"Constructor 12 sec",
+    "Products":[
+      {
+        "Material":"Steel Pipe",
+        "Quantity":"25"
+      }
+    ],
+    "Unlocked by":"Tier 3 - Basic Steel Production"
+  },
+  {
+    "Recipe":"Leached Caterium Ingot Alternate",
+    "Ingredients":[
+      {
+        "Material":"Caterium Ore",
+        "Quantity":"54"
+      },
+      {
+        "Material":"Sulfuric Acid",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Refinery 10 sec",
+    "Products":[
+      {
+        "Material":"Caterium Ingot",
+        "Quantity":"36"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Control System Development"
+  },
+  {
+    "Recipe":"Leached Copper Ingot Alternate",
+    "Ingredients":[
+      {
+        "Material":"Copper Ore",
+        "Quantity":"45"
+      },
+      {
+        "Material":"Sulfuric Acid",
+        "Quantity":"25"
+      }
+    ],
+    "Produced in":"Refinery 12 sec",
+    "Products":[
+      {
+        "Material":"Copper Ingot",
+        "Quantity":"110"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Control System Development"
+  },
+  {
+    "Recipe":"Leached Iron Ingot Alternate",
+    "Ingredients":[
+      {
+        "Material":"Iron Ore",
+        "Quantity":"50"
+      },
+      {
+        "Material":"Sulfuric Acid",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Refinery 6 sec",
+    "Products":[
+      {
+        "Material":"Iron Ingot",
+        "Quantity":"100"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Control System Development"
+  },
+  {
+    "Recipe":"Molded Beam Alternate",
+    "Ingredients":[
+      {
+        "Material":"Steel Ingot",
+        "Quantity":"120"
+      },
+      {
+        "Material":"Concrete",
+        "Quantity":"80"
+      }
+    ],
+    "Produced in":"Foundry 12 sec",
+    "Products":[
+      {
+        "Material":"Steel Beam",
+        "Quantity":"45"
+      }
+    ],
+    "Unlocked by":"Tier 3 - Basic Steel Production"
+  },
+  {
+    "Recipe":"Molded Steel Pipe Alternate",
+    "Ingredients":[
+      {
+        "Material":"Steel Ingot",
+        "Quantity":"50"
+      },
+      {
+        "Material":"Concrete",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Foundry 6 sec",
+    "Products":[
+      {
+        "Material":"Steel Pipe",
+        "Quantity":"50"
+      }
+    ],
+    "Unlocked by":"Tier 3 - Basic Steel Production"
+  },
+  {
+    "Recipe":"Nitro Rocket Fuel Alternate",
+    "Ingredients":[
+      {
+        "Material":"Fuel",
+        "Quantity":"100"
+      },
+      {
+        "Material":"Nitrogen Gas",
+        "Quantity":"75"
+      },
+      {
+        "Material":"Sulfur",
+        "Quantity":"100"
+      },
+      {
+        "Material":"Coal",
+        "Quantity":"50"
+      }
+    ],
+    "Produced in":"Blender 2.4 sec",
+    "Products":[
+      {
+        "Material":"Rocket Fuel",
+        "Quantity":"150"
+      },
+      {
+        "Material":"Compacted Coal",
+        "Quantity":"25"
+      }
+    ],
+    "Unlocked by":"MAM Sulfur Research - Rocket Fuel"
+  },
+  {
+    "Recipe":"OC Supercomputer Alternate",
+    "Ingredients":[
+      {
+        "Material":"Radio Control Unit",
+        "Quantity":"6"
+      },
+      {
+        "Material":"Cooling System",
+        "Quantity":"6"
+      }
+    ],
+    "Produced in":"Assembler 20 sec",
+    "Products":[
+      {
+        "Material":"Supercomputer",
+        "Quantity":"3"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Control System Development OR Tier 8 - Advanced Aluminum Production"
+  },
+  {
+    "Recipe":"Oil-Based Diamonds Alternate",
+    "Ingredients":[
+      {
+        "Material":"Crude Oil",
+        "Quantity":"200"
+      }
+    ],
+    "Produced in":"Particle Accelerator 3 sec 250 - 750 MW",
+    "Products":[
+      {
+        "Material":"Diamonds",
+        "Quantity":"40"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Petroleum Diamonds Alternate",
+    "Ingredients":[
+      {
+        "Material":"Petroleum Coke",
+        "Quantity":"720"
+      }
+    ],
+    "Produced in":"Particle Accelerator 2 sec 250 - 750 MW",
+    "Products":[
+      {
+        "Material":"Diamonds",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Pink Diamonds Alternate",
+    "Ingredients":[
+      {
+        "Material":"Coal",
+        "Quantity":"120"
+      },
+      {
+        "Material":"Quartz Crystal",
+        "Quantity":"45"
+      }
+    ],
+    "Produced in":"Converter 4 sec 100 - 400 MW",
+    "Products":[
+      {
+        "Material":"Diamonds",
+        "Quantity":"15"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion"
+  },
+  {
+    "Recipe":"Plastic AI Limiter Alternate",
+    "Ingredients":[
+      {
+        "Material":"Quickwire",
+        "Quantity":"120"
+      },
+      {
+        "Material":"Plastic",
+        "Quantity":"28"
+      }
+    ],
+    "Produced in":"Assembler 15 sec",
+    "Products":[
+      {
+        "Material":"AI Limiter",
+        "Quantity":"8"
+      }
+    ],
+    "Unlocked by":"MAM Caterium Research - AI Limiter OR Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Plastic Smart Plating Alternate",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Manufacturer 24 sec",
+    "Products":[
+      {
+        "Material":"Smart Plating",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Plutonium Fuel Unit Alternate",
+    "Ingredients":[
+      {
+        "Material":"Encased Plutonium Cell",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Assembler 120 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 8 - Particle Enrichment"
+  },
+  {
+    "Recipe":"Polyester Fabric Alternate",
+    "Ingredients":[
+      {
+        "Material":"Polymer Resin",
+        "Quantity":"30"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Refinery 2 sec",
+    "Products":[
+      {
+        "Material":"Fabric",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"MAM Mycelia Research - Synthetic Polyester Fabric"
+  },
+  {
+    "Recipe":"Polymer Resin Alternate",
+    "Ingredients":[
+      {
+        "Material":"Crude Oil",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Refinery 6 sec",
+    "Products":[
+      {
+        "Material":"Polymer Resin",
+        "Quantity":"130"
+      },
+      {
+        "Material":"Heavy Oil Residue",
+        "Quantity":"20"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Pure Aluminum Ingot Alternate",
+    "Ingredients":[
+      {
+        "Material":"Aluminum Scrap",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Smelter 2 sec",
+    "Products":[
+      {
+        "Material":"Aluminum Ingot",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Bauxite Refinement"
+  },
+  {
+    "Recipe":"Pure Caterium Ingot Alternate",
+    "Ingredients":[
+      {
+        "Material":"Caterium Ore",
+        "Quantity":"24"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"24"
+      }
+    ],
+    "Produced in":"Refinery 5 sec",
+    "Products":[
+      {
+        "Material":"Caterium Ingot",
+        "Quantity":"12"
+      }
+    ],
+    "Unlocked by":"MAM Caterium Research - Caterium OR Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Pure Copper Ingot Alternate",
+    "Ingredients":[
+      {
+        "Material":"Copper Ore",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Refinery 24 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Pure Iron Ingot Alternate",
+    "Ingredients":[
+      {
+        "Material":"Iron Ore",
+        "Quantity":"35"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"20"
+      }
+    ],
+    "Produced in":"Refinery 12 sec",
+    "Products":[
+      {
+        "Material":"Iron Ingot",
+        "Quantity":"65"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Pure Quartz Crystal Alternate",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Refinery 8 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"MAM Quartz Research - Quartz Crystals OR Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Quartz Purification Alternate",
+    "Ingredients":[
+      {
+        "Material":"Raw Quartz",
+        "Quantity":"120"
+      },
+      {
+        "Material":"Nitric Acid",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Refinery 12 sec",
+    "Products":[
+      {
+        "Material":"Quartz Crystal",
+        "Quantity":"75"
+      },
+      {
+        "Material":"Dissolved Silica",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Control System Development"
+  },
+  {
+    "Recipe":"Quickwire Cable Alternate",
+    "Ingredients":[
+      {
+        "Material":"Rubber",
+        "Quantity":"5"
+      }
+    ],
+    "Produced in":"Assembler 24 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing OR MAM Caterium Research - Caterium Ingots"
+  },
+  {
+    "Recipe":"Quickwire Stator Alternate",
+    "Ingredients":[
+      {
+        "Material":"Steel Pipe",
+        "Quantity":"16"
+      },
+      {
+        "Material":"Quickwire",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Assembler 15 sec",
+    "Products":[
+      {
+        "Material":"Stator",
+        "Quantity":"8"
+      }
+    ],
+    "Unlocked by":"Tier 4 - Advanced Steel Production OR MAM Caterium Research - Caterium Ingots"
+  },
+  {
+    "Recipe":"Radio Connection Unit Alternate",
+    "Ingredients":[
+      {
+        "Material":"Heat Sink",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Quartz Crystal",
+        "Quantity":"45"
+      }
+    ],
+    "Produced in":"Manufacturer 16 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 8 - Advanced Aluminum Production OR MAM Caterium Research - AI Limiter"
+  },
+  {
+    "Recipe":"Radio Control System Alternate",
+    "Ingredients":[
+      {
+        "Material":"Circuit Board",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Aluminum Casing",
+        "Quantity":"90"
+      },
+      {
+        "Material":"Rubber",
+        "Quantity":"45"
+      }
+    ],
+    "Produced in":"Manufacturer 40 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 7 - Control System Development"
+  },
+  {
+    "Recipe":"Recycled Plastic Alternate",
+    "Ingredients":[
+      {
+        "Material":"Rubber",
+        "Quantity":"30"
+      },
+      {
+        "Material":"Fuel",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Refinery 12 sec",
+    "Products":[
+      {
+        "Material":"Plastic",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Recycled Rubber Alternate",
+    "Ingredients":[
+      {
+        "Material":"Plastic",
+        "Quantity":"30"
+      },
+      {
+        "Material":"Fuel",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Refinery 12 sec",
+    "Products":[
+      {
+        "Material":"Rubber",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Rigor Motor Alternate",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Manufacturer 48 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 4 - Advanced Steel Production OR MAM Quartz Research - Quartz Crystals"
+  },
+  {
+    "Recipe":"Rubber Concrete Alternate",
+    "Ingredients":[
+      {
+        "Material":"Limestone",
+        "Quantity":"100"
+      },
+      {
+        "Material":"Rubber",
+        "Quantity":"20"
+      }
+    ],
+    "Produced in":"Assembler 6 sec",
+    "Products":[
+      {
+        "Material":"Concrete",
+        "Quantity":"90"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Silicon Circuit Board Alternate",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Assembler 24 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing OR MAM Quartz Research - Quartz"
+  },
+  {
+    "Recipe":"Silicon High-Speed Connector Alternate",
+    "Ingredients":[
+      {
+        "Material":"Quickwire",
+        "Quantity":"90"
+      },
+      {
+        "Material":"Circuit Board",
+        "Quantity":"3"
+      }
+    ],
+    "Produced in":"Manufacturer 40 sec",
+    "Products":[
+      {
+        "Material":"High-Speed Connector",
+        "Quantity":"3"
+      }
+    ],
+    "Unlocked by":"MAM Caterium Research - High-Speed Connector OR Tier 5 - Oil Processing OR MAM Quartz Research - Quartz"
+  },
+  {
+    "Recipe":"Sloppy Alumina Alternate",
+    "Ingredients":[
+      {
+        "Material":"Bauxite",
+        "Quantity":"200"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"200"
+      }
+    ],
+    "Produced in":"Refinery 3 sec",
+    "Products":[
+      {
+        "Material":"Alumina Solution",
+        "Quantity":"240"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Bauxite Refinement"
+  },
+  {
+    "Recipe":"Solid Steel Ingot Alternate",
+    "Ingredients":[
+      {
+        "Material":"Iron Ingot",
+        "Quantity":"40"
+      },
+      {
+        "Material":"Coal",
+        "Quantity":"40"
+      }
+    ],
+    "Produced in":"Foundry 3 sec",
+    "Products":[
+      {
+        "Material":"Steel Ingot",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 3 - Basic Steel Production"
+  },
+  {
+    "Recipe":"Steamed Copper Sheet Alternate",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Refinery 8 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 3 - Coal Power"
+  },
+  {
+    "Recipe":"Steel Canister Alternate",
+    "Ingredients":[
+      {
+        "Material":"Steel Ingot",
+        "Quantity":"40"
+      }
+    ],
+    "Produced in":"Constructor 6 sec",
+    "Products":[
+      {
+        "Material":"Empty Canister",
+        "Quantity":"40"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Fluid Packaging"
+  },
+  {
+    "Recipe":"Steel Cast Plate Alternate",
+    "Ingredients":[
+      {
+        "Material":"Iron Ingot",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Steel Ingot",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Foundry 4 sec",
+    "Products":[
+      {
+        "Material":"Iron Plate",
+        "Quantity":"45"
+      }
+    ],
+    "Unlocked by":"Tier 3 - Basic Steel Production"
+  },
+  {
+    "Recipe":"Steel Rod Alternate",
+    "Ingredients":[
+      {
+        "Material":"Steel Ingot",
+        "Quantity":"12"
+      }
+    ],
+    "Produced in":"Constructor 5 sec",
+    "Products":[
+      {
+        "Material":"Iron Rod",
+        "Quantity":"48"
+      }
+    ],
+    "Unlocked by":"Tier 3 - Basic Steel Production"
+  },
+  {
+    "Recipe":"Steel Rotor Alternate",
+    "Ingredients":[
+      {
+        "Material":"Steel Pipe",
+        "Quantity":"10"
+      },
+      {
+        "Material":"Wire",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Assembler 12 sec",
+    "Products":[
+      {
+        "Material":"Rotor",
+        "Quantity":"5"
+      }
+    ],
+    "Unlocked by":"Tier 3 - Basic Steel Production"
+  },
+  {
+    "Recipe":"Steel Screws Alternate",
+    "Ingredients":[
+      {
+        "Material":"Steel Beam",
+        "Quantity":"5"
+      }
+    ],
+    "Produced in":"Constructor 12 sec",
+    "Products":[
+      {
+        "Material":"Screws",
+        "Quantity":"260"
+      }
+    ],
+    "Unlocked by":"Tier 3 - Basic Steel Production"
+  },
+  {
+    "Recipe":"Steeled Frame Alternate",
+    "Ingredients":[
+      {
+        "Material":"Reinforced Iron Plate",
+        "Quantity":"2"
+      },
+      {
+        "Material":"Steel Pipe",
+        "Quantity":"10"
+      }
+    ],
+    "Produced in":"Assembler 60 sec",
+    "Products":[
+      {
+        "Material":"Modular Frame",
+        "Quantity":"3"
+      }
+    ],
+    "Unlocked by":"Tier 3 - Basic Steel Production"
+  },
+  {
+    "Recipe":"Stitched Iron Plate Alternate",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Assembler 32 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 2 - Part Assembly"
+  },
+  {
+    "Recipe":"Super-State Computer Alternate",
+    "Ingredients":[
+      {
+        "Material":"Battery",
+        "Quantity":"24"
+      },
+      {
+        "Material":"Wire",
+        "Quantity":"60"
+      }
+    ],
+    "Produced in":"Manufacturer 25 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 8 - Nuclear Power OR Tier 7 - Control System Development"
+  },
+  {
+    "Recipe":"Tempered Caterium Ingot Alternate",
+    "Ingredients":[
+      {
+        "Material":"Caterium Ore",
+        "Quantity":"45"
+      },
+      {
+        "Material":"Petroleum Coke",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Foundry 8 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Tempered Copper Ingot Alternate",
+    "Ingredients":[
+      {
+        "Material":"Copper Ore",
+        "Quantity":"25"
+      },
+      {
+        "Material":"Petroleum Coke",
+        "Quantity":"40"
+      }
+    ],
+    "Produced in":"Foundry 12 sec",
+    "Products":[
+      {
+        "Material":"Copper Ingot",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing"
+  },
+  {
+    "Recipe":"Turbo Blend Fuel Alternate",
+    "Ingredients":[
+      {
+        "Material":"Fuel",
+        "Quantity":"15"
+      },
+      {
+        "Material":"Heavy Oil Residue",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Blender 8 sec",
+    "Products":[
+      {
+        "Material":"Turbofuel",
+        "Quantity":"45"
+      }
+    ],
+    "Unlocked by":"Tier 7 - Control System Development"
+  },
+  {
+    "Recipe":"Turbo Diamonds Alternate",
+    "Ingredients":[
+      {
+        "Material":"Coal",
+        "Quantity":"600"
+      },
+      {
+        "Material":"Packaged Turbofuel",
+        "Quantity":"40"
+      }
+    ],
+    "Produced in":"Particle Accelerator 3 sec 250 - 750 MW",
+    "Products":[
+      {
+        "Material":"Diamonds",
+        "Quantity":"60"
+      }
+    ],
+    "Unlocked by":"Tier 9 - Matter Conversion OR MAM Sulfur Research - Turbofuel"
+  },
+  {
+    "Recipe":"Turbo Electric Motor Alternate",
+    "Ingredients":[
+
+    ],
+    "Produced in":"Manufacturer 64 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 8 - Leading-Edge Production OR Tier 8 - Nuclear Power"
+  },
+  {
+    "Recipe":"Turbo Heavy Fuel Alternate",
+    "Ingredients":[
+      {
+        "Material":"Compacted Coal",
+        "Quantity":"30"
+      }
+    ],
+    "Produced in":"Refinery 8 sec",
+    "Products":[
+      {
+        "Material":"Turbofuel",
+        "Quantity":"30"
+      }
+    ],
+    "Unlocked by":"Tier 5 - Oil Processing OR MAM Sulfur Research - Compacted Coal"
+  },
+  {
+    "Recipe":"Turbo Pressure Motor Alternate",
+    "Ingredients":[
+      {
+        "Material":"Packaged Nitrogen Gas",
+        "Quantity":"45"
+      },
+      {
+        "Material":"Stator",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Manufacturer 32 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 8 - Particle Enrichment"
+  },
+  {
+    "Recipe":"Turbofuel Alternate",
+    "Ingredients":[
+      {
+        "Material":"Compacted Coal",
+        "Quantity":"15"
+      }
+    ],
+    "Produced in":"Refinery 16 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"MAM Sulfur Research - Turbofuel"
+  },
+  {
+    "Recipe":"Uranium Fuel Unit Alternate",
+    "Ingredients":[
+      {
+        "Material":"Encased Uranium Cell",
+        "Quantity":"20"
+      },
+      {
+        "Material":"Electromagnetic Control Rod",
+        "Quantity":"2"
+      },
+      {
+        "Material":"Rotor",
+        "Quantity":"2"
+      }
+    ],
+    "Produced in":"Manufacturer 300 sec",
+    "Products":[
+
+    ],
+    "Unlocked by":"Tier 8 - Nuclear Power OR MAM Quartz Research - Quartz Crystals"
+  },
+  {
+    "Recipe":"Wet Concrete Alternate",
+    "Ingredients":[
+      {
+        "Material":"Limestone",
+        "Quantity":"120"
+      },
+      {
+        "Material":"Water",
+        "Quantity":"100"
+      }
+    ],
+    "Produced in":"Refinery 3 sec",
+    "Products":[
+      {
+        "Material":"Concrete",
+        "Quantity":"80"
+      }
+    ],
+    "Unlocked by":"Tier 3 - Coal Power"
+  }
+]
