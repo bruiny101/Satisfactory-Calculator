@@ -7,11 +7,54 @@ DEFAULT_RECIPE_JSON_FILE = os.path.join("json_data", "Satisfactory_recipes.json"
 TEMP_RECIPE_JSON_FILE    = os.path.join("json_data", "temp_Satisfactory_recipes.json")
 DEFAULT_RECIPE_DF_COLS   = ["Recipe", "Ingredients", "Produced in", "Products", "Unlocked by"]
 
+MACHINE_POWER_CONSUMPTION = {
+    "Assembler" : 15,
+    "Manufacturer": 55,
+    "Constructor": 4,
+    "Smelter" : 4,
+    "Foundry": 16,
+    "Blender": 75,
+    "Packager": 10,
+    "Particle Accelerator": 1000,
+    "Nuclear Power Plant": -2500,  # Negative for power generation
+    "Converter": 250
+}
+def parse_machine_and_power(produced_in_str):
+    """
+    Parses the 'Produced in' string and returns a dict with 'Machine' and 'Pwr Cons'.
+    If a power range is present, uses the max value. Otherwise, uses MACHINE_POWER_CONSUMPTION.
+    """
+    import re
+
+    # Pattern for format 2: "<Machine> <number> sec <Power Range> MW"
+    match = re.match(r'([A-Za-z ]+?)\s+\d+(\.\d+)?\s+sec\s+([\d,\.]+)\s*-\s*([\d,\.]+)\s*MW', produced_in_str)
+    if match:
+        machine = match.group(1).strip()
+        max_power = float(match.group(4).replace(',', ''))
+        return [{"Machine": machine, "Pwr Cons": max_power}]
+
+    # Pattern for format 2 (single value): "<Machine> <number> sec <Power> MW"
+    match = re.match(r'([A-Za-z ]+?)\s+\d+(\.\d+)?\s+sec\s+([\d,\.]+)\s*MW', produced_in_str)
+    if match:
+        machine = match.group(1).strip()
+        power = float(match.group(3).replace(',', ''))
+        return [{"Machine": machine, "Pwr Cons": power}]
+    
+    # Pattern for format 1: "<Machine> <number> sec"
+    match = re.match(r'([A-Za-z ]+?)\s+\d+(\.\d+)?\s+sec', produced_in_str)
+    if match:
+        machine = match.group(1).strip()
+        power = MACHINE_POWER_CONSUMPTION.get(machine, None)
+        return [{"Machine": machine, "Pwr Cons": power}]
+
+    # If no match, return an empty list
+    return []
+
 def parse_materials(s):
     import re
     pattern = r'[\d\.]+ x ([^0-9]+?)(\d+) / min'
     matches = re.findall(pattern, s)
-    return [{"Material": m[0].strip(), "Quantity": m[1].strip()} for m in matches]
+    return [{"Material": m[0].strip(), "Quantity": float(m[1].strip())} for m in matches]
 
 def scrub_table_data(cell):
     if isinstance(cell, str):
@@ -48,11 +91,12 @@ def update_recipes_table_from_html( url = DEFAULT_RECIPE_URL, json_file = DEFAUL
             df = df.map(scrub_table_data)
             # Remove rows where any field is empty or equal to ""
             df = df.replace("", pd.NA).dropna(how="any")
-            # Parse 'Ingredients' and 'Products' columns
-            for col in ["Ingredients", "Products"]:
-                df[col] = df[col].apply(parse_materials)
+            # Parse 'Ingredients', 'Products' and 'Produced In' columns
+            df["Products"]    = df["Products"].apply(parse_materials)
+            df["Ingredients"] = df["Ingredients"].apply(parse_materials)
+            df["Produced in"] = df["Produced in"].apply(parse_machine_and_power)
             break
-        
+
     if columns_found:
         # Save to JSON file
         df.to_json(json_file, orient="records", indent=2)
@@ -62,9 +106,18 @@ def update_recipes_table_from_html( url = DEFAULT_RECIPE_URL, json_file = DEFAUL
 
 def get_recipe_diffs(old_json_file, new_json_file):
 
-    def compare_materials_list(list1, list2):
-        set1 = set((d["Material"], d["Quantity"]) for d in list1 or [])
-        set2 = set((d["Material"], d["Quantity"]) for d in list2 or [])
+    def compare_lists(field, list1, list2):
+        if field in ["Ingredients", "Products"]:
+            cmp1 = "Material"
+            cmp2 = "Quantity"
+        elif field == "Produced in":
+            cmp1 = "Machine"
+            cmp2 = "Pwr Cons"
+        else:
+            raise ValueError(f"Unsupported field for comparison: {field}")
+        
+        set1 = set((d[cmp1], d[cmp2]) for d in list1 or [])
+        set2 = set((d[cmp1], d[cmp2]) for d in list2 or [])
         if set1 != set2:
             return f"    Old: {sorted(set1)}\n    New: {sorted(set2)}"
         return None
@@ -104,8 +157,8 @@ def get_recipe_diffs(old_json_file, new_json_file):
         for field in fields_to_compare:
             old_val = old_recipes[name].get(field, None)
             new_val = new_recipes[name].get(field, None)
-            if field in ["Ingredients", "Products"]:
-                diff = compare_materials_list(old_val, new_val)
+            if field in ["Ingredients", "Products", "Produced in"]:
+                diff = compare_lists(field, old_val, new_val)
                 if diff:
                     changes.append(f"  Field '{field}' changed:\n{diff}")
             else:
