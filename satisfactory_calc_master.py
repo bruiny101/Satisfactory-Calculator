@@ -5,11 +5,12 @@ import lib.recipe_optimization as recipe_op
 import shutil
 
 class MaterialSelector(tk.Frame):
-    def __init__(self, parent, materials_list):
+    def __init__(self, parent, materials_list, calculate_callback):
         super().__init__(parent)
         self.materials_list = materials_list
         self.selected_materials = []  # List of dicts: {name, entry_widget, frame}
         self.filtered_materials = materials_list.copy()
+        self.calculate_callback = calculate_callback
 
         # Search bar
         self.search_var = tk.StringVar()
@@ -41,6 +42,10 @@ class MaterialSelector(tk.Frame):
 
         self.grid_rowconfigure(2, weight=1)
         self.grid_columnconfigure(0, weight=1)
+
+        # Calculate button below scrollable list
+        calc_btn = tk.Button(self.selected_frame_container, text="Calculate", width=15, height=2, command=self.calculate_callback)
+        calc_btn.grid(row=1, column=0, columnspan=2, pady=10, sticky='e')
 
     def update_dropdown(self, *args):
         search_text = self.search_var.get().lower()
@@ -100,7 +105,7 @@ class App:
         self.materials_list = list(self.MATERIALS_DF['Material'])
 
         # Material selector (top center)
-        self.selector = MaterialSelector(self.root, self.materials_list)
+        self.selector = MaterialSelector(self.root, self.materials_list, self.calculate_requested)
         self.selector.place(relx=0.5, rely=0.05, anchor='n', relwidth=0.9)
 
         # Frame for button at bottom right
@@ -171,6 +176,22 @@ class App:
                 messagebox.showinfo("Cancelled", "Updates were cancelled. Old recipes preserved.")
         except Exception as e:
             messagebox.showerror("Error", str(e))
+
+    def calculate_requested(self):
+        # Reset all Requested values to 0.0
+        self.MATERIALS_DF['Requested'] = 0.0
+        # For each selected material, add its float value to Requested
+        for mat in self.selector.selected_materials:
+            name = mat['name']
+            try:
+                val = float(mat['var'].get())
+                if val > 0:
+                    idx = self.MATERIALS_DF[self.MATERIALS_DF['Material'] == name].index
+                    if len(idx) > 0:
+                        self.MATERIALS_DF.loc[idx, 'Requested'] += val
+            except ValueError:
+                continue
+        messagebox.showinfo("Calculation Complete", "Requested values updated in MATERIALS_DF.")
 
 if __name__ == "__main__":
     root = tk.Tk()

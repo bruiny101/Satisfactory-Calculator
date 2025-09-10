@@ -4,19 +4,19 @@ import pandas as pd
 # Theoretical maximum resource extraction rates (per minute) based on:
 # https://satisfactory.fandom.com/wiki/Resource_node
 RESOURCE_MAXIMUMS = {
-    "Coal": 42300,
-    "Crude Oil": 12600,
-    "Nitrogen Gas": 12000,
-    "Bauxite": 12300,
-    "Copper Ore": 36900,
-    "Caterium Ore": 15000,
-    "Iron Ore": 92100,
-    "Uranium": 2100,
-    "Raw Quartz": 13500,
-    "SAM": 10200,
-    "Limestone": 69300,
-    "Sulfur": 10800,
-    "Water": 13125
+    "Coal": 42300.0,
+    "Crude Oil": 12600.0,
+    "Nitrogen Gas": 12000.0,
+    "Bauxite": 12300.0,
+    "Copper Ore": 36900.0,
+    "Caterium Ore": 15000.0,
+    "Iron Ore": 92100.0,
+    "Uranium": 2100.0,
+    "Raw Quartz": 13500.0,
+    "SAM": 10200.0,
+    "Limestone": 69300.0,
+    "Sulfur": 10800.0,
+    "Water": 13125.0
 }
 
 def get_materials_df(json_file):
@@ -50,8 +50,8 @@ def get_materials_df(json_file):
 
         rows.append({
             "Material": mat,
-            "Requested": 0,
-            "Required": 0,
+            "Requested": 0.0,
+            "Required": 0.0,
             "Produced": produced,
             "Base Material": base,
             "End Material": end
