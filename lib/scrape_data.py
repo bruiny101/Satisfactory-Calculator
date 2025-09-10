@@ -15,6 +15,7 @@ MACHINE_POWER_CONSUMPTION = {
     "Foundry": 16,
     "Blender": 75,
     "Packager": 10,
+    "Refinery": 30,
     "Particle Accelerator": 1000,
     "Nuclear Power Plant": -2500,  # Negative for power generation
     "Converter": 250
@@ -52,7 +53,7 @@ def parse_machine_and_power(produced_in_str):
 
 def parse_materials(s):
     import re
-    pattern = r'[\d\.]+ x ([^0-9]+?)(\d+) / min'
+    pattern = r'[\d\.]+ x ([^0-9]+?)([\d\.]+) / min'
     matches = re.findall(pattern, s)
     return [{"Material": m[0].strip(), "Quantity": float(m[1].strip())} for m in matches]
 

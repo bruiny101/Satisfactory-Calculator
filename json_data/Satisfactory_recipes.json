@@ -149,6 +149,18 @@
     "Recipe":"Alien Power Matrix",
     "Ingredients":[
       {
+        "Material":"SAM Fluctuator",
+        "Quantity":12.5
+      },
+      {
+        "Material":"Power Shard",
+        "Quantity":7.5
+      },
+      {
+        "Material":"Superposition Oscillator",
+        "Quantity":7.5
+      },
+      {
         "Material":"Excited Photonic Matter",
         "Quantity":60.0
       }
@@ -160,6 +172,10 @@
       }
     ],
     "Products":[
+      {
+        "Material":"Alien Power Matrix",
+        "Quantity":2.5
+      },
       {
         "Material":"Dark Matter Residue",
         "Quantity":60.0
@@ -182,7 +198,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -260,7 +276,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -278,7 +294,14 @@
   {
     "Recipe":"Assembly Director System",
     "Ingredients":[
-
+      {
+        "Material":"Adaptive Control Unit",
+        "Quantity":1.5
+      },
+      {
+        "Material":"Supercomputer",
+        "Quantity":0.75
+      }
     ],
     "Produced in":[
       {
@@ -287,13 +310,20 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Assembly Director System",
+        "Quantity":0.75
+      }
     ],
     "Unlocked by":"Tier 7 - Control System Development"
   },
   {
     "Recipe":"Automated Wiring",
     "Ingredients":[
+      {
+        "Material":"Stator",
+        "Quantity":2.5
+      },
       {
         "Material":"Cable",
         "Quantity":50.0
@@ -306,7 +336,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Automated Wiring",
+        "Quantity":2.5
+      }
     ],
     "Unlocked by":"Tier 4 - Advanced Steel Production"
   },
@@ -433,6 +466,10 @@
   {
     "Recipe":"Biochemical Sculptor",
     "Ingredients":[
+      {
+        "Material":"Assembly Director System",
+        "Quantity":0.5
+      },
       {
         "Material":"Ficsite Trigon",
         "Quantity":40.0
@@ -726,13 +763,20 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Circuit Board",
+        "Quantity":7.5
+      }
     ],
     "Unlocked by":"Tier 5 - Oil Processing"
   },
   {
     "Recipe":"Cluster Nobelisk",
     "Ingredients":[
+      {
+        "Material":"Nobelisk",
+        "Quantity":7.5
+      },
       {
         "Material":"Smokeless Powder",
         "Quantity":10.0
@@ -745,7 +789,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Cluster Nobelisk",
+        "Quantity":2.5
+      }
     ],
     "Unlocked by":"MAM Sulfur Research - Cluster Nobelisk"
   },
@@ -824,7 +871,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Computer",
+        "Quantity":2.5
+      }
     ],
     "Unlocked by":"Tier 6 - Industrial Manufacturing"
   },
@@ -1038,6 +1088,10 @@
       {
         "Material":"Cable",
         "Quantity":14.0
+      },
+      {
+        "Material":"Reinforced Iron Plate",
+        "Quantity":2.5
       }
     ],
     "Produced in":[
@@ -1486,6 +1540,10 @@
       {
         "Material":"FICSMAS Tree Branch",
         "Quantity":10.0
+      },
+      {
+        "Material":"FICSMAS Bow",
+        "Quantity":7.5
       }
     ],
     "Produced in":[
@@ -1495,7 +1553,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Fancy Fireworks",
+        "Quantity":2.5
+      }
     ],
     "Unlocked by":"Equipment: Fireworks"
   },
@@ -1657,6 +1718,10 @@
     ],
     "Products":[
       {
+        "Material":"Ficsonium Fuel Rod",
+        "Quantity":2.5
+      },
+      {
         "Material":"Dark Matter Residue",
         "Quantity":50.0
       }
@@ -1674,7 +1739,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -1693,8 +1758,16 @@
     "Recipe":"Fused Modular Frame",
     "Ingredients":[
       {
+        "Material":"Heavy Modular Frame",
+        "Quantity":1.5
+      },
+      {
         "Material":"Aluminum Casing",
         "Quantity":75.0
+      },
+      {
+        "Material":"Nitrogen Gas",
+        "Quantity":37.5
       }
     ],
     "Produced in":[
@@ -1704,7 +1777,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Fused Modular Frame",
+        "Quantity":1.5
+      }
     ],
     "Unlocked by":"Tier 8 - Advanced Aluminum Production"
   },
@@ -1731,7 +1807,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Gas Filter",
+        "Quantity":7.5
+      }
     ],
     "Unlocked by":"MAM Mycelia Research - Gas Mask"
   },
@@ -1786,7 +1865,14 @@
   {
     "Recipe":"Heat Sink",
     "Ingredients":[
-
+      {
+        "Material":"Alclad Aluminum Sheet",
+        "Quantity":37.5
+      },
+      {
+        "Material":"Copper Sheet",
+        "Quantity":22.5
+      }
     ],
     "Produced in":[
       {
@@ -1795,7 +1881,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Heat Sink",
+        "Quantity":7.5
+      }
     ],
     "Unlocked by":"Tier 8 - Advanced Aluminum Production"
   },
@@ -1839,6 +1928,14 @@
       {
         "Material":"Quickwire",
         "Quantity":210.0
+      },
+      {
+        "Material":"Cable",
+        "Quantity":37.5
+      },
+      {
+        "Material":"Circuit Board",
+        "Quantity":3.75
       }
     ],
     "Produced in":[
@@ -1848,7 +1945,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"High-Speed Connector",
+        "Quantity":3.75
+      }
     ],
     "Unlocked by":"MAM Caterium Research - High-Speed Connector OR Tier 7 - Control System Development"
   },
@@ -1880,6 +1980,10 @@
       {
         "Material":"Rifle Ammo",
         "Quantity":50.0
+      },
+      {
+        "Material":"High-Speed Connector",
+        "Quantity":2.5
       }
     ],
     "Produced in":[
@@ -1900,8 +2004,16 @@
     "Recipe":"Iodine-Infused Filter",
     "Ingredients":[
       {
+        "Material":"Gas Filter",
+        "Quantity":3.75
+      },
+      {
         "Material":"Quickwire",
         "Quantity":30.0
+      },
+      {
+        "Material":"Aluminum Casing",
+        "Quantity":3.75
       }
     ],
     "Produced in":[
@@ -1911,7 +2023,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Iodine-Infused Filter",
+        "Quantity":3.75
+      }
     ],
     "Unlocked by":"Tier 7 - Hazmat Suit"
   },
@@ -1921,12 +2036,16 @@
       {
         "Material":"Rocket Fuel",
         "Quantity":40.0
+      },
+      {
+        "Material":"Power Shard",
+        "Quantity":2.5
       }
     ],
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -2122,7 +2241,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -2136,6 +2255,10 @@
   {
     "Recipe":"Magnetic Field Generator",
     "Ingredients":[
+      {
+        "Material":"Versatile Framework",
+        "Quantity":2.5
+      },
       {
         "Material":"Electromagnetic Control Rod",
         "Quantity":1.0
@@ -2387,6 +2510,10 @@
     "Recipe":"Non-Fissile Uranium",
     "Ingredients":[
       {
+        "Material":"Uranium Waste",
+        "Quantity":37.5
+      },
+      {
         "Material":"Silica",
         "Quantity":25.0
       },
@@ -2423,6 +2550,10 @@
       {
         "Material":"Copper Powder",
         "Quantity":100.0
+      },
+      {
+        "Material":"Pressure Conversion Cube",
+        "Quantity":0.5
       }
     ],
     "Produced in":[
@@ -2432,13 +2563,20 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Nuclear Pasta",
+        "Quantity":0.5
+      }
     ],
     "Unlocked by":"Tier 8 - Particle Enrichment"
   },
   {
     "Recipe":"Nuke Nobelisk",
     "Ingredients":[
+      {
+        "Material":"Nobelisk",
+        "Quantity":2.5
+      },
       {
         "Material":"Encased Uranium Cell",
         "Quantity":10.0
@@ -2459,7 +2597,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Nuke Nobelisk",
+        "Quantity":0.5
+      }
     ],
     "Unlocked by":"MAM Sulfur Research - Nuclear Deterrent Development"
   },
@@ -2786,7 +2927,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -2808,7 +2949,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -2826,7 +2967,22 @@
   {
     "Recipe":"Plutonium Fuel Rod",
     "Ingredients":[
-
+      {
+        "Material":"Encased Plutonium Cell",
+        "Quantity":7.5
+      },
+      {
+        "Material":"Steel Beam",
+        "Quantity":4.5
+      },
+      {
+        "Material":"Electromagnetic Control Rod",
+        "Quantity":1.5
+      },
+      {
+        "Material":"Heat Sink",
+        "Quantity":2.5
+      }
     ],
     "Produced in":[
       {
@@ -2835,13 +2991,20 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Plutonium Fuel Rod",
+        "Quantity":0.25
+      }
     ],
     "Unlocked by":"Tier 8 - Particle Enrichment"
   },
   {
     "Recipe":"Plutonium Fuel Rod (burning)",
     "Ingredients":[
+      {
+        "Material":"Plutonium Fuel Rod",
+        "Quantity":0.1
+      },
       {
         "Material":"Water",
         "Quantity":240.0
@@ -2890,7 +3053,10 @@
   {
     "Recipe":"Power Shard (1)",
     "Ingredients":[
-
+      {
+        "Material":"Blue Power Slug",
+        "Quantity":7.5
+      }
     ],
     "Produced in":[
       {
@@ -2899,7 +3065,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Power Shard",
+        "Quantity":7.5
+      }
     ],
     "Unlocked by":"MAM Power Slugs Research - Blue Power Slugs"
   },
@@ -2928,7 +3097,10 @@
   {
     "Recipe":"Power Shard (5)",
     "Ingredients":[
-
+      {
+        "Material":"Purple Power Slug",
+        "Quantity":2.5
+      }
     ],
     "Produced in":[
       {
@@ -2937,7 +3109,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Power Shard",
+        "Quantity":12.5
+      }
     ],
     "Unlocked by":"MAM Power Slugs Research - Purple Power Slugs"
   },
@@ -2996,7 +3171,10 @@
   {
     "Recipe":"Quartz Crystal",
     "Ingredients":[
-
+      {
+        "Material":"Raw Quartz",
+        "Quantity":37.5
+      }
     ],
     "Produced in":[
       {
@@ -3005,7 +3183,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Quartz Crystal",
+        "Quantity":22.5
+      }
     ],
     "Unlocked by":"MAM Quartz Research - Quartz Crystals OR Tier 7 - Bauxite Refinement"
   },
@@ -3037,6 +3218,14 @@
       {
         "Material":"Aluminum Casing",
         "Quantity":40.0
+      },
+      {
+        "Material":"Crystal Oscillator",
+        "Quantity":1.25
+      },
+      {
+        "Material":"Computer",
+        "Quantity":2.5
       }
     ],
     "Produced in":[
@@ -3046,7 +3235,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Radio Control Unit",
+        "Quantity":2.5
+      }
     ],
     "Unlocked by":"Tier 7 - Control System Development"
   },
@@ -3183,7 +3375,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -3209,7 +3401,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -3235,7 +3427,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -3339,7 +3531,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -3435,7 +3627,10 @@
   {
     "Recipe":"Silica",
     "Ingredients":[
-
+      {
+        "Material":"Raw Quartz",
+        "Quantity":22.5
+      }
     ],
     "Produced in":[
       {
@@ -3444,7 +3639,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Silica",
+        "Quantity":37.5
+      }
     ],
     "Unlocked by":"MAM Quartz Research - Silica OR Tier 7 - Bauxite Refinement"
   },
@@ -3523,7 +3721,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -3582,6 +3780,10 @@
     "Recipe":"Sparkly Fireworks",
     "Ingredients":[
       {
+        "Material":"FICSMAS Tree Branch",
+        "Quantity":7.5
+      },
+      {
         "Material":"FICSMAS Actual Snow",
         "Quantity":5.0
       }
@@ -3593,7 +3795,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Sparkly Fireworks",
+        "Quantity":2.5
+      }
     ],
     "Unlocked by":"Equipment: Fireworks"
   },
@@ -3830,7 +4035,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -3844,7 +4049,22 @@
   {
     "Recipe":"Supercomputer",
     "Ingredients":[
-
+      {
+        "Material":"Computer",
+        "Quantity":7.5
+      },
+      {
+        "Material":"AI Limiter",
+        "Quantity":3.75
+      },
+      {
+        "Material":"High-Speed Connector",
+        "Quantity":5.625
+      },
+      {
+        "Material":"Plastic",
+        "Quantity":52.5
+      }
     ],
     "Produced in":[
       {
@@ -3853,7 +4073,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Supercomputer",
+        "Quantity":1.875
+      }
     ],
     "Unlocked by":"Tier 7 - Control System Development"
   },
@@ -3901,6 +4124,10 @@
       {
         "Material":"FICSMAS Tree Branch",
         "Quantity":15.0
+      },
+      {
+        "Material":"Candy Cane",
+        "Quantity":7.5
       }
     ],
     "Produced in":[
@@ -3910,7 +4137,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Sweet Fireworks",
+        "Quantity":2.5
+      }
     ],
     "Unlocked by":"Equipment: Fireworks"
   },
@@ -3955,6 +4185,10 @@
   {
     "Recipe":"Thermal Propulsion Rocket",
     "Ingredients":[
+      {
+        "Material":"Modular Engine",
+        "Quantity":2.5
+      },
       {
         "Material":"Turbo Motor",
         "Quantity":1.0
@@ -4008,6 +4242,18 @@
     "Recipe":"Turbo Motor",
     "Ingredients":[
       {
+        "Material":"Cooling System",
+        "Quantity":7.5
+      },
+      {
+        "Material":"Radio Control Unit",
+        "Quantity":3.75
+      },
+      {
+        "Material":"Motor",
+        "Quantity":7.5
+      },
+      {
         "Material":"Rubber",
         "Quantity":45.0
       }
@@ -4019,7 +4265,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Turbo Motor",
+        "Quantity":1.875
+      }
     ],
     "Unlocked by":"Tier 8 - Leading-Edge Production"
   },
@@ -4403,6 +4652,10 @@
         "Quantity":20.0
       },
       {
+        "Material":"Encased Industrial Beam",
+        "Quantity":1.2
+      },
+      {
         "Material":"Electromagnetic Control Rod",
         "Quantity":2.0
       }
@@ -4414,13 +4667,20 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Uranium Fuel Rod",
+        "Quantity":0.4
+      }
     ],
     "Unlocked by":"Tier 8 - Nuclear Power"
   },
   {
     "Recipe":"Uranium Fuel Rod (burning)",
     "Ingredients":[
+      {
+        "Material":"Uranium Fuel Rod",
+        "Quantity":0.2
+      },
       {
         "Material":"Water",
         "Quantity":240.0
@@ -4470,6 +4730,10 @@
     "Recipe":"Versatile Framework",
     "Ingredients":[
       {
+        "Material":"Modular Frame",
+        "Quantity":2.5
+      },
+      {
         "Material":"Steel Beam",
         "Quantity":30.0
       }
@@ -4513,7 +4777,14 @@
   {
     "Recipe":"Adhered Iron Plate Alternate",
     "Ingredients":[
-
+      {
+        "Material":"Iron Plate",
+        "Quantity":11.25
+      },
+      {
+        "Material":"Rubber",
+        "Quantity":3.75
+      }
     ],
     "Produced in":[
       {
@@ -4522,7 +4793,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Reinforced Iron Plate",
+        "Quantity":3.75
+      }
     ],
     "Unlocked by":"Tier 5 - Oil Processing"
   },
@@ -4545,14 +4819,20 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Aluminum Casing",
+        "Quantity":112.5
+      }
     ],
     "Unlocked by":"Tier 7 - Bauxite Refinement"
   },
   {
     "Recipe":"Aluminum Beam Alternate",
     "Ingredients":[
-
+      {
+        "Material":"Aluminum Ingot",
+        "Quantity":22.5
+      }
     ],
     "Produced in":[
       {
@@ -4561,14 +4841,20 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Steel Beam",
+        "Quantity":22.5
+      }
     ],
     "Unlocked by":"Tier 7 - Bauxite Refinement"
   },
   {
     "Recipe":"Aluminum Rod Alternate",
     "Ingredients":[
-
+      {
+        "Material":"Aluminum Ingot",
+        "Quantity":7.5
+      }
     ],
     "Produced in":[
       {
@@ -4577,7 +4863,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Iron Rod",
+        "Quantity":52.5
+      }
     ],
     "Unlocked by":"Tier 7 - Bauxite Refinement"
   },
@@ -4611,8 +4900,16 @@
     "Recipe":"Automated Speed Wiring Alternate",
     "Ingredients":[
       {
+        "Material":"Stator",
+        "Quantity":3.75
+      },
+      {
         "Material":"Wire",
         "Quantity":75.0
+      },
+      {
+        "Material":"High-Speed Connector",
+        "Quantity":1.875
       }
     ],
     "Produced in":[
@@ -4622,7 +4919,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Automated Wiring",
+        "Quantity":7.5
+      }
     ],
     "Unlocked by":"Tier 4 - Advanced Steel Production OR MAM Caterium Research - AI Limiter"
   },
@@ -4655,7 +4955,10 @@
   {
     "Recipe":"Biocoal Alternate",
     "Ingredients":[
-
+      {
+        "Material":"Biomass",
+        "Quantity":37.5
+      }
     ],
     "Produced in":[
       {
@@ -4674,6 +4977,10 @@
   {
     "Recipe":"Bolted Frame Alternate",
     "Ingredients":[
+      {
+        "Material":"Reinforced Iron Plate",
+        "Quantity":7.5
+      },
       {
         "Material":"Screws",
         "Quantity":140.0
@@ -4722,7 +5029,14 @@
   {
     "Recipe":"Caterium Circuit Board Alternate",
     "Ingredients":[
-
+      {
+        "Material":"Plastic",
+        "Quantity":12.5
+      },
+      {
+        "Material":"Quickwire",
+        "Quantity":37.5
+      }
     ],
     "Produced in":[
       {
@@ -4731,7 +5045,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Circuit Board",
+        "Quantity":8.75
+      }
     ],
     "Unlocked by":"Tier 5 - Oil Processing OR MAM Caterium Research - Caterium Ingots"
   },
@@ -4741,6 +5058,14 @@
       {
         "Material":"Circuit Board",
         "Quantity":15.0
+      },
+      {
+        "Material":"Quickwire",
+        "Quantity":52.5
+      },
+      {
+        "Material":"Rubber",
+        "Quantity":22.5
       }
     ],
     "Produced in":[
@@ -4750,7 +5075,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Computer",
+        "Quantity":3.75
+      }
     ],
     "Unlocked by":"Tier 6 - Industrial Manufacturing OR MAM Caterium Research - Caterium Ingots"
   },
@@ -4801,7 +5129,14 @@
   {
     "Recipe":"Cheap Silica Alternate",
     "Ingredients":[
-
+      {
+        "Material":"Raw Quartz",
+        "Quantity":22.5
+      },
+      {
+        "Material":"Limestone",
+        "Quantity":37.5
+      }
     ],
     "Produced in":[
       {
@@ -4810,7 +5145,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Silica",
+        "Quantity":52.5
+      }
     ],
     "Unlocked by":"MAM Quartz Research - Silica"
   },
@@ -4820,6 +5158,10 @@
       {
         "Material":"Sulfur",
         "Quantity":45.0
+      },
+      {
+        "Material":"Alclad Aluminum Sheet",
+        "Quantity":52.5
       },
       {
         "Material":"Plastic",
@@ -4874,6 +5216,10 @@
     "Recipe":"Coated Cable Alternate",
     "Ingredients":[
       {
+        "Material":"Wire",
+        "Quantity":37.5
+      },
+      {
         "Material":"Heavy Oil Residue",
         "Quantity":15.0
       }
@@ -4881,11 +5227,14 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
-
+      {
+        "Material":"Cable",
+        "Quantity":67.5
+      }
     ],
     "Unlocked by":"Tier 5 - Oil Processing"
   },
@@ -4918,7 +5267,14 @@
   {
     "Recipe":"Coated Iron Plate Alternate",
     "Ingredients":[
-
+      {
+        "Material":"Iron Ingot",
+        "Quantity":37.5
+      },
+      {
+        "Material":"Plastic",
+        "Quantity":7.5
+      }
     ],
     "Produced in":[
       {
@@ -4992,6 +5348,10 @@
       {
         "Material":"Iron Ore",
         "Quantity":5.0
+      },
+      {
+        "Material":"Compacted Coal",
+        "Quantity":2.5
       }
     ],
     "Produced in":[
@@ -5014,6 +5374,10 @@
       {
         "Material":"Heat Sink",
         "Quantity":10.0
+      },
+      {
+        "Material":"Motor",
+        "Quantity":2.5
       },
       {
         "Material":"Nitrogen Gas",
@@ -5064,6 +5428,10 @@
     "Recipe":"Copper Rotor Alternate",
     "Ingredients":[
       {
+        "Material":"Copper Sheet",
+        "Quantity":22.5
+      },
+      {
         "Material":"Screws",
         "Quantity":195.0
       }
@@ -5075,7 +5443,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Rotor",
+        "Quantity":11.25
+      }
     ],
     "Unlocked by":"Tier 2 - Part Assembly"
   },
@@ -5085,6 +5456,10 @@
       {
         "Material":"Circuit Board",
         "Quantity":5.0
+      },
+      {
+        "Material":"Crystal Oscillator",
+        "Quantity":1.66667
       }
     ],
     "Produced in":[
@@ -5094,7 +5469,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Computer",
+        "Quantity":3.33333
+      }
     ],
     "Unlocked by":"Tier 6 - Industrial Manufacturing OR MAM Quartz Research - Quartz Crystals"
   },
@@ -5217,7 +5595,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -5265,7 +5643,14 @@
   {
     "Recipe":"Electric Motor Alternate",
     "Ingredients":[
-
+      {
+        "Material":"Electromagnetic Control Rod",
+        "Quantity":3.75
+      },
+      {
+        "Material":"Rotor",
+        "Quantity":7.5
+      }
     ],
     "Produced in":[
       {
@@ -5274,7 +5659,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Motor",
+        "Quantity":7.5
+      }
     ],
     "Unlocked by":"Tier 8 - Nuclear Power"
   },
@@ -5293,7 +5681,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -5428,6 +5816,10 @@
     "Recipe":"Fine Black Powder Alternate",
     "Ingredients":[
       {
+        "Material":"Sulfur",
+        "Quantity":7.5
+      },
+      {
         "Material":"Compacted Coal",
         "Quantity":15.0
       }
@@ -5476,6 +5868,14 @@
     "Recipe":"Flexible Framework Alternate",
     "Ingredients":[
       {
+        "Material":"Modular Frame",
+        "Quantity":3.75
+      },
+      {
+        "Material":"Steel Beam",
+        "Quantity":22.5
+      },
+      {
         "Material":"Rubber",
         "Quantity":30.0
       }
@@ -5487,7 +5887,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Versatile Framework",
+        "Quantity":7.5
+      }
     ],
     "Unlocked by":"Tier 5 - Oil Processing"
   },
@@ -5520,7 +5923,14 @@
   {
     "Recipe":"Fused Quickwire Alternate",
     "Ingredients":[
-
+      {
+        "Material":"Caterium Ingot",
+        "Quantity":7.5
+      },
+      {
+        "Material":"Copper Ingot",
+        "Quantity":37.5
+      }
     ],
     "Produced in":[
       {
@@ -5625,7 +6035,22 @@
   {
     "Recipe":"Heavy Encased Frame Alternate",
     "Ingredients":[
-
+      {
+        "Material":"Modular Frame",
+        "Quantity":7.5
+      },
+      {
+        "Material":"Encased Industrial Beam",
+        "Quantity":9.375
+      },
+      {
+        "Material":"Steel Pipe",
+        "Quantity":33.75
+      },
+      {
+        "Material":"Concrete",
+        "Quantity":20.625
+      }
     ],
     "Produced in":[
       {
@@ -5634,13 +6059,24 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Heavy Modular Frame",
+        "Quantity":2.8125
+      }
     ],
     "Unlocked by":"Tier 6 - Industrial Manufacturing"
   },
   {
     "Recipe":"Heavy Flexible Frame Alternate",
     "Ingredients":[
+      {
+        "Material":"Modular Frame",
+        "Quantity":18.75
+      },
+      {
+        "Material":"Encased Industrial Beam",
+        "Quantity":11.25
+      },
       {
         "Material":"Rubber",
         "Quantity":75.0
@@ -5657,7 +6093,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Heavy Modular Frame",
+        "Quantity":3.75
+      }
     ],
     "Unlocked by":"Tier 6 - Industrial Manufacturing"
   },
@@ -5672,7 +6111,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -5814,7 +6253,18 @@
   {
     "Recipe":"Insulated Crystal Oscillator Alternate",
     "Ingredients":[
-
+      {
+        "Material":"Quartz Crystal",
+        "Quantity":18.75
+      },
+      {
+        "Material":"Rubber",
+        "Quantity":13.125
+      },
+      {
+        "Material":"AI Limiter",
+        "Quantity":1.875
+      }
     ],
     "Produced in":[
       {
@@ -5823,7 +6273,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Crystal Oscillator",
+        "Quantity":1.875
+      }
     ],
     "Unlocked by":"MAM Quartz Research - Crystal Oscillator OR MAM Caterium Research - Caterium Electronics OR Tier 5 - Oil Processing"
   },
@@ -5890,7 +6343,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -5916,7 +6369,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -5942,7 +6395,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -6168,7 +6621,18 @@
   {
     "Recipe":"Plastic Smart Plating Alternate",
     "Ingredients":[
-
+      {
+        "Material":"Reinforced Iron Plate",
+        "Quantity":2.5
+      },
+      {
+        "Material":"Rotor",
+        "Quantity":2.5
+      },
+      {
+        "Material":"Plastic",
+        "Quantity":7.5
+      }
     ],
     "Produced in":[
       {
@@ -6190,6 +6654,10 @@
       {
         "Material":"Encased Plutonium Cell",
         "Quantity":10.0
+      },
+      {
+        "Material":"Pressure Conversion Cube",
+        "Quantity":0.5
       }
     ],
     "Produced in":[
@@ -6199,7 +6667,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Plutonium Fuel Rod",
+        "Quantity":0.5
+      }
     ],
     "Unlocked by":"Tier 8 - Particle Enrichment"
   },
@@ -6218,7 +6689,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -6240,7 +6711,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -6292,7 +6763,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -6318,11 +6789,14 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
-
+      {
+        "Material":"Copper Ingot",
+        "Quantity":37.5
+      }
     ],
     "Unlocked by":"Tier 5 - Oil Processing"
   },
@@ -6341,7 +6815,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -6355,16 +6829,26 @@
   {
     "Recipe":"Pure Quartz Crystal Alternate",
     "Ingredients":[
-
+      {
+        "Material":"Raw Quartz",
+        "Quantity":67.5
+      },
+      {
+        "Material":"Water",
+        "Quantity":37.5
+      }
     ],
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
-
+      {
+        "Material":"Quartz Crystal",
+        "Quantity":52.5
+      }
     ],
     "Unlocked by":"MAM Quartz Research - Quartz Crystals OR Tier 5 - Oil Processing"
   },
@@ -6383,7 +6867,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -6402,6 +6886,10 @@
     "Recipe":"Quickwire Cable Alternate",
     "Ingredients":[
       {
+        "Material":"Quickwire",
+        "Quantity":7.5
+      },
+      {
         "Material":"Rubber",
         "Quantity":5.0
       }
@@ -6413,7 +6901,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Cable",
+        "Quantity":27.5
+      }
     ],
     "Unlocked by":"Tier 5 - Oil Processing OR MAM Caterium Research - Caterium Ingots"
   },
@@ -6451,6 +6942,10 @@
         "Quantity":15.0
       },
       {
+        "Material":"High-Speed Connector",
+        "Quantity":7.5
+      },
+      {
         "Material":"Quartz Crystal",
         "Quantity":45.0
       }
@@ -6462,13 +6957,20 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Radio Control Unit",
+        "Quantity":3.75
+      }
     ],
     "Unlocked by":"Tier 8 - Advanced Aluminum Production OR MAM Caterium Research - AI Limiter"
   },
   {
     "Recipe":"Radio Control System Alternate",
     "Ingredients":[
+      {
+        "Material":"Crystal Oscillator",
+        "Quantity":1.5
+      },
       {
         "Material":"Circuit Board",
         "Quantity":15.0
@@ -6489,7 +6991,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Radio Control Unit",
+        "Quantity":4.5
+      }
     ],
     "Unlocked by":"Tier 7 - Control System Development"
   },
@@ -6508,7 +7013,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -6534,7 +7039,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -6548,7 +7053,18 @@
   {
     "Recipe":"Rigor Motor Alternate",
     "Ingredients":[
-
+      {
+        "Material":"Rotor",
+        "Quantity":3.75
+      },
+      {
+        "Material":"Stator",
+        "Quantity":3.75
+      },
+      {
+        "Material":"Crystal Oscillator",
+        "Quantity":1.25
+      }
     ],
     "Produced in":[
       {
@@ -6557,7 +7073,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Motor",
+        "Quantity":7.5
+      }
     ],
     "Unlocked by":"Tier 4 - Advanced Steel Production OR MAM Quartz Research - Quartz Crystals"
   },
@@ -6590,7 +7109,14 @@
   {
     "Recipe":"Silicon Circuit Board Alternate",
     "Ingredients":[
-
+      {
+        "Material":"Copper Sheet",
+        "Quantity":27.5
+      },
+      {
+        "Material":"Silica",
+        "Quantity":27.5
+      }
     ],
     "Produced in":[
       {
@@ -6599,7 +7125,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Circuit Board",
+        "Quantity":12.5
+      }
     ],
     "Unlocked by":"Tier 5 - Oil Processing OR MAM Quartz Research - Quartz"
   },
@@ -6609,6 +7138,10 @@
       {
         "Material":"Quickwire",
         "Quantity":90.0
+      },
+      {
+        "Material":"Silica",
+        "Quantity":37.5
       },
       {
         "Material":"Circuit Board",
@@ -6644,7 +7177,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -6684,16 +7217,26 @@
   {
     "Recipe":"Steamed Copper Sheet Alternate",
     "Ingredients":[
-
+      {
+        "Material":"Copper Ingot",
+        "Quantity":22.5
+      },
+      {
+        "Material":"Water",
+        "Quantity":22.5
+      }
     ],
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
-
+      {
+        "Material":"Copper Sheet",
+        "Quantity":22.5
+      }
     ],
     "Unlocked by":"Tier 3 - Coal Power"
   },
@@ -6844,7 +7387,14 @@
   {
     "Recipe":"Stitched Iron Plate Alternate",
     "Ingredients":[
-
+      {
+        "Material":"Iron Plate",
+        "Quantity":18.75
+      },
+      {
+        "Material":"Wire",
+        "Quantity":37.5
+      }
     ],
     "Produced in":[
       {
@@ -6853,13 +7403,24 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Reinforced Iron Plate",
+        "Quantity":5.625
+      }
     ],
     "Unlocked by":"Tier 2 - Part Assembly"
   },
   {
     "Recipe":"Super-State Computer Alternate",
     "Ingredients":[
+      {
+        "Material":"Computer",
+        "Quantity":7.2
+      },
+      {
+        "Material":"Electromagnetic Control Rod",
+        "Quantity":2.4
+      },
       {
         "Material":"Battery",
         "Quantity":24.0
@@ -6876,7 +7437,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Supercomputer",
+        "Quantity":2.4
+      }
     ],
     "Unlocked by":"Tier 8 - Nuclear Power OR Tier 7 - Control System Development"
   },
@@ -6899,7 +7463,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Caterium Ingot",
+        "Quantity":22.5
+      }
     ],
     "Unlocked by":"Tier 5 - Oil Processing"
   },
@@ -6939,6 +7506,14 @@
       {
         "Material":"Heavy Oil Residue",
         "Quantity":30.0
+      },
+      {
+        "Material":"Sulfur",
+        "Quantity":22.5
+      },
+      {
+        "Material":"Petroleum Coke",
+        "Quantity":22.5
       }
     ],
     "Produced in":[
@@ -6984,7 +7559,22 @@
   {
     "Recipe":"Turbo Electric Motor Alternate",
     "Ingredients":[
-
+      {
+        "Material":"Motor",
+        "Quantity":6.5625
+      },
+      {
+        "Material":"Radio Control Unit",
+        "Quantity":8.4375
+      },
+      {
+        "Material":"Electromagnetic Control Rod",
+        "Quantity":4.6875
+      },
+      {
+        "Material":"Rotor",
+        "Quantity":6.5625
+      }
     ],
     "Produced in":[
       {
@@ -6993,13 +7583,20 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Turbo Motor",
+        "Quantity":2.8125
+      }
     ],
     "Unlocked by":"Tier 8 - Leading-Edge Production OR Tier 8 - Nuclear Power"
   },
   {
     "Recipe":"Turbo Heavy Fuel Alternate",
     "Ingredients":[
+      {
+        "Material":"Heavy Oil Residue",
+        "Quantity":37.5
+      },
       {
         "Material":"Compacted Coal",
         "Quantity":30.0
@@ -7008,7 +7605,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
@@ -7022,6 +7619,14 @@
   {
     "Recipe":"Turbo Pressure Motor Alternate",
     "Ingredients":[
+      {
+        "Material":"Motor",
+        "Quantity":7.5
+      },
+      {
+        "Material":"Pressure Conversion Cube",
+        "Quantity":1.875
+      },
       {
         "Material":"Packaged Nitrogen Gas",
         "Quantity":45.0
@@ -7038,13 +7643,20 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Turbo Motor",
+        "Quantity":3.75
+      }
     ],
     "Unlocked by":"Tier 8 - Particle Enrichment"
   },
   {
     "Recipe":"Turbofuel Alternate",
     "Ingredients":[
+      {
+        "Material":"Fuel",
+        "Quantity":22.5
+      },
       {
         "Material":"Compacted Coal",
         "Quantity":15.0
@@ -7053,11 +7665,14 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
-
+      {
+        "Material":"Turbofuel",
+        "Quantity":18.75
+      }
     ],
     "Unlocked by":"MAM Sulfur Research - Turbofuel"
   },
@@ -7073,6 +7688,10 @@
         "Quantity":2.0
       },
       {
+        "Material":"Crystal Oscillator",
+        "Quantity":0.6
+      },
+      {
         "Material":"Rotor",
         "Quantity":2.0
       }
@@ -7084,7 +7703,10 @@
       }
     ],
     "Products":[
-
+      {
+        "Material":"Uranium Fuel Rod",
+        "Quantity":0.6
+      }
     ],
     "Unlocked by":"Tier 8 - Nuclear Power OR MAM Quartz Research - Quartz Crystals"
   },
@@ -7103,7 +7725,7 @@
     "Produced in":[
       {
         "Machine":"Refinery",
-        "Pwr Cons":null
+        "Pwr Cons":30
       }
     ],
     "Products":[
