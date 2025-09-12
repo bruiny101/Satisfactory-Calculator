@@ -191,6 +191,10 @@ class App:
                         self.MATERIALS_DF.loc[idx, 'Requested'] += val
             except ValueError:
                 continue
+
+        # Update Satisfied column
+        self.MATERIALS_DF['Satisfied'] = self.MATERIALS_DF['Produced'] >= self.MATERIALS_DF['Required'] + self.MATERIALS_DF['Requested']
+        
         messagebox.showinfo("Calculation Complete", "Requested values updated in MATERIALS_DF.")
 
 if __name__ == "__main__":

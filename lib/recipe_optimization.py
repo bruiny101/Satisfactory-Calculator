@@ -46,15 +46,16 @@ def get_materials_df(json_file):
             base = True  # If it's a resource node material, it's a base material
         except KeyError:
             # If not found, it means it's not a resource node material
-            produced = 0
+            produced = 0.0
 
         rows.append({
             "Material": mat,
             "Requested": 0.0,
             "Required": 0.0,
             "Produced": produced,
+            "Satisfied": produced >= 0.0,
             "Base Material": base,
-            "End Material": end
+            "End Material": end,
         })
 
     df = pd.DataFrame(rows, columns=[
