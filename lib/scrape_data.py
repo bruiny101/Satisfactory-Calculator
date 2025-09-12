@@ -17,7 +17,8 @@ MACHINE_POWER_CONSUMPTION = {
     "Packager": 10,
     "Refinery": 30,
     "Particle Accelerator": 1000,
-    "Nuclear Power Plant": -2500,  # Negative for power generation
+    # "Nuclear Power Plant": -2500,  # Negative for power generation
+    "Nuclear Power Plant": 1,  # Negative for power generation
     "Converter": 250
 }
 def parse_machine_and_power(produced_in_str):

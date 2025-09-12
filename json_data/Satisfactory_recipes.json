@@ -3013,7 +3013,7 @@
     "Produced in":[
       {
         "Machine":"Nuclear Power Plant",
-        "Pwr Cons":-2500
+        "Pwr Cons":1
       }
     ],
     "Products":[
@@ -4689,7 +4689,7 @@
     "Produced in":[
       {
         "Machine":"Nuclear Power Plant",
-        "Pwr Cons":-2500
+        "Pwr Cons":1
       }
     ],
     "Products":[

@@ -194,8 +194,15 @@ class App:
 
         # Update Satisfied column
         self.MATERIALS_DF['Satisfied'] = self.MATERIALS_DF['Produced'] >= self.MATERIALS_DF['Required'] + self.MATERIALS_DF['Requested']
-        
-        messagebox.showinfo("Calculation Complete", "Requested values updated in MATERIALS_DF.")
+
+        # Run recipe optimization
+        solution = recipe_op.run_recipe_optimization(self.MATERIALS_DF, scrape_data.DEFAULT_RECIPE_JSON_FILE)
+        # Display results in a messagebox
+        result_str = "Optimal Recipe Usage (min power):\n\n"
+        for recipe, count in solution.items():
+            if count > 0:
+                result_str += f"{recipe}: {count}\n"
+        messagebox.showinfo("Optimization Result", result_str)
 
 if __name__ == "__main__":
     root = tk.Tk()
