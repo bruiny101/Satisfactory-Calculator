@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
+from tkinter import filedialog
 import lib.scrape_data as scrape_data
 import lib.recipe_optimization as recipe_op
 import shutil
@@ -101,7 +102,7 @@ class App:
         self.root = root
         self.root.title("Satisfactory Calculator")
         self.root.geometry("600x600")
-        self.MATERIALS_DF = recipe_op.get_materials_df(scrape_data.DEFAULT_RECIPE_JSON_FILE)
+        self.MATERIALS_DF = scrape_data.get_materials_df(scrape_data.DEFAULT_RECIPE_JSON_FILE)
         self.materials_list = list(self.MATERIALS_DF['Material'])
 
         # Material selector (top center)
@@ -153,29 +154,29 @@ class App:
         return result['value']
 
     def on_update_recipes(self):
-        try:
-            # Get new data (do not overwrite yet)
-            temp_json_file = scrape_data.TEMP_RECIPE_JSON_FILE
-            scrape_data.update_recipes_table_from_html(json_file=temp_json_file)
+        # try:
+        # Get new data (do not overwrite yet)
+        temp_json_file = scrape_data.TEMP_RECIPE_JSON_FILE
+        scrape_data.update_recipes_table_from_html(json_file=temp_json_file)
 
-            # Show diff to user in a scrollable dialog
-            diff_msg = scrape_data.get_recipe_diffs(scrape_data.DEFAULT_RECIPE_JSON_FILE, temp_json_file)
-            diff_msg += "\n\nAccept updates?"
+        # Show diff to user in a scrollable dialog
+        diff_msg = scrape_data.get_recipe_diffs(scrape_data.DEFAULT_RECIPE_JSON_FILE, temp_json_file)
+        diff_msg += "\n\nAccept updates?"
 
-            result = self.show_scrollable_dialog("Confirm Recipe Updates", diff_msg)
+        result = self.show_scrollable_dialog("Confirm Recipe Updates", diff_msg)
 
-            if result:
-                # Overwrite file by moving temp file
-                shutil.move(temp_json_file, scrape_data.DEFAULT_RECIPE_JSON_FILE)
-                messagebox.showinfo("Success", f"Recipes updated and saved to {scrape_data.DEFAULT_RECIPE_JSON_FILE}.")
-                self.MATERIALS_DF = recipe_op.get_materials_df(scrape_data.DEFAULT_RECIPE_JSON_FILE)
-                self.materials_list = list(self.MATERIALS_DF['Material'])
-                self.selector.materials_list = self.materials_list
-                self.selector.update_dropdown()
-            else:
-                messagebox.showinfo("Cancelled", "Updates were cancelled. Old recipes preserved.")
-        except Exception as e:
-            messagebox.showerror("Error", str(e))
+        if result:
+            # Overwrite file by moving temp file
+            shutil.move(temp_json_file, scrape_data.DEFAULT_RECIPE_JSON_FILE)
+            messagebox.showinfo("Success", f"Recipes updated and saved to {scrape_data.DEFAULT_RECIPE_JSON_FILE}.")
+            self.MATERIALS_DF = scrape_data.get_materials_df(scrape_data.DEFAULT_RECIPE_JSON_FILE)
+            self.materials_list = list(self.MATERIALS_DF['Material'])
+            self.selector.materials_list = self.materials_list
+            self.selector.update_dropdown()
+        else:
+            messagebox.showinfo("Cancelled", "Updates were cancelled. Old recipes preserved.")
+        # except Exception as e:
+        #     messagebox.showerror("Error", str(e))
 
     def calculate_requested(self):
         # Reset all Requested values to 0.0
@@ -196,13 +197,62 @@ class App:
         self.MATERIALS_DF['Satisfied'] = self.MATERIALS_DF['Produced'] >= self.MATERIALS_DF['Required'] + self.MATERIALS_DF['Requested']
 
         # Run recipe optimization
-        solution = recipe_op.run_recipe_optimization(self.MATERIALS_DF, scrape_data.DEFAULT_RECIPE_JSON_FILE)
-        # Display results in a messagebox
-        result_str = "Optimal Recipe Usage (min power):\n\n"
+        solution, total_power = recipe_op.run_recipe_optimization(self.MATERIALS_DF, scrape_data.DEFAULT_RECIPE_JSON_FILE)
+
+        # Build result string for display and file output
+        result_str_display = f"Total Power Consumption: {total_power:.2f} MW\n\n"
+        result_str_display += "Optimal Recipe Usage (min power):\n\n"
+        result_str_file = result_str_display
         for recipe, count in solution.items():
             if count > 0:
-                result_str += f"{recipe}: {count}\n"
-        messagebox.showinfo("Optimization Result", result_str)
+                result_str_display += f"{recipe}: {count}\n"
+                result_str_file += f"{recipe}: {count}\n"
+
+        # Show scrollable dialog with save option and bold total power
+        def show_optimization_result_dialog():
+            dialog = tk.Toplevel(self.root)
+            dialog.title("Optimization Result")
+            dialog.geometry("600x500")
+            dialog.transient(self.root)
+            dialog.grab_set()
+
+            # Text widget with vertical scrollbar
+            text_frame = tk.Frame(dialog)
+            text_frame.pack(fill=tk.BOTH, expand=True)
+            scrollbar = tk.Scrollbar(text_frame)
+            scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+            text = tk.Text(text_frame, wrap=tk.WORD, yscrollcommand=scrollbar.set)
+            # Insert total power in bold
+            text.tag_configure('bold', font=('TkDefaultFont', 10, 'bold'))
+            text.insert(tk.END, "Total Power Consumption: ", ())
+            text.insert(tk.END, f"{total_power:.2f} MW\n\n", 'bold')
+            text.insert(tk.END, "Optimal Recipe Usage (min power):\n\n")
+            for recipe, count in solution.items():
+                if count > 0:
+                    text.insert(tk.END, f"{recipe}: {count}\n")
+            text.config(state=tk.DISABLED)
+            text.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+            scrollbar.config(command=text.yview)
+
+            # Button frame
+            btn_frame = tk.Frame(dialog)
+            btn_frame.pack(fill=tk.X, pady=10)
+            def save_to_file():
+                file_path = filedialog.asksaveasfilename(
+                    title="Save Optimization Result",
+                    defaultextension=".txt",
+                    filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")]
+                )
+                if file_path:
+                    with open(file_path, "w", encoding="utf-8") as f:
+                        f.write(result_str_file)
+            save_btn = tk.Button(btn_frame, text="Save to File", width=15, command=save_to_file)
+            save_btn.pack(side=tk.LEFT, padx=20)
+            close_btn = tk.Button(btn_frame, text="Close", width=10, command=dialog.destroy)
+            close_btn.pack(side=tk.RIGHT, padx=20)
+            dialog.wait_window()
+
+        show_optimization_result_dialog()
 
 if __name__ == "__main__":
     root = tk.Tk()

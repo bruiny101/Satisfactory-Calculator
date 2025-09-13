@@ -30,7 +30,10 @@ This application provides a graphical user interface (GUI) for updating and mana
 2.3.1 Below the selected materials list, a 'Calculate' button is provided.  
 2.3.2 When clicked, all values in the 'Requested' column of the materials DataFrame are reset to 0.0.  
 2.3.3 The values entered in the float entry fields for each selected material are summed and added to the 'Requested' column for the corresponding material.  
-2.3.4 A confirmation message is displayed when calculation is complete.  
+2.3.4 The optimization result is displayed in a scrollable dialog window.  
+2.3.5 The total power consumption (in MW) is shown in bold at the top of the optimization result dialog.  
+2.3.6 The user can choose to save the optimization result to a file, selecting the location and filename via a standard file dialog.  
+2.3.7 A confirmation message is displayed when calculation is complete.  
 
 ### 2.4 Error Handling
 
@@ -40,12 +43,13 @@ This application provides a graphical user interface (GUI) for updating and mana
 ### 2.5 GUI Requirements
 
 2.5.1 Provide a simple GUI with:  
-  - 2.5.1.1 A search bar and drop-down menu for material selection (top center).  
-  - 2.5.1.2 A scrollable list of selected materials, each with a float entry and remove button.  
-  - 2.5.1.3 A 'Calculate' button below the selected materials list.  
-  - 2.5.1.4 An 'Update Recipes' button at the bottom right.  
-  - 2.5.1.5 Scrollable dialogs for recipe differences and confirmation.  
-  - 2.5.1.6 Confirmation dialogs and error messages as needed.  
+	- 2.5.1.1 A search bar and drop-down menu for material selection (top center).  
+	- 2.5.1.2 A scrollable list of selected materials, each with a float entry and remove button.  
+	- 2.5.1.3 A 'Calculate' button below the selected materials list.  
+	- 2.5.1.4 An 'Update Recipes' button at the bottom right.  
+	- 2.5.1.5 Scrollable dialogs for recipe differences, confirmation, and optimization results.  
+	- 2.5.1.6 The optimization result dialog displays total power in bold and provides a button to save results to a file.  
+	- 2.5.1.7 Confirmation dialogs and error messages as needed.  
 
 ## 3. Non-Functional Requirements
 
@@ -117,7 +121,7 @@ The recipe data must be stored in a JSON file with the following structure:
 
 ## Appendix B: Materials DataFrame
 
-### Materials DataFrame (recipe_optimization.py)
+### Materials DataFrame (scrape_data.py)
 
 The materials DataFrame is generated with the following columns and logic:
 

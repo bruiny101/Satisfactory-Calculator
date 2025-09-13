@@ -1335,6 +1335,25 @@
     "Unlocked by":"Tier 8 - Nuclear Power"
   },
   {
+    "Recipe":"Excited Photonic Matter",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Converter",
+        "Pwr Cons":400.0
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Excited Photonic Matter",
+        "Quantity":200.0
+      }
+    ],
+    "Unlocked by":"Tier 9 - Quantum Encoding"
+  },
+  {
     "Recipe":"Explosive Rebar",
     "Ingredients":[
       {
@@ -5027,6 +5046,28 @@
     "Unlocked by":"Tier 2 - Part Assembly"
   },
   {
+    "Recipe":"Cast Screws Alternate",
+    "Ingredients":[
+      {
+        "Material":"Iron Ingot",
+        "Quantity":12.5
+      }
+    ],
+    "Produced in":[
+      {
+        "Machine":"Constructor",
+        "Pwr Cons":4
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Screws",
+        "Quantity":50.0
+      }
+    ],
+    "Unlocked by":null
+  },
+  {
     "Recipe":"Caterium Circuit Board Alternate",
     "Ingredients":[
       {
@@ -6327,6 +6368,28 @@
       }
     ],
     "Unlocked by":"Tier 3 - Basic Steel Production"
+  },
+  {
+    "Recipe":"Iron Wire Alternate",
+    "Ingredients":[
+      {
+        "Material":"Iron Ingot",
+        "Quantity":12.5
+      }
+    ],
+    "Produced in":[
+      {
+        "Machine":"Constructor",
+        "Pwr Cons":4
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Wire",
+        "Quantity":22.5
+      }
+    ],
+    "Unlocked by":null
   },
   {
     "Recipe":"Leached Caterium Ingot Alternate",
@@ -7735,5 +7798,461 @@
       }
     ],
     "Unlocked by":"Tier 3 - Coal Power"
+  },
+  {
+    "Recipe":"Bauxite Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Resource Extraction",
+        "Pwr Cons":0.1861990411
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Bauxite",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Blue Power Slug Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Hand Crank",
+        "Pwr Cons":10000
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Blue Power Slug",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Caterium Ore Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Resource Extraction",
+        "Pwr Cons":0.1414496777
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Caterium Ore",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Coal Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Resource Extraction",
+        "Pwr Cons":0.1813434792
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Coal",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Copper Ore Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Resource Extraction",
+        "Pwr Cons":0.1937464697
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Copper Ore",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Crude Oil Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Resource Extraction",
+        "Pwr Cons":0.5554045218
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Crude Oil",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"FICSMAS Gift Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Hand Crank",
+        "Pwr Cons":10000
+      }
+    ],
+    "Products":[
+      {
+        "Material":"FICSMAS Gift",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Hatcher Remains Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Hand Crank",
+        "Pwr Cons":10000
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Hatcher Remains",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Hog Remains Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Hand Crank",
+        "Pwr Cons":10000
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Hog Remains",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Iron Ore Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Resource Extraction",
+        "Pwr Cons":0.1792872402
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Iron Ore",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Leaves Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Hand Crank",
+        "Pwr Cons":10000
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Leaves",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Limestone Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Resource Extraction",
+        "Pwr Cons":0.1783822181
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Limestone",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Mycelia Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Hand Crank",
+        "Pwr Cons":10000
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Mycelia",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Nitrogen Gas Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Resource Extraction",
+        "Pwr Cons":0.3249116452
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Nitrogen Gas",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Purple Power Slug Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Hand Crank",
+        "Pwr Cons":10000
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Purple Power Slug",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Raw Quartz Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Resource Extraction",
+        "Pwr Cons":0.1672181643
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Raw Quartz",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"SAM Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Resource Extraction",
+        "Pwr Cons":0.2544832215
+      }
+    ],
+    "Products":[
+      {
+        "Material":"SAM",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Spitter Remains Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Hand Crank",
+        "Pwr Cons":10000
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Spitter Remains",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Stinger Remains Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Hand Crank",
+        "Pwr Cons":10000
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Stinger Remains",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Sulfur Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Resource Extraction",
+        "Pwr Cons":0.1806176836
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Sulfur",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Uranium Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Resource Extraction",
+        "Pwr Cons":0.2475517297
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Uranium",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Water Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Resource Extraction",
+        "Pwr Cons":0.1666666667
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Water",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Wood Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Hand Crank",
+        "Pwr Cons":10000
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Wood",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
+  },
+  {
+    "Recipe":"Yellow Power Slug Extraction",
+    "Ingredients":[
+
+    ],
+    "Produced in":[
+      {
+        "Machine":"Hand Crank",
+        "Pwr Cons":10000
+      }
+    ],
+    "Products":[
+      {
+        "Material":"Yellow Power Slug",
+        "Quantity":1.0
+      }
+    ],
+    "Unlocked by":""
   }
 ]
