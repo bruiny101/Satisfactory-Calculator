@@ -87,23 +87,55 @@ The recipe data must be stored in a JSON file with the following structure:
 ```json
 [
 	{
-		"Recipe": "<string>",
-		"Ingredients": [
-			{ "Material": "<string>", "Quantity": "<float>" },
+		"Recipe": "<string>",                // Name of the recipe
+		"Ingredients": [                     // List of ingredients
+			{
+				"Material": "<string>",          // Ingredient name
+				"Quantity": "<float>"            // Amount required
+			},
 			...
 		],
-		"Produced in": [
-            { "Machine": "<string>", "Pwr Cons": "<float>"}
-        ],
-		"Products": [
-			{ "Material": "<string>", "Quantity": "<float>" },
+		"Produced in": [                     // Machines that produce this recipe
+			{
+				"Machine": "<string>",           // Machine name
+				"Pwr Cons": "<float>"            // Power consumption in MW
+			}
+		],
+		"Products": [                        // List of products
+			{
+				"Material": "<string>",          // Product name
+				"Quantity": "<float>"            // Amount produced
+			},
 			...
 		],
-		"Unlocked by": "<string>"
+		"Unlocked by": [                     // Unlock conditions
+			{
+				"Tier": [
+					{
+						"Level": "<int>",            // Tier level
+						"Section": "<string>"        // Section name
+					}
+				],
+				"MAM Research": [
+					{
+						"Tree": "<string>",          // Research Tree
+						"Node": "<string>"        	 // Node on Research Tree
+					}
+				],
+				"Alternate": "<bool>"            // True if alternate recipe
+			}
+		]
 	},
 	...
 ]
 ```
+
+**Notes:**
+- Use arrays for lists of ingredients, products, machines, and unlock conditions.
+- Each field is described with comments for clarity.
+- All string and float placeholders should be replaced with actual values.
+- The structure supports multiple machines, products, and unlock conditions per recipe.
+- "Unlocked by" can include tier progression, MAM research, and alternate recipe flags.
 
 ### Field Descriptions
 
@@ -117,7 +149,14 @@ The recipe data must be stored in a JSON file with the following structure:
 - **Products**: List of product objects, each with:
 	- **Material**: Name of the product (string).
 	- **Quantity**: Amount produced (float).
-- **Unlocked by**: Description of how the recipe is unlocked (string).
+- **Unlocked by**: List of unlock condition objects, each with:
+	- **Tier**: Array of tier objects, each containing:
+		- **Level**: Tier level (int).
+		- **Section**: Section name (string).
+	- **MAM Research**: Array of research objects, each with:
+		- **Tree**: Name of the research tree (string).
+		- **Node**: Name of the node on the research tree (string).
+	- **Alternate**: True if the recipe is an alternate recipe (bool).
 
 ## Appendix B: Materials DataFrame
 

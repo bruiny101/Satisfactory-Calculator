@@ -40,6 +40,52 @@ RESOURCE_MAXIMUMS = {
     "Water": 13125.0
 }
 
+# Parse 'Unlocked by' column to SRD structure
+def parse_unlocked_by(recipe_name, unlocked_str):
+    import re
+    result = {
+        "Tier": None,
+        "MAM Research": None,
+        "Alternate": False
+    }
+    # Alternate: last word in recipe name is 'Alternate'
+    if isinstance(recipe_name, str) and recipe_name.strip().endswith("Alternate"):
+        result["Alternate"] = True
+
+    if not isinstance(unlocked_str, str):
+        return result
+
+    # Format 3: OR
+    if " OR " in unlocked_str:
+        parts = unlocked_str.split(" OR ")
+        tier = None
+        mam = None
+        for part in parts:
+            tier_match = re.match(r"Tier (\d+) - ([^-]+)", part)
+            mam_match = re.match(r"MAM ([^-]+) - ([^-]+)", part)
+            if tier_match:
+                tier = [{"Level": int(tier_match.group(1)), "Section": tier_match.group(2).strip()}]
+            if mam_match:
+                mam = [{"Tree": mam_match.group(1).strip(), "Node": mam_match.group(2).strip()}]
+        result["Tier"] = tier
+        result["MAM Research"] = mam
+        return result
+
+    # Format 1: Tier
+    tier_match = re.match(r"Tier (\d+) - ([^-]+)", unlocked_str)
+    if tier_match:
+        result["Tier"] = [{"Level": int(tier_match.group(1)), "Section": tier_match.group(2).strip()}]
+        return result
+
+    # Format 2: MAM
+    mam_match = re.match(r"MAM ([^-]+) - ([^-]+)", unlocked_str)
+    if mam_match:
+        result["MAM Research"] = [{"Tree": mam_match.group(1).strip(), "Node": mam_match.group(2).strip()}]
+        return result
+
+    # If not matched, leave as None
+    return result
+
 def parse_machine_and_power(produced_in_str):
     """
     Parses the 'Produced in' string and returns a dict with 'Machine' and 'Pwr Cons'.
@@ -117,6 +163,7 @@ def update_recipes_table_from_html( url = DEFAULT_RECIPE_URL, json_file = DEFAUL
             df["Products"]    = df["Products"].apply(parse_materials)
             df["Ingredients"] = df["Ingredients"].apply(parse_materials)
             df["Produced in"] = df["Produced in"].apply(parse_machine_and_power)
+            df["Unlocked by"] = [parse_unlocked_by(rn, ub) for rn, ub in zip(df["Recipe"], df["Unlocked by"])]
             break
 
     if columns_found:
@@ -182,6 +229,14 @@ def get_recipe_diffs(old_json_file, new_json_file):
             return f"    Old: {sorted(set1)}\n    New: {sorted(set2)}"
         return None
     
+    def unlocked_by_tuple(ub):
+        if not isinstance(ub, dict):
+            return (None, None, None)
+        tier = tuple((t.get("Level"), t.get("Section")) for t in (ub.get("Tier") or [])) if ub.get("Tier") else None
+        mam = tuple((m.get("Tree"), m.get("Node")) for m in (ub.get("MAM Research") or [])) if ub.get("MAM Research") else None
+        alt = ub.get("Alternate", None)
+        return (tier, mam, alt)
+    
     # Check if both files exist
     if not os.path.isfile(old_json_file):
         # raise FileNotFoundError(f"Old JSON file not found: {old_json_file}")
@@ -221,6 +276,12 @@ def get_recipe_diffs(old_json_file, new_json_file):
                 diff = compare_lists(field, old_val, new_val)
                 if diff:
                     changes.append(f"  Field '{field}' changed:\n{diff}")
+            elif field == "Unlocked by":
+                # Compare 'Unlocked by' dicts
+                old_tuple = unlocked_by_tuple(old_val)
+                new_tuple = unlocked_by_tuple(new_val)
+                if old_tuple != new_tuple:
+                    changes.append(f"  Field 'Unlocked by' changed:\n    Old: {old_tuple}\n    New: {new_tuple}")
             else:
                 if old_val != new_val:
                     changes.append(f"  Field '{field}' changed:\n    Old: {old_val}\n    New: {new_val}")
@@ -253,12 +314,9 @@ def get_materials_df(json_file):
     for mat in sorted(all_materials):
         base = mat in ingredient_materials and mat not in product_materials
         end = mat in product_materials and mat not in ingredient_materials
-        try:
-            produced = RESOURCE_MAXIMUMS[mat]
+        produced = 0.0 # I need to handle this in the future.
+        if mat in RESOURCE_MAXIMUMS.keys():
             base = True  # If it's a resource node material, it's a base material
-        except KeyError:
-            # If not found, it means it's not a resource node material
-            produced = 0.0
 
         rows.append({
             "Material": mat,

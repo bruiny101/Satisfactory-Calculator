@@ -35,7 +35,16 @@
         "Quantity":100.0
       }
     ],
-    "Unlocked by":"Tier 9 - Quantum Encoding"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Quantum Encoding"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"AI Limiter",
@@ -61,7 +70,21 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"MAM Caterium Research - AI Limiter OR Tier 7 - Control System Development"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Control System Development"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Caterium Research",
+          "Node":"AI Limiter"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Adaptive Control Unit",
@@ -95,7 +118,16 @@
         "Quantity":1.0
       }
     ],
-    "Unlocked by":"Tier 6 - Industrial Manufacturing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":6,
+          "Section":"Industrial Manufacturing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Alclad Aluminum Sheet",
@@ -121,7 +153,16 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"Tier 7 - Bauxite Refinement"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Bauxite Refinement"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Alien DNA Capsule",
@@ -143,7 +184,16 @@
         "Quantity":10.0
       }
     ],
-    "Unlocked by":"MAM Alien Megafauna Research - Bio-Organic Properties"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Alien Megafauna Research",
+          "Node":"Bio"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Alien Power Matrix",
@@ -181,7 +231,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"MAM Alien Technology Research - Alien Power Matrix"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Alien Technology Research",
+          "Node":"Alien Power Matrix"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Alumina Solution",
@@ -211,7 +270,16 @@
         "Quantity":50.0
       }
     ],
-    "Unlocked by":"Tier 7 - Bauxite Refinement"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Bauxite Refinement"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Aluminum Casing",
@@ -233,7 +301,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 7 - Bauxite Refinement"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Bauxite Refinement"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Aluminum Ingot",
@@ -259,7 +336,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 7 - Bauxite Refinement"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Bauxite Refinement"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Aluminum Scrap",
@@ -289,7 +375,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 7 - Bauxite Refinement"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Bauxite Refinement"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Assembly Director System",
@@ -315,7 +410,16 @@
         "Quantity":0.75
       }
     ],
-    "Unlocked by":"Tier 7 - Control System Development"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Control System Development"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Automated Wiring",
@@ -341,7 +445,16 @@
         "Quantity":2.5
       }
     ],
-    "Unlocked by":"Tier 4 - Advanced Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":4,
+          "Section":"Advanced Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Ballistic Warp Drive",
@@ -375,7 +488,16 @@
         "Quantity":1.0
       }
     ],
-    "Unlocked by":"Tier 9 - Spatial Energy Regulation"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Spatial Energy Regulation"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Battery",
@@ -409,7 +531,16 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"Tier 7 - Control System Development"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Control System Development"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Bauxite (Caterium)",
@@ -435,7 +566,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Bauxite (Copper)",
@@ -461,7 +601,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Biochemical Sculptor",
@@ -491,7 +640,16 @@
         "Quantity":2.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Biomass (Alien Protein)",
@@ -510,7 +668,16 @@
     "Products":[
 
     ],
-    "Unlocked by":"MAM Alien Megafauna Research - Bio-Organic Properties"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Alien Megafauna Research",
+          "Node":"Bio"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Biomass (Leaves)",
@@ -532,7 +699,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 0 - HUB Upgrade 6"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":0,
+          "Section":"HUB Upgrade 6"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Biomass (Mycelia)",
@@ -554,7 +730,16 @@
         "Quantity":150.0
       }
     ],
-    "Unlocked by":"MAM Mycelia Research - Mycelia"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Mycelia Research",
+          "Node":"Mycelia"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Biomass (Wood)",
@@ -576,7 +761,16 @@
         "Quantity":300.0
       }
     ],
-    "Unlocked by":"Tier 0 - HUB Upgrade 6"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":0,
+          "Section":"HUB Upgrade 6"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Black Powder",
@@ -602,7 +796,16 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - Black Powder"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Black Powder"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Blue FICSMAS Ornament FICSMAS",
@@ -624,7 +827,16 @@
         "Quantity":10.0
       }
     ],
-    "Unlocked by":"MAM FICSMAS Holiday Event Research - Giant FICSMAS Tree: Upgrade 1"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"FICSMAS Holiday Event Research",
+          "Node":"Giant FICSMAS Tree: Upgrade 1"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Cable",
@@ -646,7 +858,16 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"Tier 0 - HUB Upgrade 2"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":0,
+          "Section":"HUB Upgrade 2"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Candy Cane FICSMAS",
@@ -668,7 +889,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"MAM FICSMAS Holiday Event Research - Candy Cane Basher"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"FICSMAS Holiday Event Research",
+          "Node":"Candy Cane Basher"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Caterium Ingot",
@@ -690,7 +920,21 @@
         "Quantity":15.0
       }
     ],
-    "Unlocked by":"MAM Caterium Research - Caterium Ingots OR Tier 5 - Petroleum Power"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Petroleum Power"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Caterium Research",
+          "Node":"Caterium Ingots"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Caterium Ore (Copper)",
@@ -716,7 +960,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Caterium Ore (Quartz)",
@@ -742,7 +995,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Circuit Board",
@@ -768,7 +1030,16 @@
         "Quantity":7.5
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Cluster Nobelisk",
@@ -794,7 +1065,16 @@
         "Quantity":2.5
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - Cluster Nobelisk"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Cluster Nobelisk"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Coal (Iron)",
@@ -820,7 +1100,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Coal (Limestone)",
@@ -846,7 +1135,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Computer",
@@ -876,7 +1174,16 @@
         "Quantity":2.5
       }
     ],
-    "Unlocked by":"Tier 6 - Industrial Manufacturing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":6,
+          "Section":"Industrial Manufacturing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Concrete",
@@ -898,7 +1205,16 @@
         "Quantity":15.0
       }
     ],
-    "Unlocked by":"Tier 0 - HUB Upgrade 3"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":0,
+          "Section":"HUB Upgrade 3"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Cooling System",
@@ -932,7 +1248,16 @@
         "Quantity":6.0
       }
     ],
-    "Unlocked by":"Tier 8 - Advanced Aluminum Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Advanced Aluminum Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Copper FICSMAS Ornament FICSMAS",
@@ -958,7 +1283,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"MAM FICSMAS Holiday Event Research - Giant FICSMAS Tree: Upgrade 2"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"FICSMAS Holiday Event Research",
+          "Node":"Giant FICSMAS Tree: Upgrade 2"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Copper Ingot",
@@ -980,7 +1314,16 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"Tier 0 - HUB Upgrade 2"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":0,
+          "Section":"HUB Upgrade 2"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Copper Ore (Quartz)",
@@ -1006,7 +1349,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Copper Ore (Sulfur)",
@@ -1032,7 +1384,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Copper Powder",
@@ -1054,7 +1415,16 @@
         "Quantity":50.0
       }
     ],
-    "Unlocked by":"Tier 8 - Particle Enrichment"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Particle Enrichment"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Copper Sheet",
@@ -1076,7 +1446,16 @@
         "Quantity":10.0
       }
     ],
-    "Unlocked by":"Tier 2 - Part Assembly"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":2,
+          "Section":"Part Assembly"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Crystal Oscillator",
@@ -1106,7 +1485,21 @@
         "Quantity":1.0
       }
     ],
-    "Unlocked by":"MAM Quartz Research - Crystal Oscillator OR Tier 7 - Bauxite Refinement"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Bauxite Refinement"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Quartz Research",
+          "Node":"Crystal Oscillator"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Dark Matter Crystal",
@@ -1132,7 +1525,16 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"Tier 9 - Quantum Encoding"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Quantum Encoding"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Dark Matter Residue",
@@ -1154,7 +1556,16 @@
         "Quantity":100.0
       }
     ],
-    "Unlocked by":"Tier 9 - Quantum Encoding"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Quantum Encoding"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Diamonds",
@@ -1176,7 +1587,16 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Electromagnetic Control Rod",
@@ -1202,7 +1622,16 @@
         "Quantity":4.0
       }
     ],
-    "Unlocked by":"Tier 8 - Nuclear Power"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Nuclear Power"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Empty Canister",
@@ -1224,7 +1653,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 5 - Fluid Packaging"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Fluid Packaging"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Empty Fluid Tank",
@@ -1246,7 +1684,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 8 - Advanced Aluminum Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Advanced Aluminum Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Encased Industrial Beam",
@@ -1272,7 +1719,16 @@
         "Quantity":6.0
       }
     ],
-    "Unlocked by":"Tier 4 - Advanced Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":4,
+          "Section":"Advanced Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Encased Plutonium Cell",
@@ -1298,7 +1754,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"Tier 8 - Particle Enrichment"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Particle Enrichment"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Encased Uranium Cell",
@@ -1332,7 +1797,16 @@
         "Quantity":10.0
       }
     ],
-    "Unlocked by":"Tier 8 - Nuclear Power"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Nuclear Power"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Excited Photonic Matter",
@@ -1351,7 +1825,16 @@
         "Quantity":200.0
       }
     ],
-    "Unlocked by":"Tier 9 - Quantum Encoding"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Quantum Encoding"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Explosive Rebar",
@@ -1381,7 +1864,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - Explosive Rebar"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Explosive Rebar"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"FICSMAS Actual Snow FICSMAS",
@@ -1403,7 +1895,16 @@
         "Quantity":10.0
       }
     ],
-    "Unlocked by":"MAM FICSMAS Holiday Event Research - A Friend"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"FICSMAS Holiday Event Research",
+          "Node":"A Friend"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"FICSMAS Bow FICSMAS",
@@ -1425,7 +1926,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"MAM FICSMAS Holiday Event Research - Candy Cane Decor"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"FICSMAS Holiday Event Research",
+          "Node":"Candy Cane Decor"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"FICSMAS Ornament Bundle FICSMAS",
@@ -1451,7 +1961,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"MAM FICSMAS Holiday Event Research - FICSMAS Lights"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"FICSMAS Holiday Event Research",
+          "Node":"FICSMAS Lights"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"FICSMAS Tree Branch FICSMAS",
@@ -1473,7 +1992,16 @@
         "Quantity":10.0
       }
     ],
-    "Unlocked by":"MAM FICSMAS Holiday Event Research - FICSMAS Tree Base"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"FICSMAS Holiday Event Research",
+          "Node":"FICSMAS Tree Base"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"FICSMAS Wonder Star FICSMAS",
@@ -1499,7 +2027,16 @@
         "Quantity":1.0
       }
     ],
-    "Unlocked by":"MAM FICSMAS Holiday Event Research - FICSMAS Decoration"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"FICSMAS Holiday Event Research",
+          "Node":"FICSMAS Decoration"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"FICSMAS Wreath FICSMAS",
@@ -1525,7 +2062,16 @@
         "Quantity":2.0
       }
     ],
-    "Unlocked by":"MAM FICSMAS Holiday Event Research - Giant FICSMAS Tree: Upgrade 3"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"FICSMAS Holiday Event Research",
+          "Node":"Giant FICSMAS Tree: Upgrade 3"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Fabric",
@@ -1551,7 +2097,16 @@
         "Quantity":15.0
       }
     ],
-    "Unlocked by":"MAM Mycelia Research - Fabric"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Mycelia Research",
+          "Node":"Fabric"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Fancy Fireworks",
@@ -1577,7 +2132,11 @@
         "Quantity":2.5
       }
     ],
-    "Unlocked by":"Equipment: Fireworks"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Ficsite Ingot (Aluminum)",
@@ -1603,7 +2162,16 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Ficsite Ingot (Caterium)",
@@ -1629,7 +2197,16 @@
         "Quantity":15.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Ficsite Ingot (Iron)",
@@ -1655,7 +2232,16 @@
         "Quantity":10.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Ficsite Trigon",
@@ -1677,7 +2263,16 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Ficsonium",
@@ -1707,7 +2302,16 @@
         "Quantity":10.0
       }
     ],
-    "Unlocked by":"Tier 9 - Peak Efficiency"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Peak Efficiency"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Ficsonium Fuel Rod",
@@ -1745,7 +2349,16 @@
         "Quantity":50.0
       }
     ],
-    "Unlocked by":"Tier 9 - Peak Efficiency"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Peak Efficiency"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Fuel",
@@ -1771,7 +2384,16 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Fused Modular Frame",
@@ -1801,7 +2423,16 @@
         "Quantity":1.5
       }
     ],
-    "Unlocked by":"Tier 8 - Advanced Aluminum Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Advanced Aluminum Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Gas Filter",
@@ -1831,7 +2462,16 @@
         "Quantity":7.5
       }
     ],
-    "Unlocked by":"MAM Mycelia Research - Gas Mask"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Mycelia Research",
+          "Node":"Gas Mask"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Gas Nobelisk",
@@ -1857,7 +2497,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"MAM Mycelia Research - Toxic Cellular Modification"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Mycelia Research",
+          "Node":"Toxic Cellular Modification"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Hatcher Protein",
@@ -1879,7 +2528,16 @@
         "Quantity":20.0
       }
     ],
-    "Unlocked by":"MAM Alien Megafauna Research - Hatcher Research"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Alien Megafauna Research",
+          "Node":"Hatcher Research"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Heat Sink",
@@ -1905,7 +2563,16 @@
         "Quantity":7.5
       }
     ],
-    "Unlocked by":"Tier 8 - Advanced Aluminum Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Advanced Aluminum Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Heavy Modular Frame",
@@ -1939,7 +2606,16 @@
         "Quantity":2.0
       }
     ],
-    "Unlocked by":"Tier 6 - Industrial Manufacturing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":6,
+          "Section":"Industrial Manufacturing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"High-Speed Connector",
@@ -1969,7 +2645,21 @@
         "Quantity":3.75
       }
     ],
-    "Unlocked by":"MAM Caterium Research - High-Speed Connector OR Tier 7 - Control System Development"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Control System Development"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Caterium Research",
+          "Node":"High"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Hog Protein",
@@ -1991,7 +2681,16 @@
         "Quantity":20.0
       }
     ],
-    "Unlocked by":"MAM Alien Megafauna Research - Hog Research"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Alien Megafauna Research",
+          "Node":"Hog Research"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Homing Rifle Ammo",
@@ -2017,7 +2716,16 @@
         "Quantity":25.0
       }
     ],
-    "Unlocked by":"MAM Caterium Research - Bullet Guidance System"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Caterium Research",
+          "Node":"Bullet Guidance System"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Iodine-Infused Filter",
@@ -2047,7 +2755,16 @@
         "Quantity":3.75
       }
     ],
-    "Unlocked by":"Tier 7 - Hazmat Suit"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Hazmat Suit"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Ionized Fuel",
@@ -2077,7 +2794,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - Ionized Fuel"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Ionized Fuel"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Iron FICSMAS Ornament FICSMAS",
@@ -2103,7 +2829,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"MAM FICSMAS Holiday Event Research - Giant FICSMAS Tree: Upgrade 2"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"FICSMAS Holiday Event Research",
+          "Node":"Giant FICSMAS Tree: Upgrade 2"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Iron Ingot",
@@ -2125,7 +2860,11 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"Onboarding"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Iron Ore (Limestone)",
@@ -2151,7 +2890,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Iron Plate",
@@ -2173,7 +2921,11 @@
         "Quantity":20.0
       }
     ],
-    "Unlocked by":"Onboarding"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Iron Rebar",
@@ -2195,7 +2947,16 @@
         "Quantity":15.0
       }
     ],
-    "Unlocked by":"MAM Alien Megafauna Research - The Rebar Gun"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Alien Megafauna Research",
+          "Node":"The Rebar Gun"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Iron Rod",
@@ -2217,7 +2978,11 @@
         "Quantity":15.0
       }
     ],
-    "Unlocked by":"Onboarding"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Limestone (Sulfur)",
@@ -2243,7 +3008,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Liquid Biofuel",
@@ -2269,7 +3043,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 5 - Fluid Packaging"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Fluid Packaging"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Magnetic Field Generator",
@@ -2295,7 +3078,16 @@
         "Quantity":1.0
       }
     ],
-    "Unlocked by":"Tier 8 - Nuclear Power"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Nuclear Power"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Modular Engine",
@@ -2325,7 +3117,16 @@
         "Quantity":1.0
       }
     ],
-    "Unlocked by":"Tier 6 - Industrial Manufacturing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":6,
+          "Section":"Industrial Manufacturing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Modular Frame",
@@ -2351,7 +3152,16 @@
         "Quantity":2.0
       }
     ],
-    "Unlocked by":"Tier 2 - Part Assembly"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":2,
+          "Section":"Part Assembly"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Motor",
@@ -2377,7 +3187,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"Tier 4 - Advanced Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":4,
+          "Section":"Advanced Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Neural-Quantum Processor",
@@ -2415,7 +3234,16 @@
         "Quantity":75.0
       }
     ],
-    "Unlocked by":"Tier 9 - Quantum Encoding"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Quantum Encoding"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Nitric Acid",
@@ -2445,7 +3273,16 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"Tier 8 - Particle Enrichment"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Particle Enrichment"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Nitrogen Gas (Bauxite)",
@@ -2471,7 +3308,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Nitrogen Gas (Caterium)",
@@ -2497,7 +3343,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Nobelisk",
@@ -2523,7 +3378,16 @@
         "Quantity":10.0
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - The Nobelisk Detonator"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"The Nobelisk Detonator"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Non-Fissile Uranium",
@@ -2561,7 +3425,16 @@
         "Quantity":15.0
       }
     ],
-    "Unlocked by":"Tier 8 - Particle Enrichment"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Particle Enrichment"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Nuclear Pasta",
@@ -2587,7 +3460,16 @@
         "Quantity":0.5
       }
     ],
-    "Unlocked by":"Tier 8 - Particle Enrichment"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Particle Enrichment"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Nuke Nobelisk",
@@ -2621,7 +3503,16 @@
         "Quantity":0.5
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - Nuclear Deterrent Development"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Nuclear Deterrent Development"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Packaged Alumina Solution",
@@ -2647,7 +3538,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 7 - Bauxite Refinement"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Bauxite Refinement"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Packaged Fuel",
@@ -2673,7 +3573,16 @@
         "Quantity":40.0
       }
     ],
-    "Unlocked by":"Tier 5 - Fluid Packaging"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Fluid Packaging"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Packaged Heavy Oil Residue",
@@ -2699,7 +3608,16 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"Tier 5 - Fluid Packaging"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Fluid Packaging"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Packaged Ionized Fuel",
@@ -2725,7 +3643,16 @@
         "Quantity":40.0
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - Ionized Fuel"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Ionized Fuel"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Packaged Liquid Biofuel",
@@ -2751,7 +3678,16 @@
         "Quantity":40.0
       }
     ],
-    "Unlocked by":"Tier 5 - Fluid Packaging"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Fluid Packaging"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Packaged Nitric Acid",
@@ -2777,7 +3713,16 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"Tier 8 - Particle Enrichment"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Particle Enrichment"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Packaged Nitrogen Gas",
@@ -2803,7 +3748,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 8 - Advanced Aluminum Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Advanced Aluminum Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Packaged Oil",
@@ -2829,7 +3783,16 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"Tier 5 - Fluid Packaging"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Fluid Packaging"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Packaged Rocket Fuel",
@@ -2855,7 +3818,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - Rocket Fuel"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Rocket Fuel"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Packaged Sulfuric Acid",
@@ -2881,7 +3853,16 @@
         "Quantity":40.0
       }
     ],
-    "Unlocked by":"Tier 7 - Control System Development"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Control System Development"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Packaged Turbofuel",
@@ -2907,7 +3888,21 @@
         "Quantity":20.0
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - Turbofuel OR Tier 7 - Control System Development OR Tier 5 - Oil Processing AND MAM Sulfur Research - Compacted Coal"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing AND MAM Sulfur Research"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Turbofuel"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Packaged Water",
@@ -2933,7 +3928,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 5 - Fluid Packaging"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Fluid Packaging"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Petroleum Coke",
@@ -2955,7 +3959,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Plastic",
@@ -2981,7 +3994,16 @@
         "Quantity":10.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Plutonium Fuel Rod",
@@ -3015,7 +4037,16 @@
         "Quantity":0.25
       }
     ],
-    "Unlocked by":"Tier 8 - Particle Enrichment"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Particle Enrichment"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Plutonium Fuel Rod (burning)",
@@ -3041,7 +4072,16 @@
         "Quantity":1.0
       }
     ],
-    "Unlocked by":"Tier 8 - Particle Enrichment"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Particle Enrichment"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Plutonium Pellet",
@@ -3067,7 +4107,16 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"Tier 8 - Particle Enrichment"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Particle Enrichment"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Power Shard (1)",
@@ -3089,7 +4138,16 @@
         "Quantity":7.5
       }
     ],
-    "Unlocked by":"MAM Power Slugs Research - Blue Power Slugs"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Power Slugs Research",
+          "Node":"Blue Power Slugs"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Power Shard (2)",
@@ -3111,7 +4169,16 @@
         "Quantity":10.0
       }
     ],
-    "Unlocked by":"MAM Power Slugs Research - Yellow Power Slugs"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Power Slugs Research",
+          "Node":"Yellow Power Slugs"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Power Shard (5)",
@@ -3133,7 +4200,16 @@
         "Quantity":12.5
       }
     ],
-    "Unlocked by":"MAM Power Slugs Research - Purple Power Slugs"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Power Slugs Research",
+          "Node":"Purple Power Slugs"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Pressure Conversion Cube",
@@ -3159,7 +4235,16 @@
         "Quantity":1.0
       }
     ],
-    "Unlocked by":"Tier 8 - Particle Enrichment"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Particle Enrichment"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Pulse Nobelisk",
@@ -3185,7 +4270,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"MAM Quartz Research - Explosive Resonance Application"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Quartz Research",
+          "Node":"Explosive Resonance Application"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Quartz Crystal",
@@ -3207,7 +4301,21 @@
         "Quantity":22.5
       }
     ],
-    "Unlocked by":"MAM Quartz Research - Quartz Crystals OR Tier 7 - Bauxite Refinement"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Bauxite Refinement"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Quartz Research",
+          "Node":"Quartz Crystals"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Quickwire",
@@ -3229,7 +4337,21 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"MAM Caterium Research - Quickwire OR Tier 5 - Petroleum Power"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Petroleum Power"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Caterium Research",
+          "Node":"Quickwire"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Radio Control Unit",
@@ -3259,7 +4381,16 @@
         "Quantity":2.5
       }
     ],
-    "Unlocked by":"Tier 7 - Control System Development"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Control System Development"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Raw Quartz (Bauxite)",
@@ -3285,7 +4416,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Raw Quartz (Coal)",
@@ -3311,7 +4451,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Reanimated SAM",
@@ -3333,7 +4482,21 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"MAM Alien Technology Research - SAM Reanimation OR Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Alien Technology Research",
+          "Node":"SAM Reanimation"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Red FICSMAS Ornament FICSMAS",
@@ -3355,7 +4518,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"MAM FICSMAS Holiday Event Research - Giant FICSMAS Tree: Upgrade 1"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"FICSMAS Holiday Event Research",
+          "Node":"Giant FICSMAS Tree: Upgrade 1"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Reinforced Iron Plate",
@@ -3381,7 +4553,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"Tier 0 - HUB Upgrade 3"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":0,
+          "Section":"HUB Upgrade 3"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Residual Fuel",
@@ -3403,7 +4584,16 @@
         "Quantity":40.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Residual Plastic",
@@ -3429,7 +4619,16 @@
         "Quantity":20.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Residual Rubber",
@@ -3455,7 +4654,16 @@
         "Quantity":20.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Rifle Ammo",
@@ -3481,7 +4689,16 @@
         "Quantity":75.0
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - The Rifle"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"The Rifle"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Rocket Fuel",
@@ -3511,7 +4728,16 @@
         "Quantity":10.0
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - Rocket Fuel"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Rocket Fuel"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Rotor",
@@ -3537,7 +4763,16 @@
         "Quantity":4.0
       }
     ],
-    "Unlocked by":"Tier 2 - Part Assembly"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":2,
+          "Section":"Part Assembly"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Rubber",
@@ -3563,7 +4798,16 @@
         "Quantity":20.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"SAM Fluctuator",
@@ -3593,7 +4837,21 @@
         "Quantity":10.0
       }
     ],
-    "Unlocked by":"MAM Alien Technology Research - SAM Fluctuator OR Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Alien Technology Research",
+          "Node":"SAM Fluctuator"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Screws",
@@ -3615,7 +4873,16 @@
         "Quantity":40.0
       }
     ],
-    "Unlocked by":"Tier 0 - HUB Upgrade 3"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":0,
+          "Section":"HUB Upgrade 3"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Shatter Rebar",
@@ -3641,7 +4908,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"MAM Quartz Research - Shatter Rebar"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Quartz Research",
+          "Node":"Shatter Rebar"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Silica",
@@ -3663,7 +4939,21 @@
         "Quantity":37.5
       }
     ],
-    "Unlocked by":"MAM Quartz Research - Silica OR Tier 7 - Bauxite Refinement"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Bauxite Refinement"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Quartz Research",
+          "Node":"Silica"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Singularity Cell",
@@ -3697,7 +4987,16 @@
         "Quantity":10.0
       }
     ],
-    "Unlocked by":"Tier 9 - Spatial Energy Regulation"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Spatial Energy Regulation"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Smart Plating",
@@ -3723,7 +5022,16 @@
         "Quantity":2.0
       }
     ],
-    "Unlocked by":"Tier 2 - Part Assembly"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":2,
+          "Section":"Part Assembly"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Smokeless Powder",
@@ -3749,7 +5057,16 @@
         "Quantity":20.0
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - Smokeless Powder"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Smokeless Powder"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Snowball FICSMAS",
@@ -3771,7 +5088,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"MAM FICSMAS Holiday Event Research - Snowfight!"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"FICSMAS Holiday Event Research",
+          "Node":"Snowfight!"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Solid Biofuel",
@@ -3793,7 +5119,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 2 - Obstacle Clearing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":2,
+          "Section":"Obstacle Clearing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Sparkly Fireworks",
@@ -3819,7 +5154,11 @@
         "Quantity":2.5
       }
     ],
-    "Unlocked by":"Equipment: Fireworks"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Spitter Protein",
@@ -3841,7 +5180,16 @@
         "Quantity":20.0
       }
     ],
-    "Unlocked by":"MAM Alien Megafauna Research - Spitter Research"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Alien Megafauna Research",
+          "Node":"Spitter Research"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Stator",
@@ -3867,7 +5215,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"Tier 4 - Advanced Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":4,
+          "Section":"Advanced Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Steel Beam",
@@ -3889,7 +5246,16 @@
         "Quantity":15.0
       }
     ],
-    "Unlocked by":"Tier 3 - Basic Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Basic Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Steel Ingot",
@@ -3915,7 +5281,16 @@
         "Quantity":45.0
       }
     ],
-    "Unlocked by":"Tier 3 - Basic Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Basic Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Steel Pipe",
@@ -3937,7 +5312,16 @@
         "Quantity":20.0
       }
     ],
-    "Unlocked by":"Tier 3 - Basic Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Basic Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Stinger Protein",
@@ -3959,7 +5343,16 @@
         "Quantity":20.0
       }
     ],
-    "Unlocked by":"MAM Alien Megafauna Research - Stinger Research"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Alien Megafauna Research",
+          "Node":"Stinger Research"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Stun Rebar",
@@ -3985,7 +5378,16 @@
         "Quantity":10.0
       }
     ],
-    "Unlocked by":"MAM Caterium Research - Stun Rebar"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Caterium Research",
+          "Node":"Stun Rebar"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Sulfur (Coal)",
@@ -4011,7 +5413,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Sulfur (Iron)",
@@ -4037,7 +5448,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Sulfuric Acid",
@@ -4063,7 +5483,16 @@
         "Quantity":50.0
       }
     ],
-    "Unlocked by":"Tier 7 - Control System Development"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Control System Development"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Supercomputer",
@@ -4097,7 +5526,16 @@
         "Quantity":1.875
       }
     ],
-    "Unlocked by":"Tier 7 - Control System Development"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Control System Development"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Superposition Oscillator",
@@ -4135,7 +5573,16 @@
         "Quantity":125.0
       }
     ],
-    "Unlocked by":"Tier 9 - Quantum Encoding"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Quantum Encoding"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Sweet Fireworks",
@@ -4161,7 +5608,11 @@
         "Quantity":2.5
       }
     ],
-    "Unlocked by":"Equipment: Fireworks"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Synthetic Power Shard",
@@ -4199,7 +5650,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"MAM Power Slugs Research - Synthetic Power Shards"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Power Slugs Research",
+          "Node":"Synthetic Power Shards"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Thermal Propulsion Rocket",
@@ -4233,7 +5693,16 @@
         "Quantity":1.0
       }
     ],
-    "Unlocked by":"Tier 8 - Leading-Edge Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Leading"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Time Crystal",
@@ -4255,7 +5724,16 @@
         "Quantity":6.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Turbo Motor",
@@ -4289,7 +5767,16 @@
         "Quantity":1.875
       }
     ],
-    "Unlocked by":"Tier 8 - Leading-Edge Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Leading"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Turbo Rifle Ammo",
@@ -4319,7 +5806,16 @@
         "Quantity":250.0
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - Turbo Rifle Ammo"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Turbo Rifle Ammo"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Turbo Rifle Ammo",
@@ -4349,7 +5845,16 @@
         "Quantity":250.0
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - Turbo Rifle Ammo"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Turbo Rifle Ammo"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Unpackage Alumina Solution",
@@ -4375,7 +5880,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 7 - Bauxite Refinement"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Bauxite Refinement"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Unpackage Fuel",
@@ -4401,7 +5915,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 5 - Fluid Packaging"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Fluid Packaging"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Unpackage Heavy Oil Residue",
@@ -4427,7 +5950,16 @@
         "Quantity":20.0
       }
     ],
-    "Unlocked by":"Tier 5 - Fluid Packaging"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Fluid Packaging"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Unpackage Ionized Fuel",
@@ -4453,7 +5985,16 @@
         "Quantity":40.0
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - Ionized Fuel"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Ionized Fuel"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Unpackage Liquid Biofuel",
@@ -4479,7 +6020,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 5 - Fluid Packaging"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Fluid Packaging"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Unpackage Nitric Acid",
@@ -4505,7 +6055,16 @@
         "Quantity":20.0
       }
     ],
-    "Unlocked by":"Tier 8 - Particle Enrichment"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Particle Enrichment"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Unpackage Nitrogen Gas",
@@ -4531,7 +6090,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 8 - Advanced Aluminum Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Advanced Aluminum Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Unpackage Oil",
@@ -4557,7 +6125,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 5 - Fluid Packaging"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Fluid Packaging"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Unpackage Rocket Fuel",
@@ -4583,7 +6160,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - Rocket Fuel"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Rocket Fuel"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Unpackage Sulfuric Acid",
@@ -4609,7 +6195,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 7 - Control System Development"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Control System Development"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Unpackage Turbofuel",
@@ -4635,7 +6230,21 @@
         "Quantity":20.0
       }
     ],
-    "Unlocked by":"Tier 7 - Control System Development OR MAM Sulfur Research - Turbofuel OR Tier 5 - Oil Processing AND MAM Sulfur Research - Compacted Coal"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing AND MAM Sulfur Research"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Turbofuel"
+        }
+      ],
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Unpackage Water",
@@ -4661,7 +6270,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 5 - Fluid Packaging"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Fluid Packaging"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Uranium Fuel Rod",
@@ -4691,7 +6309,16 @@
         "Quantity":0.4
       }
     ],
-    "Unlocked by":"Tier 8 - Nuclear Power"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Nuclear Power"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Uranium Fuel Rod (burning)",
@@ -4717,7 +6344,16 @@
         "Quantity":10.0
       }
     ],
-    "Unlocked by":"Tier 8 - Nuclear Power"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Nuclear Power"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Uranium Ore (Bauxite)",
@@ -4743,7 +6379,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Versatile Framework",
@@ -4769,7 +6414,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"Tier 3 - Basic Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Basic Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Wire",
@@ -4791,7 +6445,16 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"Tier 0 - HUB Upgrade 2"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":0,
+          "Section":"HUB Upgrade 2"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":false
+    }
   },
   {
     "Recipe":"Adhered Iron Plate Alternate",
@@ -4817,7 +6480,16 @@
         "Quantity":3.75
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Alclad Casing Alternate",
@@ -4843,7 +6515,16 @@
         "Quantity":112.5
       }
     ],
-    "Unlocked by":"Tier 7 - Bauxite Refinement"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Bauxite Refinement"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Aluminum Beam Alternate",
@@ -4865,7 +6546,16 @@
         "Quantity":22.5
       }
     ],
-    "Unlocked by":"Tier 7 - Bauxite Refinement"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Bauxite Refinement"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Aluminum Rod Alternate",
@@ -4887,7 +6577,16 @@
         "Quantity":52.5
       }
     ],
-    "Unlocked by":"Tier 7 - Bauxite Refinement"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Bauxite Refinement"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Automated Miner Alternate",
@@ -4913,7 +6612,16 @@
         "Quantity":1.0
       }
     ],
-    "Unlocked by":"Tier 3 - Basic Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Basic Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Automated Speed Wiring Alternate",
@@ -4943,7 +6651,21 @@
         "Quantity":7.5
       }
     ],
-    "Unlocked by":"Tier 4 - Advanced Steel Production OR MAM Caterium Research - AI Limiter"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":4,
+          "Section":"Advanced Steel Production"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Caterium Research",
+          "Node":"AI Limiter"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Basic Iron Ingot Alternate",
@@ -4969,7 +6691,16 @@
         "Quantity":50.0
       }
     ],
-    "Unlocked by":"Tier 3 - Basic Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Basic Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Biocoal Alternate",
@@ -4991,7 +6722,21 @@
         "Quantity":45.0
       }
     ],
-    "Unlocked by":"Tier 3 - Coal Power OR MAM Sulfur Research - Compacted Coal"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Coal Power"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Compacted Coal"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Bolted Frame Alternate",
@@ -5017,7 +6762,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"Tier 2 - Part Assembly"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":2,
+          "Section":"Part Assembly"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Bolted Iron Plate Alternate",
@@ -5043,7 +6797,16 @@
         "Quantity":15.0
       }
     ],
-    "Unlocked by":"Tier 2 - Part Assembly"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":2,
+          "Section":"Part Assembly"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Cast Screws Alternate",
@@ -5065,7 +6828,11 @@
         "Quantity":50.0
       }
     ],
-    "Unlocked by":null
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Caterium Circuit Board Alternate",
@@ -5091,7 +6858,21 @@
         "Quantity":8.75
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing OR MAM Caterium Research - Caterium Ingots"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Caterium Research",
+          "Node":"Caterium Ingots"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Caterium Computer Alternate",
@@ -5121,7 +6902,21 @@
         "Quantity":3.75
       }
     ],
-    "Unlocked by":"Tier 6 - Industrial Manufacturing OR MAM Caterium Research - Caterium Ingots"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":6,
+          "Section":"Industrial Manufacturing"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Caterium Research",
+          "Node":"Caterium Ingots"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Caterium Wire Alternate",
@@ -5143,7 +6938,16 @@
         "Quantity":120.0
       }
     ],
-    "Unlocked by":"MAM Caterium Research - Caterium"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Caterium Research",
+          "Node":"Caterium"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Charcoal Alternate",
@@ -5165,7 +6969,21 @@
         "Quantity":150.0
       }
     ],
-    "Unlocked by":"Tier 3 - Coal Power OR MAM Sulfur Research - Compacted Coal"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Coal Power"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Compacted Coal"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Cheap Silica Alternate",
@@ -5191,7 +7009,16 @@
         "Quantity":52.5
       }
     ],
-    "Unlocked by":"MAM Quartz Research - Silica"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Quartz Research",
+          "Node":"Silica"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Classic Battery Alternate",
@@ -5225,7 +7052,16 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"Tier 7 - Control System Development"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Control System Development"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Cloudy Diamonds Alternate",
@@ -5251,7 +7087,16 @@
         "Quantity":20.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Coated Cable Alternate",
@@ -5277,7 +7122,16 @@
         "Quantity":67.5
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Coated Iron Canister Alternate",
@@ -5303,7 +7157,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 5 - Fluid Packaging"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Fluid Packaging"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Coated Iron Plate Alternate",
@@ -5329,7 +7192,16 @@
         "Quantity":75.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Coke Steel Ingot Alternate",
@@ -5355,7 +7227,16 @@
         "Quantity":100.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Compacted Coal Alternate",
@@ -5381,7 +7262,16 @@
         "Quantity":25.0
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - Compacted Coal"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Compacted Coal"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Compacted Steel Ingot Alternate",
@@ -5407,7 +7297,21 @@
         "Quantity":10.0
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - Compacted Coal OR Tier 3 - Basic Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Basic Steel Production"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Compacted Coal"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Cooling Device Alternate",
@@ -5437,7 +7341,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"Tier 8 - Advanced Aluminum Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Advanced Aluminum Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Copper Alloy Ingot Alternate",
@@ -5463,7 +7376,16 @@
         "Quantity":100.0
       }
     ],
-    "Unlocked by":"Tier 3 - Basic Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Basic Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Copper Rotor Alternate",
@@ -5489,7 +7411,16 @@
         "Quantity":11.25
       }
     ],
-    "Unlocked by":"Tier 2 - Part Assembly"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":2,
+          "Section":"Part Assembly"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Crystal Computer Alternate",
@@ -5515,7 +7446,21 @@
         "Quantity":3.33333
       }
     ],
-    "Unlocked by":"Tier 6 - Industrial Manufacturing OR MAM Quartz Research - Quartz Crystals"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":6,
+          "Section":"Industrial Manufacturing"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Quartz Research",
+          "Node":"Quartz Crystals"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Dark Matter Crystallization Alternate",
@@ -5537,7 +7482,16 @@
         "Quantity":20.0
       }
     ],
-    "Unlocked by":"Tier 9 - Quantum Encoding"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Quantum Encoding"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Dark Matter Trap Alternate",
@@ -5563,7 +7517,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 9 - Quantum Encoding"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Quantum Encoding"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Dark-Ion Fuel Alternate",
@@ -5593,7 +7556,21 @@
         "Quantity":40.0
       }
     ],
-    "Unlocked by":"Tier 9 - Quantum Encoding OR MAM Sulfur Research - Ionized Fuel"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Quantum Encoding"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Ionized Fuel"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Diluted Fuel Alternate",
@@ -5619,7 +7596,16 @@
         "Quantity":100.0
       }
     ],
-    "Unlocked by":"Tier 7 - Control System Development"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Control System Development"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Diluted Packaged Fuel Alternate",
@@ -5645,7 +7631,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Distilled Silica Alternate",
@@ -5679,7 +7674,16 @@
         "Quantity":80.0
       }
     ],
-    "Unlocked by":"Tier 7 - Control System Development"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Control System Development"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Electric Motor Alternate",
@@ -5705,7 +7709,16 @@
         "Quantity":7.5
       }
     ],
-    "Unlocked by":"Tier 8 - Nuclear Power"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Nuclear Power"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Electrode Aluminum Scrap Alternate",
@@ -5735,7 +7748,16 @@
         "Quantity":105.0
       }
     ],
-    "Unlocked by":"Tier 7 - Bauxite Refinement"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Bauxite Refinement"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Electrode Circuit Board Alternate",
@@ -5761,7 +7783,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Electromagnetic Connection Rod Alternate",
@@ -5787,7 +7818,21 @@
         "Quantity":8.0
       }
     ],
-    "Unlocked by":"Tier 8 - Nuclear Power OR MAM Caterium Research - AI Limiter"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Nuclear Power"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Caterium Research",
+          "Node":"AI Limiter"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Encased Industrial Pipe Alternate",
@@ -5813,7 +7858,16 @@
         "Quantity":4.0
       }
     ],
-    "Unlocked by":"Tier 4 - Advanced Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":4,
+          "Section":"Advanced Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Fertile Uranium Alternate",
@@ -5851,7 +7905,16 @@
         "Quantity":40.0
       }
     ],
-    "Unlocked by":"Tier 8 - Particle Enrichment"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Particle Enrichment"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Fine Black Powder Alternate",
@@ -5877,7 +7940,16 @@
         "Quantity":45.0
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - Compacted Coal"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Compacted Coal"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Fine Concrete Alternate",
@@ -5903,7 +7975,16 @@
         "Quantity":50.0
       }
     ],
-    "Unlocked by":"MAM Quartz Research - Quartz"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Quartz Research",
+          "Node":"Quartz"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Flexible Framework Alternate",
@@ -5933,7 +8014,16 @@
         "Quantity":7.5
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Fused Quartz Crystal Alternate",
@@ -5959,7 +8049,21 @@
         "Quantity":54.0
       }
     ],
-    "Unlocked by":"MAM Quartz Research - Quartz Crystals OR Tier 3 - Basic Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Basic Steel Production"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Quartz Research",
+          "Node":"Quartz Crystals"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Fused Quickwire Alternate",
@@ -5985,7 +8089,16 @@
         "Quantity":90.0
       }
     ],
-    "Unlocked by":"MAM Caterium Research - Caterium Ingots"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Caterium Research",
+          "Node":"Caterium Ingots"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Fused Wire Alternate",
@@ -6011,7 +8124,16 @@
         "Quantity":90.0
       }
     ],
-    "Unlocked by":"MAM Caterium Research - Caterium"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Caterium Research",
+          "Node":"Caterium"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Heat Exchanger Alternate",
@@ -6037,7 +8159,16 @@
         "Quantity":10.0
       }
     ],
-    "Unlocked by":"Tier 8 - Advanced Aluminum Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Advanced Aluminum Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Heat-Fused Frame Alternate",
@@ -6071,7 +8202,16 @@
         "Quantity":3.0
       }
     ],
-    "Unlocked by":"Tier 8 - Particle Enrichment"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Particle Enrichment"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Heavy Encased Frame Alternate",
@@ -6105,7 +8245,16 @@
         "Quantity":2.8125
       }
     ],
-    "Unlocked by":"Tier 6 - Industrial Manufacturing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":6,
+          "Section":"Industrial Manufacturing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Heavy Flexible Frame Alternate",
@@ -6139,7 +8288,16 @@
         "Quantity":3.75
       }
     ],
-    "Unlocked by":"Tier 6 - Industrial Manufacturing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":6,
+          "Section":"Industrial Manufacturing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Heavy Oil Residue Alternate",
@@ -6165,7 +8323,16 @@
         "Quantity":20.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Infused Uranium Cell Alternate",
@@ -6199,7 +8366,21 @@
         "Quantity":20.0
       }
     ],
-    "Unlocked by":"Tier 8 - Nuclear Power OR MAM Caterium Research - Caterium Ingots OR MAM Quartz Research - Quartz OR MAM Sulfur Research - Sulfur"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Nuclear Power"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Sulfur"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Instant Plutonium Cell Alternate",
@@ -6225,7 +8406,16 @@
         "Quantity":10.0
       }
     ],
-    "Unlocked by":"Tier 8 - Particle Enrichment"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Particle Enrichment"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Instant Scrap Alternate",
@@ -6263,7 +8453,16 @@
         "Quantity":50.0
       }
     ],
-    "Unlocked by":"Tier 7 - Bauxite Refinement OR Tier 7 - Control System Development"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Control System Development"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Insulated Cable Alternate",
@@ -6289,7 +8488,16 @@
         "Quantity":100.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Insulated Crystal Oscillator Alternate",
@@ -6319,7 +8527,21 @@
         "Quantity":1.875
       }
     ],
-    "Unlocked by":"MAM Quartz Research - Crystal Oscillator OR MAM Caterium Research - Caterium Electronics OR Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Caterium Research",
+          "Node":"Caterium Electronics"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Iron Alloy Ingot Alternate",
@@ -6345,7 +8567,16 @@
         "Quantity":75.0
       }
     ],
-    "Unlocked by":"Tier 3 - Basic Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Basic Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Iron Pipe Alternate",
@@ -6367,7 +8598,16 @@
         "Quantity":25.0
       }
     ],
-    "Unlocked by":"Tier 3 - Basic Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Basic Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Iron Wire Alternate",
@@ -6389,7 +8629,11 @@
         "Quantity":22.5
       }
     ],
-    "Unlocked by":null
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Leached Caterium Ingot Alternate",
@@ -6415,7 +8659,16 @@
         "Quantity":36.0
       }
     ],
-    "Unlocked by":"Tier 7 - Control System Development"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Control System Development"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Leached Copper Ingot Alternate",
@@ -6441,7 +8694,16 @@
         "Quantity":110.0
       }
     ],
-    "Unlocked by":"Tier 7 - Control System Development"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Control System Development"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Leached Iron Ingot Alternate",
@@ -6467,7 +8729,16 @@
         "Quantity":100.0
       }
     ],
-    "Unlocked by":"Tier 7 - Control System Development"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Control System Development"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Molded Beam Alternate",
@@ -6493,7 +8764,16 @@
         "Quantity":45.0
       }
     ],
-    "Unlocked by":"Tier 3 - Basic Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Basic Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Molded Steel Pipe Alternate",
@@ -6519,7 +8799,16 @@
         "Quantity":50.0
       }
     ],
-    "Unlocked by":"Tier 3 - Basic Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Basic Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Nitro Rocket Fuel Alternate",
@@ -6557,7 +8846,16 @@
         "Quantity":25.0
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - Rocket Fuel"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Rocket Fuel"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"OC Supercomputer Alternate",
@@ -6583,7 +8881,16 @@
         "Quantity":3.0
       }
     ],
-    "Unlocked by":"Tier 7 - Control System Development OR Tier 8 - Advanced Aluminum Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Advanced Aluminum Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Oil-Based Diamonds Alternate",
@@ -6605,7 +8912,16 @@
         "Quantity":40.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Petroleum Diamonds Alternate",
@@ -6627,7 +8943,16 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Pink Diamonds Alternate",
@@ -6653,7 +8978,16 @@
         "Quantity":15.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Plastic AI Limiter Alternate",
@@ -6679,7 +9013,21 @@
         "Quantity":8.0
       }
     ],
-    "Unlocked by":"MAM Caterium Research - AI Limiter OR Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Caterium Research",
+          "Node":"AI Limiter"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Plastic Smart Plating Alternate",
@@ -6709,7 +9057,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Plutonium Fuel Unit Alternate",
@@ -6735,7 +9092,16 @@
         "Quantity":0.5
       }
     ],
-    "Unlocked by":"Tier 8 - Particle Enrichment"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Particle Enrichment"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Polyester Fabric Alternate",
@@ -6761,7 +9127,16 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"MAM Mycelia Research - Synthetic Polyester Fabric"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Mycelia Research",
+          "Node":"Synthetic Polyester Fabric"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Polymer Resin Alternate",
@@ -6787,7 +9162,16 @@
         "Quantity":20.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Pure Aluminum Ingot Alternate",
@@ -6809,7 +9193,16 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"Tier 7 - Bauxite Refinement"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Bauxite Refinement"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Pure Caterium Ingot Alternate",
@@ -6835,7 +9228,21 @@
         "Quantity":12.0
       }
     ],
-    "Unlocked by":"MAM Caterium Research - Caterium OR Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Caterium Research",
+          "Node":"Caterium"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Pure Copper Ingot Alternate",
@@ -6861,7 +9268,16 @@
         "Quantity":37.5
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Pure Iron Ingot Alternate",
@@ -6887,7 +9303,16 @@
         "Quantity":65.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Pure Quartz Crystal Alternate",
@@ -6913,7 +9338,21 @@
         "Quantity":52.5
       }
     ],
-    "Unlocked by":"MAM Quartz Research - Quartz Crystals OR Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Quartz Research",
+          "Node":"Quartz Crystals"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Quartz Purification Alternate",
@@ -6943,7 +9382,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 7 - Control System Development"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Control System Development"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Quickwire Cable Alternate",
@@ -6969,7 +9417,21 @@
         "Quantity":27.5
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing OR MAM Caterium Research - Caterium Ingots"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Caterium Research",
+          "Node":"Caterium Ingots"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Quickwire Stator Alternate",
@@ -6995,7 +9457,21 @@
         "Quantity":8.0
       }
     ],
-    "Unlocked by":"Tier 4 - Advanced Steel Production OR MAM Caterium Research - Caterium Ingots"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":4,
+          "Section":"Advanced Steel Production"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Caterium Research",
+          "Node":"Caterium Ingots"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Radio Connection Unit Alternate",
@@ -7025,7 +9501,21 @@
         "Quantity":3.75
       }
     ],
-    "Unlocked by":"Tier 8 - Advanced Aluminum Production OR MAM Caterium Research - AI Limiter"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Advanced Aluminum Production"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Caterium Research",
+          "Node":"AI Limiter"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Radio Control System Alternate",
@@ -7059,7 +9549,16 @@
         "Quantity":4.5
       }
     ],
-    "Unlocked by":"Tier 7 - Control System Development"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Control System Development"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Recycled Plastic Alternate",
@@ -7085,7 +9584,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Recycled Rubber Alternate",
@@ -7111,7 +9619,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Rigor Motor Alternate",
@@ -7141,7 +9658,21 @@
         "Quantity":7.5
       }
     ],
-    "Unlocked by":"Tier 4 - Advanced Steel Production OR MAM Quartz Research - Quartz Crystals"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":4,
+          "Section":"Advanced Steel Production"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Quartz Research",
+          "Node":"Quartz Crystals"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Rubber Concrete Alternate",
@@ -7167,7 +9698,16 @@
         "Quantity":90.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Silicon Circuit Board Alternate",
@@ -7193,7 +9733,21 @@
         "Quantity":12.5
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing OR MAM Quartz Research - Quartz"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Quartz Research",
+          "Node":"Quartz"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Silicon High-Speed Connector Alternate",
@@ -7223,7 +9777,21 @@
         "Quantity":3.0
       }
     ],
-    "Unlocked by":"MAM Caterium Research - High-Speed Connector OR Tier 5 - Oil Processing OR MAM Quartz Research - Quartz"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Quartz Research",
+          "Node":"Quartz"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Sloppy Alumina Alternate",
@@ -7249,7 +9817,16 @@
         "Quantity":240.0
       }
     ],
-    "Unlocked by":"Tier 7 - Bauxite Refinement"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Bauxite Refinement"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Solid Steel Ingot Alternate",
@@ -7275,7 +9852,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 3 - Basic Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Basic Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Steamed Copper Sheet Alternate",
@@ -7301,7 +9887,16 @@
         "Quantity":22.5
       }
     ],
-    "Unlocked by":"Tier 3 - Coal Power"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Coal Power"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Steel Canister Alternate",
@@ -7323,7 +9918,16 @@
         "Quantity":40.0
       }
     ],
-    "Unlocked by":"Tier 5 - Fluid Packaging"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Fluid Packaging"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Steel Cast Plate Alternate",
@@ -7349,7 +9953,16 @@
         "Quantity":45.0
       }
     ],
-    "Unlocked by":"Tier 3 - Basic Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Basic Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Steel Rod Alternate",
@@ -7371,7 +9984,16 @@
         "Quantity":48.0
       }
     ],
-    "Unlocked by":"Tier 3 - Basic Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Basic Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Steel Rotor Alternate",
@@ -7397,7 +10019,16 @@
         "Quantity":5.0
       }
     ],
-    "Unlocked by":"Tier 3 - Basic Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Basic Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Steel Screws Alternate",
@@ -7419,7 +10050,16 @@
         "Quantity":260.0
       }
     ],
-    "Unlocked by":"Tier 3 - Basic Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Basic Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Steeled Frame Alternate",
@@ -7445,7 +10085,16 @@
         "Quantity":3.0
       }
     ],
-    "Unlocked by":"Tier 3 - Basic Steel Production"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Basic Steel Production"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Stitched Iron Plate Alternate",
@@ -7471,7 +10120,16 @@
         "Quantity":5.625
       }
     ],
-    "Unlocked by":"Tier 2 - Part Assembly"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":2,
+          "Section":"Part Assembly"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Super-State Computer Alternate",
@@ -7505,7 +10163,16 @@
         "Quantity":2.4
       }
     ],
-    "Unlocked by":"Tier 8 - Nuclear Power OR Tier 7 - Control System Development"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Control System Development"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Tempered Caterium Ingot Alternate",
@@ -7531,7 +10198,16 @@
         "Quantity":22.5
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Tempered Copper Ingot Alternate",
@@ -7557,7 +10233,16 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Turbo Blend Fuel Alternate",
@@ -7591,7 +10276,16 @@
         "Quantity":45.0
       }
     ],
-    "Unlocked by":"Tier 7 - Control System Development"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":7,
+          "Section":"Control System Development"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Turbo Diamonds Alternate",
@@ -7617,7 +10311,21 @@
         "Quantity":60.0
       }
     ],
-    "Unlocked by":"Tier 9 - Matter Conversion OR MAM Sulfur Research - Turbofuel"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":9,
+          "Section":"Matter Conversion"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Turbofuel"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Turbo Electric Motor Alternate",
@@ -7651,7 +10359,16 @@
         "Quantity":2.8125
       }
     ],
-    "Unlocked by":"Tier 8 - Leading-Edge Production OR Tier 8 - Nuclear Power"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Nuclear Power"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Turbo Heavy Fuel Alternate",
@@ -7677,7 +10394,21 @@
         "Quantity":30.0
       }
     ],
-    "Unlocked by":"Tier 5 - Oil Processing OR MAM Sulfur Research - Compacted Coal"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":5,
+          "Section":"Oil Processing"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Compacted Coal"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Turbo Pressure Motor Alternate",
@@ -7711,7 +10442,16 @@
         "Quantity":3.75
       }
     ],
-    "Unlocked by":"Tier 8 - Particle Enrichment"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Particle Enrichment"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Turbofuel Alternate",
@@ -7737,7 +10477,16 @@
         "Quantity":18.75
       }
     ],
-    "Unlocked by":"MAM Sulfur Research - Turbofuel"
+    "Unlocked by":{
+      "Tier":null,
+      "MAM Research":[
+        {
+          "Tree":"Sulfur Research",
+          "Node":"Turbofuel"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Uranium Fuel Unit Alternate",
@@ -7771,7 +10520,21 @@
         "Quantity":0.6
       }
     ],
-    "Unlocked by":"Tier 8 - Nuclear Power OR MAM Quartz Research - Quartz Crystals"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":8,
+          "Section":"Nuclear Power"
+        }
+      ],
+      "MAM Research":[
+        {
+          "Tree":"Quartz Research",
+          "Node":"Quartz Crystals"
+        }
+      ],
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Wet Concrete Alternate",
@@ -7797,7 +10560,16 @@
         "Quantity":80.0
       }
     ],
-    "Unlocked by":"Tier 3 - Coal Power"
+    "Unlocked by":{
+      "Tier":[
+        {
+          "Level":3,
+          "Section":"Coal Power"
+        }
+      ],
+      "MAM Research":null,
+      "Alternate":true
+    }
   },
   {
     "Recipe":"Bauxite Extraction",
