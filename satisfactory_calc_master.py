@@ -5,6 +5,9 @@ import lib.scrape_data as scrape_data
 import lib.recipe_optimization as recipe_op
 import shutil, os, json, pandas as pd
 
+CACHE_DIR = os.path.join(os.getcwd(), '.cache')
+ADVANCED_OPTIONS_FILE = os.path.join(CACHE_DIR, 'user_advanced_options.json')
+
 class MaterialSelector(tk.Frame):
     def __init__(self, parent, MATERIALS_DF, RECIPES, calculate_callback, open_advanced_options_callback):
         super().__init__(parent)
@@ -64,7 +67,7 @@ class MaterialSelector(tk.Frame):
         self.update_dropdown()
 
     def load_user_advanced_options(self):
-        cache_file = os.path.join(os.getcwd(), '.cache', 'user_advanced_options.json')
+        cache_file = ADVANCED_OPTIONS_FILE
         if os.path.exists(cache_file):
             with open(cache_file, 'r', encoding='utf-8') as f:
                 return json.load(f)
@@ -217,9 +220,8 @@ class App:
 
     @exception_wrapper
     def open_advanced_options(self):
-        
-        cache_dir = os.path.join(os.getcwd(), '.cache')
-        cache_file = os.path.join(cache_dir, 'user_advanced_options.json')
+        cache_dir = CACHE_DIR
+        cache_file = ADVANCED_OPTIONS_FILE
         if not os.path.exists(cache_dir):
             os.makedirs(cache_dir)
 

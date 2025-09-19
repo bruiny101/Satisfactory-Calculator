@@ -3,8 +3,8 @@ import requests, re, json, os
 from io import StringIO
 
 DEFAULT_RECIPE_URL               = "https://satisfactory.wiki.gg/wiki/Recipes"
-DEFAULT_RECIPE_JSON_FILE         = os.path.join("json_data", "Satisfactory_recipes.json")
-TEMP_RECIPE_JSON_FILE            = os.path.join("json_data", "temp_Satisfactory_recipes.json")
+DEFAULT_RECIPE_JSON_FILE         = os.path.join(".cache", "Satisfactory_recipes.json")
+TEMP_RECIPE_JSON_FILE            = os.path.join(".cache", "temp_Satisfactory_recipes.json")
 DEFAULT_RECIPE_DF_COLS           = ["Recipe", "Ingredients", "Produced in", "Products", "Unlocked by"]
 
 MACHINE_POWER_CONSUMPTION = {

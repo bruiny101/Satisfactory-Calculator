@@ -1,0 +1,1 @@
+pyinstaller --onefile --windowed satisfactory_calc_master.py
