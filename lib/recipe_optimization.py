@@ -1,20 +1,14 @@
-import json
+import pulp
 import pandas as pd
 from typing import Dict, List
 
 # --- Optimization code ---
 
-def run_recipe_optimization(materials_df: pd.DataFrame, recipe_json_file: str) -> Dict:
+def run_recipe_optimization(materials_df: pd.DataFrame, recipes: List[Dict]) -> Dict:
     """
     Solves the recipe selection problem to satisfy all non-base material requests while minimizing total power usage.
     Returns a dict: {recipe_name: count_used, ...}
     """
-    import pulp
-    # Load recipes
-    with open(recipe_json_file, "r", encoding="utf-8") as f:
-        recipes = json.load(f)
-    # Build material index
-    mat_idx = {row["Material"]: i for i, row in materials_df.iterrows()}
     # Identify non-base materials to satisfy
     to_satisfy = [row["Material"] for _, row in materials_df.iterrows()]
     requested = {row["Material"]: row["Requested"] + row["Required"] for _, row in materials_df.iterrows()}

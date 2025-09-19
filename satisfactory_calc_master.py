@@ -6,11 +6,8 @@ import lib.recipe_optimization as recipe_op
 import shutil, os, json, pandas as pd
 
 class MaterialSelector(tk.Frame):
-    def __init__(self, parent, materials_list, calculate_callback, open_advanced_options_callback):
+    def __init__(self, parent, MATERIALS_DF, RECIPES, calculate_callback, open_advanced_options_callback):
         super().__init__(parent)
-        self.materials_list = materials_list
-        self.selected_materials = []  # List of dicts: {name, entry_widget, frame}
-        self.filtered_materials = materials_list.copy()
         self.calculate_callback = calculate_callback
         self.open_advanced_options_callback = open_advanced_options_callback
 
@@ -24,7 +21,7 @@ class MaterialSelector(tk.Frame):
         self.dropdown = tk.Listbox(self, height=6, exportselection=False)
         self.dropdown.grid(row=1, column=0, padx=5, pady=5, sticky='ew')
         self.dropdown.bind('<<ListboxSelect>>', self.on_select)
-        self.update_dropdown()
+        self.reset_available_recipes(RECIPES, MATERIALS_DF)
 
         # Frame for selected materials (with scrollbar)
         self.selected_frame_container = tk.Frame(self)
@@ -51,9 +48,93 @@ class MaterialSelector(tk.Frame):
         calc_btn = tk.Button(self.selected_frame_container, text="Calculate", width=15, height=2, command=self.calculate_callback)
         calc_btn.grid(row=1, column=1, pady=10, sticky='e')
 
+    def reset_recipes(self, RECIPES, MATERIALS_DF):
+        self.MATERIALS_DF = MATERIALS_DF
+        self.RECIPES = RECIPES
+        self.available_recipes = RECIPES.copy()
+        self.selected_materials = []  # List of dicts: {name, entry_widget, frame}
+        self.available_materials = sorted(MATERIALS_DF['Material'].tolist())
+        self.filtered_materials = self.available_materials.copy()
+
+    def reset_available_recipes(self, RECIPES, MATERIALS_DF):
+        self.reset_recipes(RECIPES, MATERIALS_DF)
+        self.user_advanced_options = self.load_user_advanced_options()
+        self.update_recipes_by_unlocked_conditions()
+        self.update_available_materials()
+        self.update_dropdown()
+
+    def load_user_advanced_options(self):
+        cache_file = os.path.join(os.getcwd(), '.cache', 'user_advanced_options.json')
+        if os.path.exists(cache_file):
+            with open(cache_file, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        else:
+            return -1
+        return {"tier": None, "sections": [], "mam": {}, "alternate": []}
+
+    def update_recipes_by_unlocked_conditions(self):
+        # If not user advanced options, return all materials
+        if self.user_advanced_options == -1:
+            return
+
+        unlocked_recipes = []
+        tier = self.user_advanced_options.get("tier") if self.user_advanced_options != -1 else None
+        sections = self.user_advanced_options.get("sections", []) if self.user_advanced_options != -1 else []
+        mam = self.user_advanced_options.get("mam", {}) if self.user_advanced_options != -1 else {}
+        alternate = self.user_advanced_options.get("alternate", []) if self.user_advanced_options != -1 else []
+
+        for recipe in self.RECIPES:
+            ub = recipe.get('Unlocked by', {})
+            # If no unlock conditions, always unlocked
+            if not ub:
+                unlocked_recipes.append(recipe)
+                continue
+            # Alternate unlock
+            # The alternate field is ONLY unlocked if the user specifically selects it, and the tier/MAM conditions are satisfied
+            if ub.get('Alternate'):
+                alt_name = recipe.get('Recipe', '')
+                if not (alternate and alt_name and alt_name in alternate):
+                    continue
+            if tier is None and not mam:
+                unlocked_recipes.append(recipe)
+                continue
+            # Tier unlock
+            if tier is not None and ub.get('Tier'):
+                t = ub['Tier'][0]
+                lvl = t.get('Level')
+                sec = t.get('Section')
+                if lvl is not None and ((lvl < tier) or (lvl == tier and sec in sections)):
+                    unlocked_recipes.append(recipe)
+                    continue
+            # MAM unlock
+            if mam and ub.get('MAM Research'):
+                m = ub['MAM Research'][0]
+                tree = m.get('Tree')
+                node = m.get('Node')
+                if tree in mam and node in mam[tree]:
+                    unlocked_recipes.append(recipe)
+                    continue
+
+        self.available_recipes = unlocked_recipes
+    
+    def update_available_materials(self):
+        unlocked_materials = set()
+        for recipe in self.available_recipes:
+            products = recipe.get('Products', [])
+            ingredients = recipe.get('Ingredients', [])
+            for product in products:
+                mat = product.get('Material', '')
+                if mat:
+                    unlocked_materials.add(mat)
+            for ingredient in ingredients:
+                mat = ingredient.get('Material', '')
+                if mat:
+                    unlocked_materials.add(mat)
+        self.available_materials = list(sorted(unlocked_materials))
+
     def update_dropdown(self, *args):
         search_text = self.search_var.get().lower()
-        self.filtered_materials = [m for m in self.materials_list if search_text in m.lower()]
+        self.filtered_materials = [m for m in self.available_materials if search_text in m.lower()]
         self.dropdown.delete(0, tk.END)
         for mat in self.filtered_materials:
             self.dropdown.insert(tk.END, mat)
@@ -106,13 +187,13 @@ class App:
         self.root.title("Satisfactory Calculator")
         self.root.geometry("600x600")
         if os.path.exists(scrape_data.DEFAULT_RECIPE_JSON_FILE):
-            self.MATERIALS_DF = scrape_data.get_materials_df(scrape_data.DEFAULT_RECIPE_JSON_FILE)
+            self.load_default_recipes()
         else:
-            self.MATERIALS_DF = pd.DataFrame(columns=['Material', 'Produced', 'Required', 'Requested', 'Satisfied'])
-        self.materials_list = list(self.MATERIALS_DF['Material'])
+            self.RECIPES = []
+            self.MATERIALS_DF = pd.DataFrame(columns=['Material', 'Produced', 'Required', 'Requested', 'Satisfied', 'Base Material', 'End Material', 'Tier', 'Section', 'MAM Research', 'Alternate', 'No Unlock'])
 
         # Material selector (top center)
-        self.selector = MaterialSelector(self.root, self.materials_list, self.calculate_requested, self.open_advanced_options)
+        self.selector = MaterialSelector(self.root, self.MATERIALS_DF, self.RECIPES, self.calculate_requested, self.open_advanced_options)
         self.selector.place(relx=0.5, rely=0.05, anchor='n', relwidth=0.9)
 
         # Frame for button at bottom right
@@ -121,6 +202,20 @@ class App:
         button = tk.Button(frame, text="Update Recipes", width=15, height=5, command=self.on_update_recipes)
         button.pack()
 
+    @staticmethod
+    def exception_wrapper(func):
+        def wrapper(*args, **kwargs):
+            try:
+                return func(*args, **kwargs)
+            except Exception as e:
+                messagebox.showerror("Error", str(e))
+        return wrapper
+
+    def load_default_recipes(self):
+        self.RECIPES = scrape_data.load_recipes_from_json(scrape_data.DEFAULT_RECIPE_JSON_FILE)
+        self.MATERIALS_DF = scrape_data.get_materials_df(self.RECIPES) 
+
+    @exception_wrapper
     def open_advanced_options(self):
         
         cache_dir = os.path.join(os.getcwd(), '.cache')
@@ -132,15 +227,8 @@ class App:
         tier_dict = {}
         mam_dict = {}
         alternate_recipes = set()
-        json_file = scrape_data.DEFAULT_RECIPE_JSON_FILE
-        try:
-            with open(json_file, 'r', encoding='utf-8') as f:
-                recipes = json.load(f)
-        except Exception as e:
-            messagebox.showerror('Error', f'Failed to load recipe JSON: {e}')
-            return
 
-        for recipe in recipes:
+        for recipe in self.RECIPES:
             ub = recipe.get('Unlocked by', {})
             # Tier
             if ub and isinstance(ub, dict) and ub.get('Tier'):
@@ -212,7 +300,7 @@ class App:
         tier_frame = tk.Frame(content_frame)
         tier_frame.pack(fill='x', pady=10)
         tk.Label(tier_frame, text='Tier Selection:', font=('TkDefaultFont', 12, 'bold')).pack(side='left', padx=5)
-        tier_var = tk.StringVar(value=str(selected['tier']) if selected['tier'] else '')
+        tier_var = tk.StringVar(value=str(selected['tier']) if selected['tier'] is not None else '')
         section_vars = {}
 
         def update_sections(*args):
@@ -257,7 +345,6 @@ class App:
         mam_frame = tk.Frame(content_frame)
         mam_frame.pack(fill='x', pady=10)
         tk.Label(mam_frame, text='MAM Research Trees:', font=('TkDefaultFont', 12, 'bold')).pack(anchor='w', padx=5)
-        mam_tree_vars = {}
         mam_node_vars = {}
         for tree in sorted_trees:
             tree_label = tk.Label(mam_frame, text=tree, font=('TkDefaultFont', 10, 'bold'))
@@ -298,6 +385,7 @@ class App:
         # Unbind mouse wheel globally when the window is closed
         def on_close():
             canvas.unbind_all("<MouseWheel>")  # Remove global binding
+            self.selector.reset_available_recipes(self.RECIPES, self.MATERIALS_DF)  # Refresh main selector based on new options
             adv_win.destroy()
 
         adv_win.protocol("WM_DELETE_WINDOW", on_close)
@@ -379,8 +467,8 @@ class App:
         dialog.wait_window()
         return result['value']
 
+    @exception_wrapper
     def on_update_recipes(self):
-        # try:
         # Get new data (do not overwrite yet)
         temp_json_file = scrape_data.TEMP_RECIPE_JSON_FILE
         scrape_data.update_recipes_table_from_html(json_file=temp_json_file)
@@ -395,15 +483,12 @@ class App:
             # Overwrite file by moving temp file
             shutil.move(temp_json_file, scrape_data.DEFAULT_RECIPE_JSON_FILE)
             messagebox.showinfo("Success", f"Recipes updated and saved to {scrape_data.DEFAULT_RECIPE_JSON_FILE}.")
-            self.MATERIALS_DF = scrape_data.get_materials_df(scrape_data.DEFAULT_RECIPE_JSON_FILE)
-            self.materials_list = list(self.MATERIALS_DF['Material'])
-            self.selector.materials_list = self.materials_list
-            self.selector.update_dropdown()
+            self.load_default_recipes()
+            self.selector.reset_available_recipes(self.RECIPES, self.MATERIALS_DF)
         else:
             messagebox.showinfo("Cancelled", "Updates were cancelled. Old recipes preserved.")
-        # except Exception as e:
-        #     messagebox.showerror("Error", str(e))
 
+    @exception_wrapper
     def calculate_requested(self):
         # Reset all Requested values to 0.0
         self.MATERIALS_DF['Requested'] = 0.0
@@ -422,8 +507,13 @@ class App:
         # Update Satisfied column
         self.MATERIALS_DF['Satisfied'] = self.MATERIALS_DF['Produced'] >= self.MATERIALS_DF['Required'] + self.MATERIALS_DF['Requested']
 
+        # Only include materials/recipes currently available to be displayed in the MaterialSelector
+        available_recipes = self.selector.available_recipes
+        available_materials = self.selector.available_materials
+        filtered_df = self.MATERIALS_DF[self.MATERIALS_DF['Material'].isin(available_materials)].copy()
+
         # Run recipe optimization
-        solution, total_power = recipe_op.run_recipe_optimization(self.MATERIALS_DF, scrape_data.DEFAULT_RECIPE_JSON_FILE)
+        solution, total_power = recipe_op.run_recipe_optimization(filtered_df, available_recipes)
 
         # Build result string for display and file output
         result_str_display = f"Total Power Consumption: {total_power:.2f} MW\n\n"

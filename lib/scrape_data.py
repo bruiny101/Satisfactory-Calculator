@@ -48,9 +48,12 @@ def parse_unlocked_by(recipe_name, unlocked_str):
         "MAM Research": None,
         "Alternate": False
     }
+
     # Alternate: last word in recipe name is 'Alternate'
     if isinstance(recipe_name, str) and recipe_name.strip().endswith("Alternate"):
         result["Alternate"] = True
+    elif unlocked_str.strip() == "Onboarding":
+        return ""
 
     if not isinstance(unlocked_str, str):
         return result
@@ -120,9 +123,9 @@ def parse_machine_and_power(produced_in_str):
 def parse_materials(s):
     if not isinstance(s, str):
         return []
-    pattern = r'[\d\.]+ x ([^0-9]+?)([\d\.]+) / min'
+    pattern = r'[\d,.]+ x ([^0-9]+?)([\d,\.]+) / min'
     matches = re.findall(pattern, s)
-    return [{"Material": m[0].strip(), "Quantity": float(m[1].strip())} for m in matches]
+    return [{"Material": m[0].strip(), "Quantity": float(m[1].replace(',','').strip())} for m in matches]
 
 def scrub_table_data(cell):
     if isinstance(cell, str):
@@ -171,7 +174,8 @@ def update_recipes_table_from_html( url = DEFAULT_RECIPE_URL, json_file = DEFAUL
         df.to_json(json_file, orient="records", indent=2)
 
         # Build dictionary of base materials and fetch extraction MJ values from wiki
-        materials_df = get_materials_df(json_file)
+        recipes = load_recipes_from_json(json_file)
+        materials_df = get_materials_df(recipes)
         base_materials = materials_df[materials_df["Base Material"] == True]["Material"].tolist()
         # Add base material extraction recipes to the DataFrame
         new_rows = []
@@ -292,20 +296,40 @@ def get_recipe_diffs(old_json_file, new_json_file):
 
     return "\n\n".join(diff_lines)
 
-def get_materials_df(json_file):
+def load_recipes_from_json(json_file):
     # Load recipe data
     with open(json_file, "r", encoding="utf-8") as f:
         recipes = json.load(f)
+    return recipes
+
+def get_materials_df(recipes):
 
     # Collect all materials from Ingredients and Products
     ingredient_materials = set()
     product_materials = set()
+    material_unlock_conditions = {}
 
     for recipe in recipes:
+        unlocked_by = recipe.get("Unlocked by", {})
+        no_unlock = True if not unlocked_by else False
+        for prod in recipe.get("Products", []):
+            material = prod["Material"]
+            product_materials.add(material)
+            if material not in material_unlock_conditions:
+                material_unlock_conditions[material] = {"Tier": [], "MAM Research": [], "Alternate": [], "no_condition": no_unlock}
+
+            if no_unlock:
+                material_unlock_conditions[material]["no_condition"] = True
+                continue
+
+            if unlocked_by.get("Tier"):
+                material_unlock_conditions[material]["Tier"].extend(unlocked_by["Tier"])
+            if unlocked_by.get("MAM Research"):
+                material_unlock_conditions[material]["MAM Research"].extend(unlocked_by["MAM Research"])
+            if unlocked_by.get("Alternate"):
+                material_unlock_conditions[material]["Alternate"].extend(recipe.get("Recipe", ""))
         for ing in recipe.get("Ingredients", []):
             ingredient_materials.add(ing["Material"])
-        for prod in recipe.get("Products", []):
-            product_materials.add(prod["Material"])
 
     all_materials = ingredient_materials | product_materials
 
@@ -318,6 +342,8 @@ def get_materials_df(json_file):
         if mat in RESOURCE_MAXIMUMS.keys():
             base = True  # If it's a resource node material, it's a base material
 
+        unlock_conditions = material_unlock_conditions.get(mat, {"Tier": [], "MAM Research": [], "Alternate": False, "no_condition": True})
+
         rows.append({
             "Material": mat,
             "Requested": 0.0,
@@ -326,9 +352,13 @@ def get_materials_df(json_file):
             "Satisfied": produced >= 0.0,
             "Base Material": base,
             "End Material": end,
+            "Tier": unlock_conditions["Tier"],
+            "MAM Research": unlock_conditions["MAM Research"],
+            "Alternate": unlock_conditions["Alternate"],
+            "No Unlock": unlock_conditions["no_condition"]
         })
 
     df = pd.DataFrame(rows, columns=[
-        "Material", "Requested", "Required", "Produced", "Base Material", "End Material"
+        "Material", "Requested", "Required", "Produced", "Base Material", "End Material", "Tier", "MAM Research", "Alternate", "No Unlock"
     ])
     return df
