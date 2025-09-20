@@ -574,5 +574,9 @@ class App:
 
 if __name__ == "__main__":
     root = tk.Tk()
+
+    if not os.path.exists(CACHE_DIR):
+        os.makedirs(CACHE_DIR)
+
     app = App(root)
     root.mainloop()

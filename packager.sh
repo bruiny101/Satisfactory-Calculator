@@ -1,1 +1,1 @@
-pyinstaller --onefile --windowed satisfactory_calc_master.py
+python3 -m PyInstaller --onefile --windowed satisfactory_calc_master.py
