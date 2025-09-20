@@ -517,14 +517,32 @@ class App:
         # Run recipe optimization
         solution, total_power = recipe_op.run_recipe_optimization(filtered_df, available_recipes)
 
-        # Build result string for display and file output
-        result_str_display = f"Total Power Consumption: {total_power:.2f} MW\n\n"
-        result_str_display += "Optimal Recipe Usage (min power):\n\n"
-        result_str_file = result_str_display
+        # Build mapping from recipe name to machine
+        recipe_to_machine = {}
+        for recipe in self.RECIPES:
+            name = recipe.get('Recipe')
+            produced_in = recipe.get('Produced in', [])
+            if produced_in:
+                recipe_to_machine[name] = produced_in[0].get('Machine', 'Unknown Machine')
+
+        # Group solution by machine
+        machine_groups = {}
         for recipe, count in solution.items():
             if count > 0:
-                result_str_display += f"{recipe}: {count}\n"
-                result_str_file += f"{recipe}: {count}\n"
+                machine = recipe_to_machine.get(recipe, 'Unknown Machine')
+                machine_groups.setdefault(machine, []).append((recipe, count))
+
+        # Build result string for display and file output (grouped by machine)
+        result_str_display = f"Total Power Consumption: {total_power:.2f} MW\n\n"
+        result_str_file = result_str_display
+        for machine, recipes in machine_groups.items():
+            result_str_display += f"[{machine}]\n"
+            result_str_file += f"[{machine}]\n"
+            for recipe, count in recipes:
+                result_str_display += f"  {recipe}: {count}\n"
+                result_str_file += f"  {recipe}: {count}\n"
+            result_str_display += "\n"
+            result_str_file += "\n"
 
         # Show scrollable dialog with save option and bold total power
         def show_optimization_result_dialog():
@@ -545,9 +563,11 @@ class App:
             text.insert(tk.END, "Total Power Consumption: ", ())
             text.insert(tk.END, f"{total_power:.2f} MW\n\n", 'bold')
             text.insert(tk.END, "Optimal Recipe Usage (min power):\n\n")
-            for recipe, count in solution.items():
-                if count > 0:
-                    text.insert(tk.END, f"{recipe}: {count}\n")
+            for machine, recipes in machine_groups.items():
+                text.insert(tk.END, f"[{machine}]\n", 'bold')
+                for recipe, count in recipes:
+                    text.insert(tk.END, f"  {recipe}: {count}\n")
+                text.insert(tk.END, "\n")
             text.config(state=tk.DISABLED)
             text.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
             scrollbar.config(command=text.yview)
