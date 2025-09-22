@@ -66,7 +66,7 @@ class MaterialSelector(tk.Frame):
         self.update_available_materials()
         self.update_dropdown()
 
-    def load_user_advanced_options(self):
+    def load_user_advanced_options(self) -> dict | int:
         cache_file = ADVANCED_OPTIONS_FILE
         if os.path.exists(cache_file):
             with open(cache_file, 'r', encoding='utf-8') as f:
@@ -77,14 +77,17 @@ class MaterialSelector(tk.Frame):
 
     def update_recipes_by_unlocked_conditions(self):
         # If not user advanced options, return all materials
-        if self.user_advanced_options == -1:
-            return
+        if isinstance(self.user_advanced_options, int):
+            if self.user_advanced_options == -1:
+                return
+            raise ValueError("Invalid user advanced options data.")
+  
 
         unlocked_recipes = []
-        tier = self.user_advanced_options.get("tier") if self.user_advanced_options != -1 else None
-        sections = self.user_advanced_options.get("sections", []) if self.user_advanced_options != -1 else []
-        mam = self.user_advanced_options.get("mam", {}) if self.user_advanced_options != -1 else {}
-        alternate = self.user_advanced_options.get("alternate", []) if self.user_advanced_options != -1 else []
+        tier = self.user_advanced_options.get("tier")
+        sections = self.user_advanced_options.get("sections", [])
+        mam = self.user_advanced_options.get("mam", {})
+        alternate = self.user_advanced_options.get("alternate", [])
 
         for recipe in self.RECIPES:
             ub = recipe.get('Unlocked by', {})
@@ -452,7 +455,7 @@ class App:
         # Button frame
         btn_frame = tk.Frame(dialog)
         btn_frame.pack(fill=tk.X, pady=10)
-        result = {'value': None}
+        result = {'value': bool()}
 
         def accept():
             result['value'] = True

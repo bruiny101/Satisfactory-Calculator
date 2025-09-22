@@ -16,7 +16,7 @@ def run_recipe_optimization(materials_df: pd.DataFrame, recipes: List[Dict]) -> 
     recipe_vars = []
     prob = pulp.LpProblem("SatisfactoryRecipeOptimization", pulp.LpMinimize)
     for i, recipe in enumerate(recipes):
-        var = pulp.LpVariable(f"Recipe_{i}", lowBound=0, cat="Integer")
+        var = pulp.LpVariable(f"Recipe_{i}", lowBound=0, cat="Continuous")
         recipe_vars.append(var)
     # Objective: minimize total power usage
     def get_recipe_power(recipe):
@@ -46,7 +46,7 @@ def run_recipe_optimization(materials_df: pd.DataFrame, recipes: List[Dict]) -> 
     # Solve
     result = prob.solve()
     # Gather solution
-    solution = {recipes[i]["Recipe"]: int(recipe_vars[i].varValue) if recipe_vars[i].varValue is not None else 0 for i in range(len(recipes))}
+    solution = {recipes[i]["Recipe"]: float(recipe_vars[i].varValue) if recipe_vars[i].varValue is not None else 0 for i in range(len(recipes))}
     # Calculate total power consumption
     total_power = sum(get_recipe_power(recipes[i]) * solution[recipes[i]["Recipe"]] for i in range(len(recipes)))
     return solution, total_power
