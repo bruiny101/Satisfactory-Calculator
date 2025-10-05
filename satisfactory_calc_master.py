@@ -51,7 +51,14 @@ class MaterialSelector(tk.Frame):
         calc_btn = tk.Button(self.selected_frame_container, text="Calculate", width=15, height=2, command=self.calculate_callback)
         calc_btn.grid(row=1, column=1, pady=10, sticky='e')
 
+    def clear_selected_materials(self):
+        # Destroy all row frames in the UI
+        for mat in self.selected_materials:
+            mat['frame'].destroy()
+        self.selected_materials.clear()
+
     def reset_recipes(self, RECIPES, MATERIALS_DF):
+        self.clear_selected_materials()  # Ensure UI and list are both cleared
         self.MATERIALS_DF = MATERIALS_DF
         self.RECIPES = RECIPES
         self.available_recipes = RECIPES.copy()
