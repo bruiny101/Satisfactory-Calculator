@@ -21,6 +21,7 @@ class MaterialSelector(tk.Frame):
         search_entry.grid(row=0, column=0, padx=5, pady=5, sticky='ew')
 
         # Dropdown menu (Listbox)
+        self.selected_materials = []
         self.dropdown = tk.Listbox(self, height=6, exportselection=False)
         self.dropdown.grid(row=1, column=0, padx=5, pady=5, sticky='ew')
         self.dropdown.bind('<<ListboxSelect>>', self.on_select)
